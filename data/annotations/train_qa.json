@@ -1,0 +1,5042 @@
+[
+  {
+    "id": "train_0000",
+    "split": "train",
+    "question": "What was the tuition fee for the Office Administration program at USSH in 2023-2024?",
+    "answers": [
+      "30 million VND per year in 2023-2024"
+    ],
+    "answer": "30 million VND per year in 2023-2024",
+    "source_id": "doc_0024",
+    "source_url": "https://ussh.vnu.edu.vn/vi/news/dao-tao/nam-2023-truong-dai-hoc-khoa-hoc-xa-hoi-va-nhan-tuyen-sinh-2000-chi-tieu-dai-hoc-chinh-quy-cho-27-nganh-dao-tao-21962.html",
+    "chunk_id": "doc_0024_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0001",
+    "split": "train",
+    "question": "When was Decision No. 3626/QD-DHQGHN issued?",
+    "answers": [
+      "21 October 2022"
+    ],
+    "answer": "21 October 2022",
+    "source_id": "doc_0010",
+    "source_url": "https://uet-test.uet.edu.vn/quy-che-dao-tao-dai-hoc-tai-dhqghn/",
+    "chunk_id": "doc_0010_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0002",
+    "split": "train",
+    "question": "What is the maximum study duration of the Computer Science undergraduate program?",
+    "answers": [
+      "8 years"
+    ],
+    "answer": "8 years",
+    "source_id": "doc_0011",
+    "source_url": "https://uet.vnu.edu.vn/dao-tao/",
+    "chunk_id": "doc_0011_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0003",
+    "split": "train",
+    "question": "What is the standard duration of medical doctor programs at VNU?",
+    "answers": [
+      "12 main semesters"
+    ],
+    "answer": "12 main semesters",
+    "source_id": "doc_0003",
+    "source_url": "https://fos.ussh.vnu.edu.vn/vi/laws/detail/Quy-che-dao-tao-dai-hoc-tai-Dai-hoc-Quoc-gia-Ha-Noi-Ap-dung-tu-khoa-QH-2022-X-5/?download=1&id=0",
+    "chunk_id": "doc_0003_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0004",
+    "split": "train",
+    "question": "Which UET major had a 2025 admission score of 27.86 points?",
+    "answers": [
+      "Computer Science"
+    ],
+    "answer": "Computer Science",
+    "source_id": "doc_0008",
+    "source_url": "https://tuyensinh.uet.vnu.edu.vn/uncategorized/thong-bao-diem-trung-tuyen-dai-hoc-chinh-quy-vao-truong-dai-hoc-cong-nghe-dhqghn-nam-2025/",
+    "chunk_id": "doc_0008_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0005",
+    "split": "train",
+    "question": "What was the 2024 admission score for Information Systems at UET?",
+    "answers": [
+      "26.87 points"
+    ],
+    "answer": "26.87 points",
+    "source_id": "doc_0007",
+    "source_url": "https://tuyensinh.uet.vnu.edu.vn/tin-tuyen-sinh/thong-bao-diem-trung-tuyen-vao-truong-dai-hoc-cong-nghe-dhqghn-nam-2024-theo-phuong-thuc-thpt/",
+    "chunk_id": "doc_0007_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0006",
+    "split": "train",
+    "question": "What was the admission score for Russian Language at ULIS in 2023?",
+    "answers": [
+      "33.30 points"
+    ],
+    "answer": "33.30 points",
+    "source_id": "doc_0021",
+    "source_url": "https://ulis.vnu.edu.vn/tham-khao-diem-chuan-tuyen-sinh-dai-hoc-vao-truong-dai-hoc-ngoai-ngu-qua-cac-nam/",
+    "chunk_id": "doc_0021_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0007",
+    "split": "train",
+    "question": "What was the first multidisciplinary university established under the Democratic Republic of Vietnam?",
+    "answers": [
+      "Vietnam National University in 1945"
+    ],
+    "answer": "Vietnam National University in 1945",
+    "source_id": "doc_0025",
+    "source_url": "https://ussh.vnu.edu.vn/vi/news/tin-tuc-ve-dhqghn/lich-su-hinh-thanh-va-phat-trien-dai-hoc-quoc-gia-ha-noi-22318.html",
+    "chunk_id": "doc_0025_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0008",
+    "split": "train",
+    "question": "What was the 2024 C00 admission score for International Studies at USSH?",
+    "answers": [
+      "28.55 points"
+    ],
+    "answer": "28.55 points",
+    "source_id": "doc_0005",
+    "source_url": "https://huongnghiep.hocmai.vn/diem-truong/dai-hoc-khoa-hoc-xa-hoi-va-nhan-van-dai-hoc-quoc-gia-ha-noi",
+    "chunk_id": "doc_0005_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0009",
+    "split": "train",
+    "question": "What degree is awarded for the Electronics and Telecommunications Engineering Technology undergraduate program?",
+    "answers": [
+      "Bachelor degree"
+    ],
+    "answer": "Bachelor degree",
+    "source_id": "doc_0011",
+    "source_url": "https://uet.vnu.edu.vn/dao-tao/",
+    "chunk_id": "doc_0011_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0010",
+    "split": "train",
+    "question": "What is the standard duration of the Computer Science undergraduate program?",
+    "answers": [
+      "4 years"
+    ],
+    "answer": "4 years",
+    "source_id": "doc_0011",
+    "source_url": "https://uet.vnu.edu.vn/dao-tao/",
+    "chunk_id": "doc_0011_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0011",
+    "split": "train",
+    "question": "What was the tuition fee for the Agricultural Technology program at UET in 2024-2025?",
+    "answers": [
+      "32 million VND per academic year in 2024-2025"
+    ],
+    "answer": "32 million VND per academic year in 2024-2025",
+    "source_id": "doc_0012",
+    "source_url": "https://uet.vnu.edu.vn/dinh-muc-hoc-phi-dao-tao-dai-hoc-nam-hoc-2024-2025/",
+    "chunk_id": "doc_0012_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0012",
+    "split": "train",
+    "question": "What is the maximum study duration of the Data Science undergraduate program?",
+    "answers": [
+      "8 years"
+    ],
+    "answer": "8 years",
+    "source_id": "doc_0011",
+    "source_url": "https://uet.vnu.edu.vn/dao-tao/",
+    "chunk_id": "doc_0011_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0013",
+    "split": "train",
+    "question": "When was VNU University of Social Sciences and Humanities officially established as an independent university?",
+    "answers": [
+      "September 1995"
+    ],
+    "answer": "September 1995",
+    "source_id": "doc_0025",
+    "source_url": "https://ussh.vnu.edu.vn/vi/news/tin-tuc-ve-dhqghn/lich-su-hinh-thanh-va-phat-trien-dai-hoc-quoc-gia-ha-noi-22318.html",
+    "chunk_id": "doc_0025_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0014",
+    "split": "train",
+    "question": "Which new admission combinations were added by USSH in 2025?",
+    "answers": [
+      "C03; C04"
+    ],
+    "answer": "C03; C04",
+    "source_id": "doc_0028",
+    "source_url": "https://xaydungchinhsach.chinhphu.vn/tuyen-sinh-2025-phuong-thuc-to-hop-chi-tieu-tuyen-sinh-cua-truong-dai-hoc-khoa-hoc-xa-hoi-va-nhan-van-dhqghn-119250605164343934.htm",
+    "chunk_id": "doc_0028_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0015",
+    "split": "train",
+    "question": "What is the standard duration of pharmacy programs at VNU?",
+    "answers": [
+      "10 main semesters"
+    ],
+    "answer": "10 main semesters",
+    "source_id": "doc_0003",
+    "source_url": "https://fos.ussh.vnu.edu.vn/vi/laws/detail/Quy-che-dao-tao-dai-hoc-tai-Dai-hoc-Quoc-gia-Ha-Noi-Ap-dung-tu-khoa-QH-2022-X-5/?download=1&id=0",
+    "chunk_id": "doc_0003_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0016",
+    "split": "train",
+    "question": "What was the admission score for Control and Automation Engineering at UET in 2025?",
+    "answers": [
+      "27.90 points"
+    ],
+    "answer": "27.90 points",
+    "source_id": "doc_0008",
+    "source_url": "https://tuyensinh.uet.vnu.edu.vn/uncategorized/thong-bao-diem-trung-tuyen-dai-hoc-chinh-quy-vao-truong-dai-hoc-cong-nghe-dhqghn-nam-2025/",
+    "chunk_id": "doc_0008_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0017",
+    "split": "train",
+    "question": "What degree is awarded for the Robotics Engineering undergraduate program?",
+    "answers": [
+      "Engineer degree"
+    ],
+    "answer": "Engineer degree",
+    "source_id": "doc_0011",
+    "source_url": "https://uet.vnu.edu.vn/dao-tao/",
+    "chunk_id": "doc_0011_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0018",
+    "split": "train",
+    "question": "What was the 2024 C00 admission score for Public Relations at USSH?",
+    "answers": [
+      "29.10 points"
+    ],
+    "answer": "29.10 points",
+    "source_id": "doc_0005",
+    "source_url": "https://huongnghiep.hocmai.vn/diem-truong/dai-hoc-khoa-hoc-xa-hoi-va-nhan-van-dai-hoc-quoc-gia-ha-noi",
+    "chunk_id": "doc_0005_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0019",
+    "split": "train",
+    "question": "What degree is awarded for the Computer Networks and Data Communications undergraduate program?",
+    "answers": [
+      "Engineer degree"
+    ],
+    "answer": "Engineer degree",
+    "source_id": "doc_0011",
+    "source_url": "https://uet.vnu.edu.vn/dao-tao/",
+    "chunk_id": "doc_0011_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0020",
+    "split": "train",
+    "question": "How many undergraduate majors does UET currently offer?",
+    "answers": [
+      "20 undergraduate majors"
+    ],
+    "answer": "20 undergraduate majors",
+    "source_id": "doc_0011",
+    "source_url": "https://uet.vnu.edu.vn/dao-tao/",
+    "chunk_id": "doc_0011_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0021",
+    "split": "train",
+    "question": "Does the VNU undergraduate training regulation apply to both regular and part-time education?",
+    "answers": [
+      "Yes"
+    ],
+    "answer": "Yes",
+    "source_id": "doc_0010",
+    "source_url": "https://uet-test.uet.edu.vn/quy-che-dao-tao-dai-hoc-tai-dhqghn/",
+    "chunk_id": "doc_0010_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0022",
+    "split": "train",
+    "question": "What is the minimum number of credits required for the second major in a dual-major program at VNU?",
+    "answers": [
+      "30 credits"
+    ],
+    "answer": "30 credits",
+    "source_id": "doc_0014",
+    "source_url": "https://uet.vnu.edu.vn/quy-che-dao-tao-dai-hoc-cua-dai-hoc-quoc-gia-ha-noi-theo-quyet-dinh-5115qd-dhqghn/",
+    "chunk_id": "doc_0014_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0023",
+    "split": "train",
+    "question": "What admission methods were used by UET in 2025?",
+    "answers": [
+      "High school graduation exam scores; HSA competency assessment scores; SAT scores; direct admission and priority admission"
+    ],
+    "answer": "High school graduation exam scores; HSA competency assessment scores; SAT scores; direct admission and priority admission",
+    "source_id": "doc_0009",
+    "source_url": "https://tuyensinh.uet.vnu.edu.vn/wp-content/images/Thong-tin-tuyen-sinh-DHCQ-nam-2025-QHI.pdf",
+    "chunk_id": "doc_0009_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0024",
+    "split": "train",
+    "question": "What is the maximum study duration of the Artificial Intelligence undergraduate program?",
+    "answers": [
+      "8 years"
+    ],
+    "answer": "8 years",
+    "source_id": "doc_0011",
+    "source_url": "https://uet.vnu.edu.vn/dao-tao/",
+    "chunk_id": "doc_0011_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0025",
+    "split": "train",
+    "question": "Which UET major had a 2025 admission score of 28.19 points?",
+    "answers": [
+      "Information Technology"
+    ],
+    "answer": "Information Technology",
+    "source_id": "doc_0008",
+    "source_url": "https://tuyensinh.uet.vnu.edu.vn/uncategorized/thong-bao-diem-trung-tuyen-dai-hoc-chinh-quy-vao-truong-dai-hoc-cong-nghe-dhqghn-nam-2025/",
+    "chunk_id": "doc_0008_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0026",
+    "split": "train",
+    "question": "What graduation-related activity is regulated by the VNU undergraduate regulations?",
+    "answers": [
+      "Graduation recognition"
+    ],
+    "answer": "Graduation recognition",
+    "source_id": "doc_0010",
+    "source_url": "https://uet-test.uet.edu.vn/quy-che-dao-tao-dai-hoc-tai-dhqghn/",
+    "chunk_id": "doc_0010_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0027",
+    "split": "train",
+    "question": "Which admission combination is used for Russian Language at ULIS?",
+    "answers": [
+      "D02"
+    ],
+    "answer": "D02",
+    "source_id": "doc_0019",
+    "source_url": "https://ulis.vnu.edu.vn/tbtsdh2025/",
+    "chunk_id": "doc_0019_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0028",
+    "split": "train",
+    "question": "Which UET majors additionally use the A02 combination?",
+    "answers": [
+      "Biotechnology; Agricultural Technology"
+    ],
+    "answer": "Biotechnology; Agricultural Technology",
+    "source_id": "doc_0000",
+    "source_url": "https://diemthi.tuyensinh247.com/de-an-tuyen-sinh/dai-hoc-cong-nghe-dai-hoc-quoc-gia-ha-noi-QHI.html",
+    "chunk_id": "doc_0000_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0029",
+    "split": "train",
+    "question": "Which admission combination is used for Chinese Language at ULIS?",
+    "answers": [
+      "D04"
+    ],
+    "answer": "D04",
+    "source_id": "doc_0019",
+    "source_url": "https://ulis.vnu.edu.vn/tbtsdh2025/",
+    "chunk_id": "doc_0019_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0030",
+    "split": "train",
+    "question": "What was the 2025 C00 admission score for History at USSH?",
+    "answers": [
+      "27.5 points"
+    ],
+    "answer": "27.5 points",
+    "source_id": "doc_0002",
+    "source_url": "https://diemthi.tuyensinh247.com/diem-chuan/dai-hoc-khoa-hoc-xa-hoi-va-nhan-van-dhqghn-QHX.html",
+    "chunk_id": "doc_0002_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0031",
+    "split": "train",
+    "question": "In what year was Hanoi University of Foreign Language Teachers established?",
+    "answers": [
+      "1967"
+    ],
+    "answer": "1967",
+    "source_id": "doc_0016",
+    "source_url": "https://ulis.vnu.edu.vn/gioi-thieu/",
+    "chunk_id": "doc_0016_chunk_0001",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0032",
+    "split": "train",
+    "question": "What was the tuition fee for the Hotel Management program at USSH in 2023-2024?",
+    "answers": [
+      "35 million VND per year in 2023-2024"
+    ],
+    "answer": "35 million VND per year in 2023-2024",
+    "source_id": "doc_0024",
+    "source_url": "https://ussh.vnu.edu.vn/vi/news/dao-tao/nam-2023-truong-dai-hoc-khoa-hoc-xa-hoi-va-nhan-tuyen-sinh-2000-chi-tieu-dai-hoc-chinh-quy-cho-27-nganh-dao-tao-21962.html",
+    "chunk_id": "doc_0024_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0033",
+    "split": "train",
+    "question": "What was the tuition fee for the Energy Engineering program at UET in 2024-2025?",
+    "answers": [
+      "32 million VND per academic year in 2024-2025"
+    ],
+    "answer": "32 million VND per academic year in 2024-2025",
+    "source_id": "doc_0012",
+    "source_url": "https://uet.vnu.edu.vn/dinh-muc-hoc-phi-dao-tao-dai-hoc-nam-hoc-2024-2025/",
+    "chunk_id": "doc_0012_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0034",
+    "split": "train",
+    "question": "Which ULIS major had an admission quota of 300 in 2025?",
+    "answers": [
+      "Chinese Language and Japanese Language each had 300 quotas."
+    ],
+    "answer": "Chinese Language and Japanese Language each had 300 quotas.",
+    "source_id": "doc_0019",
+    "source_url": "https://ulis.vnu.edu.vn/tbtsdh2025/",
+    "chunk_id": "doc_0019_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0035",
+    "split": "train",
+    "question": "What major does the admission code CN8 represent at UET?",
+    "answers": [
+      "CN8 represents Computer Science."
+    ],
+    "answer": "CN8 represents Computer Science.",
+    "source_id": "doc_0007",
+    "source_url": "https://tuyensinh.uet.vnu.edu.vn/tin-tuyen-sinh/thong-bao-diem-trung-tuyen-vao-truong-dai-hoc-cong-nghe-dhqghn-nam-2024-theo-phuong-thuc-thpt/",
+    "chunk_id": "doc_0007_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0036",
+    "split": "train",
+    "question": "What was the 2024 C00 admission score for Journalism at USSH?",
+    "answers": [
+      "29.03 points"
+    ],
+    "answer": "29.03 points",
+    "source_id": "doc_0005",
+    "source_url": "https://huongnghiep.hocmai.vn/diem-truong/dai-hoc-khoa-hoc-xa-hoi-va-nhan-van-dai-hoc-quoc-gia-ha-noi",
+    "chunk_id": "doc_0005_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0037",
+    "split": "train",
+    "question": "What was the predecessor of ULIS?",
+    "answers": [
+      "Foreign Language School"
+    ],
+    "answer": "Foreign Language School",
+    "source_id": "doc_0016",
+    "source_url": "https://ulis.vnu.edu.vn/gioi-thieu/",
+    "chunk_id": "doc_0016_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0038",
+    "split": "train",
+    "question": "What degree is awarded for the Information Technology undergraduate program?",
+    "answers": [
+      "Bachelor degree"
+    ],
+    "answer": "Bachelor degree",
+    "source_id": "doc_0011",
+    "source_url": "https://uet.vnu.edu.vn/dao-tao/",
+    "chunk_id": "doc_0011_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0039",
+    "split": "train",
+    "question": "Which USSH majors additionally accepted the C00 combination in 2025?",
+    "answers": [
+      "Journalism; Public Relations; Psychology; International Studies; Sociology; Hotel Management"
+    ],
+    "answer": "Journalism; Public Relations; Psychology; International Studies; Sociology; Hotel Management",
+    "source_id": "doc_0028",
+    "source_url": "https://xaydungchinhsach.chinhphu.vn/tuyen-sinh-2025-phuong-thuc-to-hop-chi-tieu-tuyen-sinh-cua-truong-dai-hoc-khoa-hoc-xa-hoi-va-nhan-van-dhqghn-119250605164343934.htm",
+    "chunk_id": "doc_0028_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0040",
+    "split": "train",
+    "question": "Which UET major had the highest 2024 admission score?",
+    "answers": [
+      "Information Technology had the highest 2024 admission score with 27.8 points."
+    ],
+    "answer": "Information Technology had the highest 2024 admission score with 27.8 points.",
+    "source_id": "doc_0007",
+    "source_url": "https://tuyensinh.uet.vnu.edu.vn/tin-tuyen-sinh/thong-bao-diem-trung-tuyen-vao-truong-dai-hoc-cong-nghe-dhqghn-nam-2024-theo-phuong-thuc-thpt/",
+    "chunk_id": "doc_0007_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0041",
+    "split": "train",
+    "question": "What was the tuition fee for the Vietnamese Language and Vietnamese Culture program at ULIS in 2026?",
+    "answers": [
+      "31 million VND per student per year in 2026"
+    ],
+    "answer": "31 million VND per student per year in 2026",
+    "source_id": "doc_0020",
+    "source_url": "https://ulis.vnu.edu.vn/tbtsdh26/",
+    "chunk_id": "doc_0020_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0042",
+    "split": "train",
+    "question": "What kinds of research projects has ULIS completed?",
+    "answers": [
+      "National-level; ministerial-level; VNU-level; university-level projects"
+    ],
+    "answer": "National-level; ministerial-level; VNU-level; university-level projects",
+    "source_id": "doc_0016",
+    "source_url": "https://ulis.vnu.edu.vn/gioi-thieu/",
+    "chunk_id": "doc_0016_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0043",
+    "split": "train",
+    "question": "What major does the admission code CN3 represent at UET?",
+    "answers": [
+      "CN3 represents Engineering Physics."
+    ],
+    "answer": "CN3 represents Engineering Physics.",
+    "source_id": "doc_0007",
+    "source_url": "https://tuyensinh.uet.vnu.edu.vn/tin-tuyen-sinh/thong-bao-diem-trung-tuyen-vao-truong-dai-hoc-cong-nghe-dhqghn-nam-2024-theo-phuong-thuc-thpt/",
+    "chunk_id": "doc_0007_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0044",
+    "split": "train",
+    "question": "Which USSH major specializes in Korean Studies?",
+    "answers": [
+      "Korean Studies"
+    ],
+    "answer": "Korean Studies",
+    "source_id": "doc_0001",
+    "source_url": "https://diemthi.tuyensinh247.com/de-an-tuyen-sinh/dai-hoc-khoa-hoc-xa-hoi-va-nhan-van-ha-noi-QHX.html",
+    "chunk_id": "doc_0001_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0045",
+    "split": "train",
+    "question": "What is one important goal of ULIS?",
+    "answers": [
+      "Contributing to national development and international integration"
+    ],
+    "answer": "Contributing to national development and international integration",
+    "source_id": "doc_0016",
+    "source_url": "https://ulis.vnu.edu.vn/gioi-thieu/",
+    "chunk_id": "doc_0016_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0046",
+    "split": "train",
+    "question": "How many exam weeks are included in a main semester at VNU?",
+    "answers": [
+      "3 to 4 exam weeks"
+    ],
+    "answer": "3 to 4 exam weeks",
+    "source_id": "doc_0010",
+    "source_url": "https://uet-test.uet.edu.vn/quy-che-dao-tao-dai-hoc-tai-dhqghn/",
+    "chunk_id": "doc_0010_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0047",
+    "split": "train",
+    "question": "What is the maximum study duration of the Energy Engineering undergraduate program?",
+    "answers": [
+      "9 years"
+    ],
+    "answer": "9 years",
+    "source_id": "doc_0011",
+    "source_url": "https://uet.vnu.edu.vn/dao-tao/",
+    "chunk_id": "doc_0011_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0048",
+    "split": "train",
+    "question": "What student activity is included in the VNU undergraduate training regulation?",
+    "answers": [
+      "Scientific research activities"
+    ],
+    "answer": "Scientific research activities",
+    "source_id": "doc_0010",
+    "source_url": "https://uet-test.uet.edu.vn/quy-che-dao-tao-dai-hoc-tai-dhqghn/",
+    "chunk_id": "doc_0010_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0049",
+    "split": "train",
+    "question": "What did the university change its name to in 1993?",
+    "answers": [
+      "University of Languages and International Studies - VNU"
+    ],
+    "answer": "University of Languages and International Studies - VNU",
+    "source_id": "doc_0016",
+    "source_url": "https://ulis.vnu.edu.vn/gioi-thieu/",
+    "chunk_id": "doc_0016_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0050",
+    "split": "train",
+    "question": "Which ULIS major had the smallest admission quota in 2025?",
+    "answers": [
+      "Transnational Culture and Communication and Vietnamese Language and Vietnamese Culture had the smallest quotas with 50 quotas each."
+    ],
+    "answer": "Transnational Culture and Communication and Vietnamese Language and Vietnamese Culture had the smallest quotas with 50 quotas each.",
+    "source_id": "doc_0019",
+    "source_url": "https://ulis.vnu.edu.vn/tbtsdh2025/",
+    "chunk_id": "doc_0019_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0051",
+    "split": "train",
+    "question": "What degree is awarded for the Computer Science undergraduate program?",
+    "answers": [
+      "Bachelor degree"
+    ],
+    "answer": "Bachelor degree",
+    "source_id": "doc_0011",
+    "source_url": "https://uet.vnu.edu.vn/dao-tao/",
+    "chunk_id": "doc_0011_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0052",
+    "split": "train",
+    "question": "What was the admission quota for Chinese Language at ULIS in 2025?",
+    "answers": [
+      "300 quotas"
+    ],
+    "answer": "300 quotas",
+    "source_id": "doc_0019",
+    "source_url": "https://ulis.vnu.edu.vn/tbtsdh2025/",
+    "chunk_id": "doc_0019_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0053",
+    "split": "train",
+    "question": "What major fields does USSH specialize in?",
+    "answers": [
+      "Social sciences and humanities"
+    ],
+    "answer": "Social sciences and humanities",
+    "source_id": "doc_0025",
+    "source_url": "https://ussh.vnu.edu.vn/vi/news/tin-tuc-ve-dhqghn/lich-su-hinh-thanh-va-phat-trien-dai-hoc-quoc-gia-ha-noi-22318.html",
+    "chunk_id": "doc_0025_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0054",
+    "split": "train",
+    "question": "What degree is awarded for the Computer Engineering undergraduate program?",
+    "answers": [
+      "Engineer degree"
+    ],
+    "answer": "Engineer degree",
+    "source_id": "doc_0011",
+    "source_url": "https://uet.vnu.edu.vn/dao-tao/",
+    "chunk_id": "doc_0011_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0055",
+    "split": "train",
+    "question": "What did the VNU logo symbolize?",
+    "answers": [
+      "An open book with green lines"
+    ],
+    "answer": "An open book with green lines",
+    "source_id": "doc_0026",
+    "source_url": "https://vnu.edu.vn/gioi-thieu-chung-ve-dai-hoc-quoc-gia-ha-noi-post1.html",
+    "chunk_id": "doc_0026_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0056",
+    "split": "train",
+    "question": "What subjects are included in the A02 admission combination?",
+    "answers": [
+      "Mathematics; Physics; Biology"
+    ],
+    "answer": "Mathematics; Physics; Biology",
+    "source_id": "doc_0000",
+    "source_url": "https://diemthi.tuyensinh247.com/de-an-tuyen-sinh/dai-hoc-cong-nghe-dai-hoc-quoc-gia-ha-noi-QHI.html",
+    "chunk_id": "doc_0000_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0057",
+    "split": "train",
+    "question": "Approximately how many universities and research organizations cooperate with USSH?",
+    "answers": [
+      "More than 200 institutions"
+    ],
+    "answer": "More than 200 institutions",
+    "source_id": "doc_0025",
+    "source_url": "https://ussh.vnu.edu.vn/vi/news/tin-tuc-ve-dhqghn/lich-su-hinh-thanh-va-phat-trien-dai-hoc-quoc-gia-ha-noi-22318.html",
+    "chunk_id": "doc_0025_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0058",
+    "split": "train",
+    "question": "What was the tuition fee for the Linguistics program at USSH in 2023-2024?",
+    "answers": [
+      "20 million VND per year in 2023-2024"
+    ],
+    "answer": "20 million VND per year in 2023-2024",
+    "source_id": "doc_0024",
+    "source_url": "https://ussh.vnu.edu.vn/vi/news/dao-tao/nam-2023-truong-dai-hoc-khoa-hoc-xa-hoi-va-nhan-tuyen-sinh-2000-chi-tieu-dai-hoc-chinh-quy-cho-27-nganh-dao-tao-21962.html",
+    "chunk_id": "doc_0024_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0059",
+    "split": "train",
+    "question": "Which USSH major specializes in Journalism?",
+    "answers": [
+      "Journalism"
+    ],
+    "answer": "Journalism",
+    "source_id": "doc_0001",
+    "source_url": "https://diemthi.tuyensinh247.com/de-an-tuyen-sinh/dai-hoc-khoa-hoc-xa-hoi-va-nhan-van-ha-noi-QHX.html",
+    "chunk_id": "doc_0001_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0060",
+    "split": "train",
+    "question": "What was the tuition fee for the International Studies program at USSH in 2023-2024?",
+    "answers": [
+      "30 million VND per year in 2023-2024"
+    ],
+    "answer": "30 million VND per year in 2023-2024",
+    "source_id": "doc_0024",
+    "source_url": "https://ussh.vnu.edu.vn/vi/news/dao-tao/nam-2023-truong-dai-hoc-khoa-hoc-xa-hoi-va-nhan-tuyen-sinh-2000-chi-tieu-dai-hoc-chinh-quy-cho-27-nganh-dao-tao-21962.html",
+    "chunk_id": "doc_0024_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0061",
+    "split": "train",
+    "question": "What degree is awarded for the Artificial Intelligence undergraduate program?",
+    "answers": [
+      "Bachelor degree"
+    ],
+    "answer": "Bachelor degree",
+    "source_id": "doc_0011",
+    "source_url": "https://uet.vnu.edu.vn/dao-tao/",
+    "chunk_id": "doc_0011_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0062",
+    "split": "train",
+    "question": "What was the 2024 D01 admission score for International Studies at USSH?",
+    "answers": [
+      "25.33 points"
+    ],
+    "answer": "25.33 points",
+    "source_id": "doc_0005",
+    "source_url": "https://huongnghiep.hocmai.vn/diem-truong/dai-hoc-khoa-hoc-xa-hoi-va-nhan-van-dai-hoc-quoc-gia-ha-noi",
+    "chunk_id": "doc_0005_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0063",
+    "split": "train",
+    "question": "What was the difference between the 2025 C00 admission scores for Public Relations and Journalism at USSH?",
+    "answers": [
+      "The difference was 0.75 points."
+    ],
+    "answer": "The difference was 0.75 points.",
+    "source_id": "doc_0002",
+    "source_url": "https://diemthi.tuyensinh247.com/diem-chuan/dai-hoc-khoa-hoc-xa-hoi-va-nhan-van-dhqghn-QHX.html",
+    "chunk_id": "doc_0002_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0064",
+    "split": "train",
+    "question": "Which Prime Minister signed the organizational regulation of VNU?",
+    "answers": [
+      "Prime Minister Vo Van Kiet"
+    ],
+    "answer": "Prime Minister Vo Van Kiet",
+    "source_id": "doc_0025",
+    "source_url": "https://ussh.vnu.edu.vn/vi/news/tin-tuc-ve-dhqghn/lich-su-hinh-thanh-va-phat-trien-dai-hoc-quoc-gia-ha-noi-22318.html",
+    "chunk_id": "doc_0025_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0065",
+    "split": "train",
+    "question": "Which undergraduate majors at UET award a Bachelor degree?",
+    "answers": [
+      "Information Technology; Computer Science; Artificial Intelligence; Data Science; Electronics and Telecommunications Engineering Technology; Engineering Physics; Industrial Design and Graphics"
+    ],
+    "answer": "Information Technology; Computer Science; Artificial Intelligence; Data Science; Electronics and Telecommunications Engineering Technology; Engineering Physics; Industrial Design and Graphics",
+    "source_id": "doc_0011",
+    "source_url": "https://uet.vnu.edu.vn/dao-tao/",
+    "chunk_id": "doc_0011_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0066",
+    "split": "train",
+    "question": "What was the tuition fee for the French Language program at ULIS in 2026?",
+    "answers": [
+      "42 million VND per student per year in 2026"
+    ],
+    "answer": "42 million VND per student per year in 2026",
+    "source_id": "doc_0020",
+    "source_url": "https://ulis.vnu.edu.vn/tbtsdh26/",
+    "chunk_id": "doc_0020_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0067",
+    "split": "train",
+    "question": "What was the former name of ULIS before joining VNU?",
+    "answers": [
+      "Hanoi University of Foreign Language Teachers"
+    ],
+    "answer": "Hanoi University of Foreign Language Teachers",
+    "source_id": "doc_0016",
+    "source_url": "https://ulis.vnu.edu.vn/gioi-thieu/",
+    "chunk_id": "doc_0016_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0068",
+    "split": "train",
+    "question": "What is the maximum study duration of the Robotics Engineering undergraduate program?",
+    "answers": [
+      "9 years"
+    ],
+    "answer": "9 years",
+    "source_id": "doc_0011",
+    "source_url": "https://uet.vnu.edu.vn/dao-tao/",
+    "chunk_id": "doc_0011_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0069",
+    "split": "train",
+    "question": "What is the phone number of UET?",
+    "answers": [
+      "024.37547.461"
+    ],
+    "answer": "024.37547.461",
+    "source_id": "doc_0013",
+    "source_url": "https://uet.vnu.edu.vn/gioi-thieu/",
+    "chunk_id": "doc_0013_chunk_0009",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0070",
+    "split": "train",
+    "question": "What was the 2024 admission score for Computer Engineering at UET?",
+    "answers": [
+      "26.97 points"
+    ],
+    "answer": "26.97 points",
+    "source_id": "doc_0007",
+    "source_url": "https://tuyensinh.uet.vnu.edu.vn/tin-tuyen-sinh/thong-bao-diem-trung-tuyen-vao-truong-dai-hoc-cong-nghe-dhqghn-nam-2024-theo-phuong-thuc-thpt/",
+    "chunk_id": "doc_0007_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0071",
+    "split": "train",
+    "question": "What IELTS score can be converted into English scores for admission at UET in 2025?",
+    "answers": [
+      "IELTS Academic 5.5 or higher"
+    ],
+    "answer": "IELTS Academic 5.5 or higher",
+    "source_id": "doc_0006",
+    "source_url": "https://tuyensinh.uet.vnu.edu.vn/ban-nen-biet/thong-bao-xet-tuyen-thang-uu-tien-xet-tuyen-xet-tuyen-theo-hsa-sat-va-thu-nhan-chung-chi-tieng-anh-quoc-te-de-quy-doi-cong-diem-trong-xet-tuyen-vao-dai-hoc-chinh-quy-nam-2025-tai-truong-dai-hoc-con/",
+    "chunk_id": "doc_0006_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0072",
+    "split": "train",
+    "question": "What was the 2023 D01 admission score for Public Relations at USSH?",
+    "answers": [
+      "26.75 points"
+    ],
+    "answer": "26.75 points",
+    "source_id": "doc_0027",
+    "source_url": "https://xaydungchinhsach.chinhphu.vn/diem-chuan-truong-dai-hoc-khoa-hoc-xa-hoi-va-nhan-van-dhqg-hn-119230822161911427.htm",
+    "chunk_id": "doc_0027_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0073",
+    "split": "train",
+    "question": "What was the admission quota for Transnational Culture and Communication at ULIS in 2025?",
+    "answers": [
+      "50 quotas"
+    ],
+    "answer": "50 quotas",
+    "source_id": "doc_0019",
+    "source_url": "https://ulis.vnu.edu.vn/tbtsdh2025/",
+    "chunk_id": "doc_0019_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0074",
+    "split": "train",
+    "question": "What was the tuition fee for the Data Science program at UET in 2024-2025?",
+    "answers": [
+      "32 million VND per academic year in 2024-2025"
+    ],
+    "answer": "32 million VND per academic year in 2024-2025",
+    "source_id": "doc_0012",
+    "source_url": "https://uet.vnu.edu.vn/dinh-muc-hoc-phi-dao-tao-dai-hoc-nam-hoc-2024-2025/",
+    "chunk_id": "doc_0012_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0075",
+    "split": "train",
+    "question": "Did Artificial Intelligence or Computer Science have a higher 2024 admission score at UET?",
+    "answers": [
+      "Computer Science had a higher score with 27.58 points compared to Artificial Intelligence with 27.12 points."
+    ],
+    "answer": "Computer Science had a higher score with 27.58 points compared to Artificial Intelligence with 27.12 points.",
+    "source_id": "doc_0007",
+    "source_url": "https://tuyensinh.uet.vnu.edu.vn/tin-tuyen-sinh/thong-bao-diem-trung-tuyen-vao-truong-dai-hoc-cong-nghe-dhqghn-nam-2024-theo-phuong-thuc-thpt/",
+    "chunk_id": "doc_0007_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0076",
+    "split": "train",
+    "question": "What was the admission score for Korean Language at ULIS in 2023?",
+    "answers": [
+      "35.40 points"
+    ],
+    "answer": "35.40 points",
+    "source_id": "doc_0021",
+    "source_url": "https://ulis.vnu.edu.vn/tham-khao-diem-chuan-tuyen-sinh-dai-hoc-vao-truong-dai-hoc-ngoai-ngu-qua-cac-nam/",
+    "chunk_id": "doc_0021_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0077",
+    "split": "train",
+    "question": "What was the 2024 admission score for Artificial Intelligence at UET?",
+    "answers": [
+      "27.12 points"
+    ],
+    "answer": "27.12 points",
+    "source_id": "doc_0007",
+    "source_url": "https://tuyensinh.uet.vnu.edu.vn/tin-tuyen-sinh/thong-bao-diem-trung-tuyen-vao-truong-dai-hoc-cong-nghe-dhqghn-nam-2024-theo-phuong-thuc-thpt/",
+    "chunk_id": "doc_0007_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0078",
+    "split": "train",
+    "question": "What was the admission score for Electronics and Telecommunications Engineering Technology at UET in 2025?",
+    "answers": [
+      "26.73 points"
+    ],
+    "answer": "26.73 points",
+    "source_id": "doc_0008",
+    "source_url": "https://tuyensinh.uet.vnu.edu.vn/uncategorized/thong-bao-diem-trung-tuyen-dai-hoc-chinh-quy-vao-truong-dai-hoc-cong-nghe-dhqghn-nam-2025/",
+    "chunk_id": "doc_0008_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0079",
+    "split": "train",
+    "question": "What major does the admission code CN15 represent at UET?",
+    "answers": [
+      "CN15 represents Computer Networks and Data Communications."
+    ],
+    "answer": "CN15 represents Computer Networks and Data Communications.",
+    "source_id": "doc_0007",
+    "source_url": "https://tuyensinh.uet.vnu.edu.vn/tin-tuyen-sinh/thong-bao-diem-trung-tuyen-vao-truong-dai-hoc-cong-nghe-dhqghn-nam-2024-theo-phuong-thuc-thpt/",
+    "chunk_id": "doc_0007_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0080",
+    "split": "train",
+    "question": "What is the standard duration of the Control and Automation Engineering undergraduate program?",
+    "answers": [
+      "4.5 years"
+    ],
+    "answer": "4.5 years",
+    "source_id": "doc_0011",
+    "source_url": "https://uet.vnu.edu.vn/dao-tao/",
+    "chunk_id": "doc_0011_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0081",
+    "split": "train",
+    "question": "What major does the admission code CN12 represent at UET?",
+    "answers": [
+      "CN12 represents Artificial Intelligence."
+    ],
+    "answer": "CN12 represents Artificial Intelligence.",
+    "source_id": "doc_0007",
+    "source_url": "https://tuyensinh.uet.vnu.edu.vn/tin-tuyen-sinh/thong-bao-diem-trung-tuyen-vao-truong-dai-hoc-cong-nghe-dhqghn-nam-2024-theo-phuong-thuc-thpt/",
+    "chunk_id": "doc_0007_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0082",
+    "split": "train",
+    "question": "What type of student records must be permanently archived at VNU?",
+    "answers": [
+      "Graduation decisions and original degree supplements"
+    ],
+    "answer": "Graduation decisions and original degree supplements",
+    "source_id": "doc_0003",
+    "source_url": "https://fos.ussh.vnu.edu.vn/vi/laws/detail/Quy-che-dao-tao-dai-hoc-tai-Dai-hoc-Quoc-gia-Ha-Noi-Ap-dung-tu-khoa-QH-2022-X-5/?download=1&id=0",
+    "chunk_id": "doc_0003_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0083",
+    "split": "train",
+    "question": "What was the admission score for Japanese Language at ULIS in 2023?",
+    "answers": [
+      "34.65 points"
+    ],
+    "answer": "34.65 points",
+    "source_id": "doc_0021",
+    "source_url": "https://ulis.vnu.edu.vn/tham-khao-diem-chuan-tuyen-sinh-dai-hoc-vao-truong-dai-hoc-ngoai-ngu-qua-cac-nam/",
+    "chunk_id": "doc_0021_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0084",
+    "split": "train",
+    "question": "What was the tuition fee for the Chinese Language program at ULIS in 2026?",
+    "answers": [
+      "42 million VND per student per year in 2026"
+    ],
+    "answer": "42 million VND per student per year in 2026",
+    "source_id": "doc_0020",
+    "source_url": "https://ulis.vnu.edu.vn/tbtsdh26/",
+    "chunk_id": "doc_0020_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0085",
+    "split": "train",
+    "question": "What is the standard duration of undergraduate programs in the ULIS BRT model?",
+    "answers": [
+      "4 years"
+    ],
+    "answer": "4 years",
+    "source_id": "doc_0022",
+    "source_url": "https://ulis.vnu.edu.vn/tot-nghiep-dai-hoc-trong-3-nam-tang-toc-de-but-pha-but-pha-danh-cho-nguoi-tre-ban-linh/",
+    "chunk_id": "doc_0022_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0086",
+    "split": "train",
+    "question": "How many supplementary semesters are included in one academic year at VNU?",
+    "answers": [
+      "One supplementary semester"
+    ],
+    "answer": "One supplementary semester",
+    "source_id": "doc_0010",
+    "source_url": "https://uet-test.uet.edu.vn/quy-che-dao-tao-dai-hoc-tai-dhqghn/",
+    "chunk_id": "doc_0010_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0087",
+    "split": "train",
+    "question": "What was the tuition fee for the English Language program at ULIS in 2026?",
+    "answers": [
+      "42 million VND per student per year in 2026"
+    ],
+    "answer": "42 million VND per student per year in 2026",
+    "source_id": "doc_0020",
+    "source_url": "https://ulis.vnu.edu.vn/tbtsdh26/",
+    "chunk_id": "doc_0020_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0088",
+    "split": "train",
+    "question": "What was the name of the new VNU urban campus project?",
+    "answers": [
+      "Hoa Lac campus"
+    ],
+    "answer": "Hoa Lac campus",
+    "source_id": "doc_0026",
+    "source_url": "https://vnu.edu.vn/gioi-thieu-chung-ve-dai-hoc-quoc-gia-ha-noi-post1.html",
+    "chunk_id": "doc_0026_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0089",
+    "split": "train",
+    "question": "What was the tuition fee for the Computer Engineering program at UET in 2024-2025?",
+    "answers": [
+      "40 million VND per academic year in 2024-2025"
+    ],
+    "answer": "40 million VND per academic year in 2024-2025",
+    "source_id": "doc_0012",
+    "source_url": "https://uet.vnu.edu.vn/dinh-muc-hoc-phi-dao-tao-dai-hoc-nam-hoc-2024-2025/",
+    "chunk_id": "doc_0012_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0090",
+    "split": "train",
+    "question": "What is the English name of USSH?",
+    "answers": [
+      "VNU University of Social Sciences and Humanities"
+    ],
+    "answer": "VNU University of Social Sciences and Humanities",
+    "source_id": "doc_0025",
+    "source_url": "https://ussh.vnu.edu.vn/vi/news/tin-tuc-ve-dhqghn/lich-su-hinh-thanh-va-phat-trien-dai-hoc-quoc-gia-ha-noi-22318.html",
+    "chunk_id": "doc_0025_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0091",
+    "split": "train",
+    "question": "What subjects are included in the A01 admission combination at UET?",
+    "answers": [
+      "Mathematics; Physics; English"
+    ],
+    "answer": "Mathematics; Physics; English",
+    "source_id": "doc_0000",
+    "source_url": "https://diemthi.tuyensinh247.com/de-an-tuyen-sinh/dai-hoc-cong-nghe-dai-hoc-quoc-gia-ha-noi-QHI.html",
+    "chunk_id": "doc_0000_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0092",
+    "split": "train",
+    "question": "What degree is awarded for the Energy Engineering undergraduate program?",
+    "answers": [
+      "Engineer degree"
+    ],
+    "answer": "Engineer degree",
+    "source_id": "doc_0011",
+    "source_url": "https://uet.vnu.edu.vn/dao-tao/",
+    "chunk_id": "doc_0011_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0093",
+    "split": "train",
+    "question": "What was the 2025 C00 admission score for Social Work at USSH?",
+    "answers": [
+      "27.0 points"
+    ],
+    "answer": "27.0 points",
+    "source_id": "doc_0002",
+    "source_url": "https://diemthi.tuyensinh247.com/diem-chuan/dai-hoc-khoa-hoc-xa-hoi-va-nhan-van-dhqghn-QHX.html",
+    "chunk_id": "doc_0002_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0094",
+    "split": "train",
+    "question": "What is the abbreviation of VNU University of Social Sciences and Humanities?",
+    "answers": [
+      "VNU-USSH"
+    ],
+    "answer": "VNU-USSH",
+    "source_id": "doc_0025",
+    "source_url": "https://ussh.vnu.edu.vn/vi/news/tin-tuc-ve-dhqghn/lich-su-hinh-thanh-va-phat-trien-dai-hoc-quoc-gia-ha-noi-22318.html",
+    "chunk_id": "doc_0025_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0095",
+    "split": "train",
+    "question": "What does the school code QHF represent?",
+    "answers": [
+      "QHF is the school code for ULIS."
+    ],
+    "answer": "QHF is the school code for ULIS.",
+    "source_id": "doc_0019",
+    "source_url": "https://ulis.vnu.edu.vn/tbtsdh2025/",
+    "chunk_id": "doc_0019_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0096",
+    "split": "train",
+    "question": "What year appeared on the VNU logo?",
+    "answers": [
+      "1906"
+    ],
+    "answer": "1906",
+    "source_id": "doc_0026",
+    "source_url": "https://vnu.edu.vn/gioi-thieu-chung-ve-dai-hoc-quoc-gia-ha-noi-post1.html",
+    "chunk_id": "doc_0026_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0097",
+    "split": "train",
+    "question": "Which ULIS major had the largest admission quota in 2025?",
+    "answers": [
+      "English Language had the largest admission quota with 795 quotas."
+    ],
+    "answer": "English Language had the largest admission quota with 795 quotas.",
+    "source_id": "doc_0019",
+    "source_url": "https://ulis.vnu.edu.vn/tbtsdh2025/",
+    "chunk_id": "doc_0019_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0098",
+    "split": "train",
+    "question": "What is the standard duration of undergraduate programs at USSH?",
+    "answers": [
+      "4 years"
+    ],
+    "answer": "4 years",
+    "source_id": "doc_0023",
+    "source_url": "https://ussh.vnu.edu.vn/vi/dao-tao/chuong-trinh-dao-tao-chuan/chuong-trinh-dao-tao-chuan-20666.html",
+    "chunk_id": "doc_0023_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0099",
+    "split": "train",
+    "question": "What was the 2024 admission score for Robotics Engineering at UET?",
+    "answers": [
+      "25.99 points"
+    ],
+    "answer": "25.99 points",
+    "source_id": "doc_0007",
+    "source_url": "https://tuyensinh.uet.vnu.edu.vn/tin-tuyen-sinh/thong-bao-diem-trung-tuyen-vao-truong-dai-hoc-cong-nghe-dhqghn-nam-2024-theo-phuong-thuc-thpt/",
+    "chunk_id": "doc_0007_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0100",
+    "split": "train",
+    "question": "What was the 2024 admission score for Computer Science at UET?",
+    "answers": [
+      "27.58 points"
+    ],
+    "answer": "27.58 points",
+    "source_id": "doc_0007",
+    "source_url": "https://tuyensinh.uet.vnu.edu.vn/tin-tuyen-sinh/thong-bao-diem-trung-tuyen-vao-truong-dai-hoc-cong-nghe-dhqghn-nam-2024-theo-phuong-thuc-thpt/",
+    "chunk_id": "doc_0007_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0101",
+    "split": "train",
+    "question": "What degree is awarded for language teacher education programs at ULIS?",
+    "answers": [
+      "Bachelor degree"
+    ],
+    "answer": "Bachelor degree",
+    "source_id": "doc_0016",
+    "source_url": "https://ulis.vnu.edu.vn/gioi-thieu/",
+    "chunk_id": "doc_0016_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0102",
+    "split": "train",
+    "question": "What was the tuition fee for the Artificial Intelligence program at UET in 2024-2025?",
+    "answers": [
+      "32 million VND per academic year in 2024-2025"
+    ],
+    "answer": "32 million VND per academic year in 2024-2025",
+    "source_id": "doc_0012",
+    "source_url": "https://uet.vnu.edu.vn/dinh-muc-hoc-phi-dao-tao-dai-hoc-nam-hoc-2024-2025/",
+    "chunk_id": "doc_0012_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0103",
+    "split": "train",
+    "question": "What TOEFL iBT score was accepted for English score conversion at UET in 2025?",
+    "answers": [
+      "72 or higher"
+    ],
+    "answer": "72 or higher",
+    "source_id": "doc_0006",
+    "source_url": "https://tuyensinh.uet.vnu.edu.vn/ban-nen-biet/thong-bao-xet-tuyen-thang-uu-tien-xet-tuyen-xet-tuyen-theo-hsa-sat-va-thu-nhan-chung-chi-tieng-anh-quoc-te-de-quy-doi-cong-diem-trong-xet-tuyen-vao-dai-hoc-chinh-quy-nam-2025-tai-truong-dai-hoc-con/",
+    "chunk_id": "doc_0006_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0104",
+    "split": "train",
+    "question": "What was the admission score for Aerospace Engineering at UET in 2025?",
+    "answers": [
+      "23.96 points"
+    ],
+    "answer": "23.96 points",
+    "source_id": "doc_0008",
+    "source_url": "https://tuyensinh.uet.vnu.edu.vn/uncategorized/thong-bao-diem-trung-tuyen-dai-hoc-chinh-quy-vao-truong-dai-hoc-cong-nghe-dhqghn-nam-2025/",
+    "chunk_id": "doc_0008_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0105",
+    "split": "train",
+    "question": "What degree is awarded for the Aerospace Engineering undergraduate program?",
+    "answers": [
+      "Engineer degree"
+    ],
+    "answer": "Engineer degree",
+    "source_id": "doc_0011",
+    "source_url": "https://uet.vnu.edu.vn/dao-tao/",
+    "chunk_id": "doc_0011_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0106",
+    "split": "train",
+    "question": "Which ULIS program specializes in Japanese language?",
+    "answers": [
+      "Japanese Language"
+    ],
+    "answer": "Japanese Language",
+    "source_id": "doc_0019",
+    "source_url": "https://ulis.vnu.edu.vn/tbtsdh2025/",
+    "chunk_id": "doc_0019_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0107",
+    "split": "train",
+    "question": "How many language faculties were established in 1964?",
+    "answers": [
+      "Four faculties"
+    ],
+    "answer": "Four faculties",
+    "source_id": "doc_0016",
+    "source_url": "https://ulis.vnu.edu.vn/gioi-thieu/",
+    "chunk_id": "doc_0016_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0108",
+    "split": "train",
+    "question": "What was the 2023 D01 admission score for Psychology at USSH?",
+    "answers": [
+      "27.00 points"
+    ],
+    "answer": "27.00 points",
+    "source_id": "doc_0027",
+    "source_url": "https://xaydungchinhsach.chinhphu.vn/diem-chuan-truong-dai-hoc-khoa-hoc-xa-hoi-va-nhan-van-dhqg-hn-119230822161911427.htm",
+    "chunk_id": "doc_0027_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0109",
+    "split": "train",
+    "question": "What was the tuition fee for the Korean Language program at ULIS in 2026?",
+    "answers": [
+      "42 million VND per student per year in 2026"
+    ],
+    "answer": "42 million VND per student per year in 2026",
+    "source_id": "doc_0020",
+    "source_url": "https://ulis.vnu.edu.vn/tbtsdh26/",
+    "chunk_id": "doc_0020_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0110",
+    "split": "train",
+    "question": "Which armed forces sectors has ULIS provided foreign language personnel for?",
+    "answers": [
+      "Military sector; police sector"
+    ],
+    "answer": "Military sector; police sector",
+    "source_id": "doc_0016",
+    "source_url": "https://ulis.vnu.edu.vn/gioi-thieu/",
+    "chunk_id": "doc_0016_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0111",
+    "split": "train",
+    "question": "What was the admission score for English Language at ULIS in 2023?",
+    "answers": [
+      "35.55 points"
+    ],
+    "answer": "35.55 points",
+    "source_id": "doc_0021",
+    "source_url": "https://ulis.vnu.edu.vn/tham-khao-diem-chuan-tuyen-sinh-dai-hoc-vao-truong-dai-hoc-ngoai-ngu-qua-cac-nam/",
+    "chunk_id": "doc_0021_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0112",
+    "split": "train",
+    "question": "What was the admission score for Artificial Intelligence at UET in 2025?",
+    "answers": [
+      "27.85 points"
+    ],
+    "answer": "27.85 points",
+    "source_id": "doc_0008",
+    "source_url": "https://tuyensinh.uet.vnu.edu.vn/uncategorized/thong-bao-diem-trung-tuyen-dai-hoc-chinh-quy-vao-truong-dai-hoc-cong-nghe-dhqghn-nam-2025/",
+    "chunk_id": "doc_0008_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0113",
+    "split": "train",
+    "question": "What was the official website of VNU?",
+    "answers": [
+      "https://vnu.edu.vn"
+    ],
+    "answer": "https://vnu.edu.vn",
+    "source_id": "doc_0026",
+    "source_url": "https://vnu.edu.vn/gioi-thieu-chung-ve-dai-hoc-quoc-gia-ha-noi-post1.html",
+    "chunk_id": "doc_0026_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0114",
+    "split": "train",
+    "question": "What was the 2024 admission score for Information Technology at UET?",
+    "answers": [
+      "27.8 points"
+    ],
+    "answer": "27.8 points",
+    "source_id": "doc_0007",
+    "source_url": "https://tuyensinh.uet.vnu.edu.vn/tin-tuyen-sinh/thong-bao-diem-trung-tuyen-vao-truong-dai-hoc-cong-nghe-dhqghn-nam-2024-theo-phuong-thuc-thpt/",
+    "chunk_id": "doc_0007_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0115",
+    "split": "train",
+    "question": "What is the minimum number of credits required for an international-standard training program at VNU compared with the standard program?",
+    "answers": [
+      "At least 15 additional credits"
+    ],
+    "answer": "At least 15 additional credits",
+    "source_id": "doc_0014",
+    "source_url": "https://uet.vnu.edu.vn/quy-che-dao-tao-dai-hoc-cua-dai-hoc-quoc-gia-ha-noi-theo-quyet-dinh-5115qd-dhqghn/",
+    "chunk_id": "doc_0014_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0116",
+    "split": "train",
+    "question": "What was the admission score for Chinese Language at ULIS in 2024?",
+    "answers": [
+      "37.00 points"
+    ],
+    "answer": "37.00 points",
+    "source_id": "doc_0017",
+    "source_url": "https://ulis.vnu.edu.vn/kqtsdh24/",
+    "chunk_id": "doc_0017_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0117",
+    "split": "train",
+    "question": "What was the admission score for Agricultural Technology at UET in 2025?",
+    "answers": [
+      "22.00 points"
+    ],
+    "answer": "22.00 points",
+    "source_id": "doc_0008",
+    "source_url": "https://tuyensinh.uet.vnu.edu.vn/uncategorized/thong-bao-diem-trung-tuyen-dai-hoc-chinh-quy-vao-truong-dai-hoc-cong-nghe-dhqghn-nam-2025/",
+    "chunk_id": "doc_0008_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0118",
+    "split": "train",
+    "question": "How many laboratories did VNU have in 2023?",
+    "answers": [
+      "208"
+    ],
+    "answer": "208",
+    "source_id": "doc_0026",
+    "source_url": "https://vnu.edu.vn/gioi-thieu-chung-ve-dai-hoc-quoc-gia-ha-noi-post1.html",
+    "chunk_id": "doc_0026_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0119",
+    "split": "train",
+    "question": "What is the maximum study duration of the Computer Engineering undergraduate program?",
+    "answers": [
+      "9 years"
+    ],
+    "answer": "9 years",
+    "source_id": "doc_0011",
+    "source_url": "https://uet.vnu.edu.vn/dao-tao/",
+    "chunk_id": "doc_0011_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0120",
+    "split": "train",
+    "question": "What was the 2024 D01 admission score for Public Relations at USSH?",
+    "answers": [
+      "26.45 points"
+    ],
+    "answer": "26.45 points",
+    "source_id": "doc_0005",
+    "source_url": "https://huongnghiep.hocmai.vn/diem-truong/dai-hoc-khoa-hoc-xa-hoi-va-nhan-van-dai-hoc-quoc-gia-ha-noi",
+    "chunk_id": "doc_0005_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0121",
+    "split": "train",
+    "question": "When was Vietnam National University Hanoi officially established?",
+    "answers": [
+      "1993"
+    ],
+    "answer": "1993",
+    "source_id": "doc_0025",
+    "source_url": "https://ussh.vnu.edu.vn/vi/news/tin-tuc-ve-dhqghn/lich-su-hinh-thanh-va-phat-trien-dai-hoc-quoc-gia-ha-noi-22318.html",
+    "chunk_id": "doc_0025_chunk_0002",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0122",
+    "split": "train",
+    "question": "What was the 2024 D01 admission score for Journalism at USSH?",
+    "answers": [
+      "26.07 points"
+    ],
+    "answer": "26.07 points",
+    "source_id": "doc_0005",
+    "source_url": "https://huongnghiep.hocmai.vn/diem-truong/dai-hoc-khoa-hoc-xa-hoi-va-nhan-van-dai-hoc-quoc-gia-ha-noi",
+    "chunk_id": "doc_0005_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0123",
+    "split": "train",
+    "question": "What was the tuition fee for the Psychology program at USSH in 2023-2024?",
+    "answers": [
+      "30 million VND per year in 2023-2024"
+    ],
+    "answer": "30 million VND per year in 2023-2024",
+    "source_id": "doc_0024",
+    "source_url": "https://ussh.vnu.edu.vn/vi/news/dao-tao/nam-2023-truong-dai-hoc-khoa-hoc-xa-hoi-va-nhan-tuyen-sinh-2000-chi-tieu-dai-hoc-chinh-quy-cho-27-nganh-dao-tao-21962.html",
+    "chunk_id": "doc_0024_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0124",
+    "split": "train",
+    "question": "Does the VNU undergraduate regulation govern foreign-issued international programs?",
+    "answers": [
+      "No"
+    ],
+    "answer": "No",
+    "source_id": "doc_0014",
+    "source_url": "https://uet.vnu.edu.vn/quy-che-dao-tao-dai-hoc-cua-dai-hoc-quoc-gia-ha-noi-theo-quyet-dinh-5115qd-dhqghn/",
+    "chunk_id": "doc_0014_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0125",
+    "split": "train",
+    "question": "Which university was established in 1956 as the first basic science university in Northern Vietnam?",
+    "answers": [
+      "Hanoi General University"
+    ],
+    "answer": "Hanoi General University",
+    "source_id": "doc_0025",
+    "source_url": "https://ussh.vnu.edu.vn/vi/news/tin-tuc-ve-dhqghn/lich-su-hinh-thanh-va-phat-trien-dai-hoc-quoc-gia-ha-noi-22318.html",
+    "chunk_id": "doc_0025_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0126",
+    "split": "train",
+    "question": "What was the tuition fee for the Electronics and Telecommunications Engineering Technology program at UET in 2024-2025?",
+    "answers": [
+      "40 million VND per academic year in 2024-2025"
+    ],
+    "answer": "40 million VND per academic year in 2024-2025",
+    "source_id": "doc_0012",
+    "source_url": "https://uet.vnu.edu.vn/dinh-muc-hoc-phi-dao-tao-dai-hoc-nam-hoc-2024-2025/",
+    "chunk_id": "doc_0012_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0127",
+    "split": "train",
+    "question": "What educational model allows students to study two majors simultaneously at VNU?",
+    "answers": [
+      "Dual-major training model"
+    ],
+    "answer": "Dual-major training model",
+    "source_id": "doc_0014",
+    "source_url": "https://uet.vnu.edu.vn/quy-che-dao-tao-dai-hoc-cua-dai-hoc-quoc-gia-ha-noi-theo-quyet-dinh-5115qd-dhqghn/",
+    "chunk_id": "doc_0014_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0128",
+    "split": "train",
+    "question": "What fields does ULIS specialize in?",
+    "answers": [
+      "Foreign language education; linguistics; international studies; and related social sciences and humanities"
+    ],
+    "answer": "Foreign language education; linguistics; international studies; and related social sciences and humanities",
+    "source_id": "doc_0016",
+    "source_url": "https://ulis.vnu.edu.vn/gioi-thieu/",
+    "chunk_id": "doc_0016_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0129",
+    "split": "train",
+    "question": "What nationwide educational project does ULIS participate in?",
+    "answers": [
+      "The National Foreign Language Project"
+    ],
+    "answer": "The National Foreign Language Project",
+    "source_id": "doc_0016",
+    "source_url": "https://ulis.vnu.edu.vn/gioi-thieu/",
+    "chunk_id": "doc_0016_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0130",
+    "split": "train",
+    "question": "What is the standard duration of the Robotics Engineering undergraduate program?",
+    "answers": [
+      "4.5 years"
+    ],
+    "answer": "4.5 years",
+    "source_id": "doc_0011",
+    "source_url": "https://uet.vnu.edu.vn/dao-tao/",
+    "chunk_id": "doc_0011_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0131",
+    "split": "train",
+    "question": "Which USSH undergraduate program focuses on Psychology?",
+    "answers": [
+      "Psychology"
+    ],
+    "answer": "Psychology",
+    "source_id": "doc_0023",
+    "source_url": "https://ussh.vnu.edu.vn/vi/dao-tao/chuong-trinh-dao-tao-chuan/chuong-trinh-dao-tao-chuan-20666.html",
+    "chunk_id": "doc_0023_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0132",
+    "split": "train",
+    "question": "Which decree officially established VNU?",
+    "answers": [
+      "Decree 97/CP"
+    ],
+    "answer": "Decree 97/CP",
+    "source_id": "doc_0025",
+    "source_url": "https://ussh.vnu.edu.vn/vi/news/tin-tuc-ve-dhqghn/lich-su-hinh-thanh-va-phat-trien-dai-hoc-quoc-gia-ha-noi-22318.html",
+    "chunk_id": "doc_0025_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0133",
+    "split": "train",
+    "question": "What was the tuition fee for the Oriental Studies program at USSH in 2023-2024?",
+    "answers": [
+      "25 million VND per year in 2023-2024"
+    ],
+    "answer": "25 million VND per year in 2023-2024",
+    "source_id": "doc_0024",
+    "source_url": "https://ussh.vnu.edu.vn/vi/news/dao-tao/nam-2023-truong-dai-hoc-khoa-hoc-xa-hoi-va-nhan-tuyen-sinh-2000-chi-tieu-dai-hoc-chinh-quy-cho-27-nganh-dao-tao-21962.html",
+    "chunk_id": "doc_0024_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0134",
+    "split": "train",
+    "question": "What major does the admission code CN10 represent at UET?",
+    "answers": [
+      "CN10 represents Agricultural Technology."
+    ],
+    "answer": "CN10 represents Agricultural Technology.",
+    "source_id": "doc_0007",
+    "source_url": "https://tuyensinh.uet.vnu.edu.vn/tin-tuyen-sinh/thong-bao-diem-trung-tuyen-vao-truong-dai-hoc-cong-nghe-dhqghn-nam-2024-theo-phuong-thuc-thpt/",
+    "chunk_id": "doc_0007_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0135",
+    "split": "train",
+    "question": "What major does the admission code CN18 represent at UET?",
+    "answers": [
+      "CN18 represents Industrial Design and Graphics."
+    ],
+    "answer": "CN18 represents Industrial Design and Graphics.",
+    "source_id": "doc_0007",
+    "source_url": "https://tuyensinh.uet.vnu.edu.vn/tin-tuyen-sinh/thong-bao-diem-trung-tuyen-vao-truong-dai-hoc-cong-nghe-dhqghn-nam-2024-theo-phuong-thuc-thpt/",
+    "chunk_id": "doc_0007_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0136",
+    "split": "train",
+    "question": "How many main semesters are included in one academic year at VNU?",
+    "answers": [
+      "Two main semesters"
+    ],
+    "answer": "Two main semesters",
+    "source_id": "doc_0010",
+    "source_url": "https://uet-test.uet.edu.vn/quy-che-dao-tao-dai-hoc-tai-dhqghn/",
+    "chunk_id": "doc_0010_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0137",
+    "split": "train",
+    "question": "What major does the admission code CN1 represent at UET?",
+    "answers": [
+      "CN1 represents Information Technology."
+    ],
+    "answer": "CN1 represents Information Technology.",
+    "source_id": "doc_0007",
+    "source_url": "https://tuyensinh.uet.vnu.edu.vn/tin-tuyen-sinh/thong-bao-diem-trung-tuyen-vao-truong-dai-hoc-cong-nghe-dhqghn-nam-2024-theo-phuong-thuc-thpt/",
+    "chunk_id": "doc_0007_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0138",
+    "split": "train",
+    "question": "What was the mission of VNU when it was established in 1993?",
+    "answers": [
+      "To become a leading national university in education and science"
+    ],
+    "answer": "To become a leading national university in education and science",
+    "source_id": "doc_0025",
+    "source_url": "https://ussh.vnu.edu.vn/vi/news/tin-tuc-ve-dhqghn/lich-su-hinh-thanh-va-phat-trien-dai-hoc-quoc-gia-ha-noi-22318.html",
+    "chunk_id": "doc_0025_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0139",
+    "split": "train",
+    "question": "How many undergraduate programs does USSH offer?",
+    "answers": [
+      "More than 30 undergraduate programs"
+    ],
+    "answer": "More than 30 undergraduate programs",
+    "source_id": "doc_0023",
+    "source_url": "https://ussh.vnu.edu.vn/vi/dao-tao/chuong-trinh-dao-tao-chuan/chuong-trinh-dao-tao-chuan-20666.html",
+    "chunk_id": "doc_0023_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0140",
+    "split": "train",
+    "question": "What was the tuition fee for the Software Engineering program at UET in 2024-2025?",
+    "answers": [
+      "32 million VND per academic year in 2024-2025"
+    ],
+    "answer": "32 million VND per academic year in 2024-2025",
+    "source_id": "doc_0012",
+    "source_url": "https://uet.vnu.edu.vn/dinh-muc-hoc-phi-dao-tao-dai-hoc-nam-hoc-2024-2025/",
+    "chunk_id": "doc_0012_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0141",
+    "split": "train",
+    "question": "What is the maximum study duration for undergraduate students at UET?",
+    "answers": [
+      "8 years"
+    ],
+    "answer": "8 years",
+    "source_id": "doc_0011",
+    "source_url": "https://uet.vnu.edu.vn/dao-tao/",
+    "chunk_id": "doc_0011_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0142",
+    "split": "train",
+    "question": "Which highest state honor had VNU received?",
+    "answers": [
+      "Gold Star Order"
+    ],
+    "answer": "Gold Star Order",
+    "source_id": "doc_0026",
+    "source_url": "https://vnu.edu.vn/gioi-thieu-chung-ve-dai-hoc-quoc-gia-ha-noi-post1.html",
+    "chunk_id": "doc_0026_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0143",
+    "split": "train",
+    "question": "What does the VNU undergraduate training regulation govern?",
+    "answers": [
+      "Programs organization academic activities student assessment and graduation recognition"
+    ],
+    "answer": "Programs organization academic activities student assessment and graduation recognition",
+    "source_id": "doc_0010",
+    "source_url": "https://uet-test.uet.edu.vn/quy-che-dao-tao-dai-hoc-tai-dhqghn/",
+    "chunk_id": "doc_0010_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0144",
+    "split": "train",
+    "question": "What was the tuition fee for the Robotics Engineering program at UET in 2024-2025?",
+    "answers": [
+      "32 million VND per academic year in 2024-2025"
+    ],
+    "answer": "32 million VND per academic year in 2024-2025",
+    "source_id": "doc_0012",
+    "source_url": "https://uet.vnu.edu.vn/dinh-muc-hoc-phi-dao-tao-dai-hoc-nam-hoc-2024-2025/",
+    "chunk_id": "doc_0012_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0145",
+    "split": "train",
+    "question": "What was the 2025 C00 admission score for Tourism and Travel Service Management at USSH?",
+    "answers": [
+      "28.0 points"
+    ],
+    "answer": "28.0 points",
+    "source_id": "doc_0002",
+    "source_url": "https://diemthi.tuyensinh247.com/diem-chuan/dai-hoc-khoa-hoc-xa-hoi-va-nhan-van-dhqghn-QHX.html",
+    "chunk_id": "doc_0002_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0146",
+    "split": "train",
+    "question": "What is the official email address of UET?",
+    "answers": [
+      "uet@vnu.edu.vn"
+    ],
+    "answer": "uet@vnu.edu.vn",
+    "source_id": "doc_0013",
+    "source_url": "https://uet.vnu.edu.vn/gioi-thieu/",
+    "chunk_id": "doc_0013_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0147",
+    "split": "train",
+    "question": "In what year was Vietnam National University Hanoi established?",
+    "answers": [
+      "1993"
+    ],
+    "answer": "1993",
+    "source_id": "doc_0026",
+    "source_url": "https://vnu.edu.vn/gioi-thieu-chung-ve-dai-hoc-quoc-gia-ha-noi-post1.html",
+    "chunk_id": "doc_0026_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0148",
+    "split": "train",
+    "question": "Which government decision established Hanoi General University?",
+    "answers": [
+      "Decision No. 2183/TC"
+    ],
+    "answer": "Decision No. 2183/TC",
+    "source_id": "doc_0025",
+    "source_url": "https://ussh.vnu.edu.vn/vi/news/tin-tuc-ve-dhqghn/lich-su-hinh-thanh-va-phat-trien-dai-hoc-quoc-gia-ha-noi-22318.html",
+    "chunk_id": "doc_0025_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0149",
+    "split": "train",
+    "question": "What important Party resolution was issued in 1993 regarding national key universities?",
+    "answers": [
+      "Building several national key universities"
+    ],
+    "answer": "Building several national key universities",
+    "source_id": "doc_0025",
+    "source_url": "https://ussh.vnu.edu.vn/vi/news/tin-tuc-ve-dhqghn/lich-su-hinh-thanh-va-phat-trien-dai-hoc-quoc-gia-ha-noi-22318.html",
+    "chunk_id": "doc_0025_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0150",
+    "split": "train",
+    "question": "Which admission combination is used for French Language at ULIS?",
+    "answers": [
+      "D03"
+    ],
+    "answer": "D03",
+    "source_id": "doc_0019",
+    "source_url": "https://ulis.vnu.edu.vn/tbtsdh2025/",
+    "chunk_id": "doc_0019_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0151",
+    "split": "train",
+    "question": "What was the admission score for French Language at ULIS in 2024?",
+    "answers": [
+      "34.53 points"
+    ],
+    "answer": "34.53 points",
+    "source_id": "doc_0017",
+    "source_url": "https://ulis.vnu.edu.vn/kqtsdh24/",
+    "chunk_id": "doc_0017_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0152",
+    "split": "train",
+    "question": "How many training programs did VNU offer in 2023?",
+    "answers": [
+      "438"
+    ],
+    "answer": "438",
+    "source_id": "doc_0026",
+    "source_url": "https://vnu.edu.vn/gioi-thieu-chung-ve-dai-hoc-quoc-gia-ha-noi-post1.html",
+    "chunk_id": "doc_0026_chunk_0003",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0153",
+    "split": "train",
+    "question": "What is the standard duration of the Information Technology undergraduate program?",
+    "answers": [
+      "4 years"
+    ],
+    "answer": "4 years",
+    "source_id": "doc_0011",
+    "source_url": "https://uet.vnu.edu.vn/dao-tao/",
+    "chunk_id": "doc_0011_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0154",
+    "split": "train",
+    "question": "Which UET major had a 2025 admission score of 27.75 points?",
+    "answers": [
+      "Artificial Intelligence"
+    ],
+    "answer": "Artificial Intelligence",
+    "source_id": "doc_0008",
+    "source_url": "https://tuyensinh.uet.vnu.edu.vn/uncategorized/thong-bao-diem-trung-tuyen-dai-hoc-chinh-quy-vao-truong-dai-hoc-cong-nghe-dhqghn-nam-2025/",
+    "chunk_id": "doc_0008_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0155",
+    "split": "train",
+    "question": "Did Psychology or Journalism have a higher 2025 C00 admission score at USSH?",
+    "answers": [
+      "Psychology had a higher score with 29.0 points compared to Journalism with 28.2 points."
+    ],
+    "answer": "Psychology had a higher score with 29.0 points compared to Journalism with 28.2 points.",
+    "source_id": "doc_0002",
+    "source_url": "https://diemthi.tuyensinh247.com/diem-chuan/dai-hoc-khoa-hoc-xa-hoi-va-nhan-van-dhqghn-QHX.html",
+    "chunk_id": "doc_0002_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0156",
+    "split": "train",
+    "question": "What was the admission score for Korean Language at ULIS in 2024?",
+    "answers": [
+      "36.38 points"
+    ],
+    "answer": "36.38 points",
+    "source_id": "doc_0017",
+    "source_url": "https://ulis.vnu.edu.vn/kqtsdh24/",
+    "chunk_id": "doc_0017_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0157",
+    "split": "train",
+    "question": "What did the Foreign Language School become after the merger in 1958?",
+    "answers": [
+      "Faculty of Foreign Languages of Hanoi University of Education"
+    ],
+    "answer": "Faculty of Foreign Languages of Hanoi University of Education",
+    "source_id": "doc_0016",
+    "source_url": "https://ulis.vnu.edu.vn/gioi-thieu/",
+    "chunk_id": "doc_0016_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0158",
+    "split": "train",
+    "question": "What degree is awarded for the Engineering Physics undergraduate program?",
+    "answers": [
+      "Bachelor degree"
+    ],
+    "answer": "Bachelor degree",
+    "source_id": "doc_0011",
+    "source_url": "https://uet.vnu.edu.vn/dao-tao/",
+    "chunk_id": "doc_0011_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0159",
+    "split": "train",
+    "question": "Which USSH undergraduate program specializes in Journalism?",
+    "answers": [
+      "Journalism"
+    ],
+    "answer": "Journalism",
+    "source_id": "doc_0023",
+    "source_url": "https://ussh.vnu.edu.vn/vi/dao-tao/chuong-trinh-dao-tao-chuan/chuong-trinh-dao-tao-chuan-20666.html",
+    "chunk_id": "doc_0023_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0160",
+    "split": "train",
+    "question": "What major does the admission code CN6 represent at UET?",
+    "answers": [
+      "CN6 represents Mechatronics Engineering Technology."
+    ],
+    "answer": "CN6 represents Mechatronics Engineering Technology.",
+    "source_id": "doc_0007",
+    "source_url": "https://tuyensinh.uet.vnu.edu.vn/tin-tuyen-sinh/thong-bao-diem-trung-tuyen-vao-truong-dai-hoc-cong-nghe-dhqghn-nam-2024-theo-phuong-thuc-thpt/",
+    "chunk_id": "doc_0007_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0161",
+    "split": "train",
+    "question": "What document does UET provide to students at the beginning of a course?",
+    "answers": [
+      "Training curriculum"
+    ],
+    "answer": "Training curriculum",
+    "source_id": "doc_0015",
+    "source_url": "https://uet.vnu.edu.vn/wp-content/uploads/2019/07/S%E1%BB%95-tay-h%E1%BB%8Dc-v%E1%BB%A5-2019.pdf",
+    "chunk_id": "doc_0015_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0162",
+    "split": "train",
+    "question": "What is the maximum study duration of the Computer Networks and Data Communications undergraduate program?",
+    "answers": [
+      "9 years"
+    ],
+    "answer": "9 years",
+    "source_id": "doc_0011",
+    "source_url": "https://uet.vnu.edu.vn/dao-tao/",
+    "chunk_id": "doc_0011_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0163",
+    "split": "train",
+    "question": "What was the 2024 C00 admission score for Psychology at USSH?",
+    "answers": [
+      "28.60 points"
+    ],
+    "answer": "28.60 points",
+    "source_id": "doc_0005",
+    "source_url": "https://huongnghiep.hocmai.vn/diem-truong/dai-hoc-khoa-hoc-xa-hoi-va-nhan-van-dai-hoc-quoc-gia-ha-noi",
+    "chunk_id": "doc_0005_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0164",
+    "split": "train",
+    "question": "Which admission combination is used for Japanese Language at ULIS?",
+    "answers": [
+      "D06"
+    ],
+    "answer": "D06",
+    "source_id": "doc_0019",
+    "source_url": "https://ulis.vnu.edu.vn/tbtsdh2025/",
+    "chunk_id": "doc_0019_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0165",
+    "split": "train",
+    "question": "What academic system does UET apply for undergraduate education?",
+    "answers": [
+      "Credit-based system"
+    ],
+    "answer": "Credit-based system",
+    "source_id": "doc_0015",
+    "source_url": "https://uet.vnu.edu.vn/wp-content/uploads/2019/07/S%E1%BB%95-tay-h%E1%BB%8Dc-v%E1%BB%A5-2019.pdf",
+    "chunk_id": "doc_0015_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0166",
+    "split": "train",
+    "question": "What institution was established in Viet Bac in 1951?",
+    "answers": [
+      "Basic Science School"
+    ],
+    "answer": "Basic Science School",
+    "source_id": "doc_0025",
+    "source_url": "https://ussh.vnu.edu.vn/vi/news/tin-tuc-ve-dhqghn/lich-su-hinh-thanh-va-phat-trien-dai-hoc-quoc-gia-ha-noi-22318.html",
+    "chunk_id": "doc_0025_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0167",
+    "split": "train",
+    "question": "What was the admission score for Computer Engineering at UET in 2025?",
+    "answers": [
+      "27.00 points"
+    ],
+    "answer": "27.00 points",
+    "source_id": "doc_0008",
+    "source_url": "https://tuyensinh.uet.vnu.edu.vn/uncategorized/thong-bao-diem-trung-tuyen-dai-hoc-chinh-quy-vao-truong-dai-hoc-cong-nghe-dhqghn-nam-2025/",
+    "chunk_id": "doc_0008_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0168",
+    "split": "train",
+    "question": "Which student support role is included in the VNU undergraduate training regulation?",
+    "answers": [
+      "Academic advisor"
+    ],
+    "answer": "Academic advisor",
+    "source_id": "doc_0010",
+    "source_url": "https://uet-test.uet.edu.vn/quy-che-dao-tao-dai-hoc-tai-dhqghn/",
+    "chunk_id": "doc_0010_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0169",
+    "split": "train",
+    "question": "What was the admission quota for French Language at ULIS in 2025?",
+    "answers": [
+      "150 quotas"
+    ],
+    "answer": "150 quotas",
+    "source_id": "doc_0019",
+    "source_url": "https://ulis.vnu.edu.vn/tbtsdh2025/",
+    "chunk_id": "doc_0019_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0170",
+    "split": "train",
+    "question": "How many admission methods did UET plan to use in 2025?",
+    "answers": [
+      "4 admission methods"
+    ],
+    "answer": "4 admission methods",
+    "source_id": "doc_0009",
+    "source_url": "https://tuyensinh.uet.vnu.edu.vn/wp-content/images/Thong-tin-tuyen-sinh-DHCQ-nam-2025-QHI.pdf",
+    "chunk_id": "doc_0009_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0171",
+    "split": "train",
+    "question": "What sectors has ULIS provided foreign language personnel for?",
+    "answers": [
+      "Education; diplomacy; economics; politics; society; national defense"
+    ],
+    "answer": "Education; diplomacy; economics; politics; society; national defense",
+    "source_id": "doc_0016",
+    "source_url": "https://ulis.vnu.edu.vn/gioi-thieu/",
+    "chunk_id": "doc_0016_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0172",
+    "split": "train",
+    "question": "Which USSH major had the highest 2025 C00 admission score?",
+    "answers": [
+      "Psychology had the highest 2025 C00 admission score with 29.0 points."
+    ],
+    "answer": "Psychology had the highest 2025 C00 admission score with 29.0 points.",
+    "source_id": "doc_0002",
+    "source_url": "https://diemthi.tuyensinh247.com/diem-chuan/dai-hoc-khoa-hoc-xa-hoi-va-nhan-van-dhqghn-QHX.html",
+    "chunk_id": "doc_0002_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0173",
+    "split": "train",
+    "question": "What is the maximum study duration for full-time undergraduate students at ULIS under the new regulation?",
+    "answers": [
+      "8 years"
+    ],
+    "answer": "8 years",
+    "source_id": "doc_0018",
+    "source_url": "https://ulis.vnu.edu.vn/pho-bien-nhung-diem-moi-trong-quy-che-dao-tao-dai-hoc-theo-quyet-dinh-so-3626-qd-dhqghn-cho-can-bo-va-sinh-vien/",
+    "chunk_id": "doc_0018_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0174",
+    "split": "train",
+    "question": "What was the tuition fee for the Public Relations program at USSH in 2023-2024?",
+    "answers": [
+      "35 million VND per year in 2023-2024"
+    ],
+    "answer": "35 million VND per year in 2023-2024",
+    "source_id": "doc_0024",
+    "source_url": "https://ussh.vnu.edu.vn/vi/news/dao-tao/nam-2023-truong-dai-hoc-khoa-hoc-xa-hoi-va-nhan-tuyen-sinh-2000-chi-tieu-dai-hoc-chinh-quy-cho-27-nganh-dao-tao-21962.html",
+    "chunk_id": "doc_0024_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0175",
+    "split": "train",
+    "question": "What was the admission score for German Language at ULIS in 2023?",
+    "answers": [
+      "34.35 points"
+    ],
+    "answer": "34.35 points",
+    "source_id": "doc_0021",
+    "source_url": "https://ulis.vnu.edu.vn/tham-khao-diem-chuan-tuyen-sinh-dai-hoc-vao-truong-dai-hoc-ngoai-ngu-qua-cac-nam/",
+    "chunk_id": "doc_0021_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0176",
+    "split": "train",
+    "question": "What language faculties were established in 1964?",
+    "answers": [
+      "Russian; Chinese; English; French"
+    ],
+    "answer": "Russian; Chinese; English; French",
+    "source_id": "doc_0016",
+    "source_url": "https://ulis.vnu.edu.vn/gioi-thieu/",
+    "chunk_id": "doc_0016_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0177",
+    "split": "train",
+    "question": "What was the 2023 C00 admission score for Psychology at USSH?",
+    "answers": [
+      "28.00 points"
+    ],
+    "answer": "28.00 points",
+    "source_id": "doc_0027",
+    "source_url": "https://xaydungchinhsach.chinhphu.vn/diem-chuan-truong-dai-hoc-khoa-hoc-xa-hoi-va-nhan-van-dhqg-hn-119230822161911427.htm",
+    "chunk_id": "doc_0027_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0178",
+    "split": "train",
+    "question": "How many Sustainable Development Goals does the UET strategy refer to?",
+    "answers": [
+      "17 SDGs"
+    ],
+    "answer": "17 SDGs",
+    "source_id": "doc_0013",
+    "source_url": "https://uet.vnu.edu.vn/gioi-thieu/",
+    "chunk_id": "doc_0013_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0179",
+    "split": "train",
+    "question": "What degree is awarded for foreign language programs at ULIS?",
+    "answers": [
+      "Bachelor degree"
+    ],
+    "answer": "Bachelor degree",
+    "source_id": "doc_0016",
+    "source_url": "https://ulis.vnu.edu.vn/gioi-thieu/",
+    "chunk_id": "doc_0016_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0180",
+    "split": "train",
+    "question": "What is the full English name of ULIS?",
+    "answers": [
+      "VNU University of Languages and International Studies"
+    ],
+    "answer": "VNU University of Languages and International Studies",
+    "source_id": "doc_0016",
+    "source_url": "https://ulis.vnu.edu.vn/gioi-thieu/",
+    "chunk_id": "doc_0016_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0181",
+    "split": "train",
+    "question": "What is the main address of VNU?",
+    "answers": [
+      "144 Xuan Thuy; Cau Giay; Hanoi"
+    ],
+    "answer": "144 Xuan Thuy; Cau Giay; Hanoi",
+    "source_id": "doc_0013",
+    "source_url": "https://uet.vnu.edu.vn/gioi-thieu/",
+    "chunk_id": "doc_0013_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0182",
+    "split": "train",
+    "question": "What was the tuition fee for the Information Systems program at UET in 2024-2025?",
+    "answers": [
+      "40 million VND per academic year in 2024-2025"
+    ],
+    "answer": "40 million VND per academic year in 2024-2025",
+    "source_id": "doc_0012",
+    "source_url": "https://uet.vnu.edu.vn/dinh-muc-hoc-phi-dao-tao-dai-hoc-nam-hoc-2024-2025/",
+    "chunk_id": "doc_0012_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0183",
+    "split": "train",
+    "question": "What was the 2024 admission score for Agricultural Technology at UET?",
+    "answers": [
+      "22.50 points"
+    ],
+    "answer": "22.50 points",
+    "source_id": "doc_0007",
+    "source_url": "https://tuyensinh.uet.vnu.edu.vn/tin-tuyen-sinh/thong-bao-diem-trung-tuyen-vao-truong-dai-hoc-cong-nghe-dhqghn-nam-2024-theo-phuong-thuc-thpt/",
+    "chunk_id": "doc_0007_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0184",
+    "split": "train",
+    "question": "How many students studied at Hoa Lac campus in 2023?",
+    "answers": [
+      "About 6000 students"
+    ],
+    "answer": "About 6000 students",
+    "source_id": "doc_0026",
+    "source_url": "https://vnu.edu.vn/gioi-thieu-chung-ve-dai-hoc-quoc-gia-ha-noi-post1.html",
+    "chunk_id": "doc_0026_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0185",
+    "split": "train",
+    "question": "Which three major universities were reorganized to establish VNU in 1993?",
+    "answers": [
+      "Hanoi General University; Hanoi University of Education No. 1; Hanoi University of Foreign Languages Education"
+    ],
+    "answer": "Hanoi General University; Hanoi University of Education No. 1; Hanoi University of Foreign Languages Education",
+    "source_id": "doc_0025",
+    "source_url": "https://ussh.vnu.edu.vn/vi/news/tin-tuc-ve-dhqghn/lich-su-hinh-thanh-va-phat-trien-dai-hoc-quoc-gia-ha-noi-22318.html",
+    "chunk_id": "doc_0025_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0186",
+    "split": "train",
+    "question": "How many undergraduate training programs does UET currently offer?",
+    "answers": [
+      "22 bachelor and engineering training programs"
+    ],
+    "answer": "22 bachelor and engineering training programs",
+    "source_id": "doc_0011",
+    "source_url": "https://uet.vnu.edu.vn/dao-tao/",
+    "chunk_id": "doc_0011_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0187",
+    "split": "train",
+    "question": "What is the standard duration of the Computer Engineering undergraduate program?",
+    "answers": [
+      "4.5 years"
+    ],
+    "answer": "4.5 years",
+    "source_id": "doc_0011",
+    "source_url": "https://uet.vnu.edu.vn/dao-tao/",
+    "chunk_id": "doc_0011_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0188",
+    "split": "train",
+    "question": "What was the 2025 C00 admission score for Public Relations at USSH?",
+    "answers": [
+      "28.95 points"
+    ],
+    "answer": "28.95 points",
+    "source_id": "doc_0002",
+    "source_url": "https://diemthi.tuyensinh247.com/diem-chuan/dai-hoc-khoa-hoc-xa-hoi-va-nhan-van-dhqghn-QHX.html",
+    "chunk_id": "doc_0002_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0189",
+    "split": "train",
+    "question": "How many member units did VNU have in 2023?",
+    "answers": [
+      "29"
+    ],
+    "answer": "29",
+    "source_id": "doc_0026",
+    "source_url": "https://vnu.edu.vn/gioi-thieu-chung-ve-dai-hoc-quoc-gia-ha-noi-post1.html",
+    "chunk_id": "doc_0026_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0190",
+    "split": "train",
+    "question": "What was the admission quota for Japanese Language at ULIS in 2025?",
+    "answers": [
+      "300 quotas"
+    ],
+    "answer": "300 quotas",
+    "source_id": "doc_0019",
+    "source_url": "https://ulis.vnu.edu.vn/tbtsdh2025/",
+    "chunk_id": "doc_0019_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0191",
+    "split": "train",
+    "question": "What is the standard training duration of bachelor programs at UET?",
+    "answers": [
+      "4 years"
+    ],
+    "answer": "4 years",
+    "source_id": "doc_0011",
+    "source_url": "https://uet.vnu.edu.vn/dao-tao/",
+    "chunk_id": "doc_0011_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0192",
+    "split": "train",
+    "question": "What was the tuition fee for the Engineering Physics program at UET in 2024-2025?",
+    "answers": [
+      "32 million VND per academic year in 2024-2025"
+    ],
+    "answer": "32 million VND per academic year in 2024-2025",
+    "source_id": "doc_0012",
+    "source_url": "https://uet.vnu.edu.vn/dinh-muc-hoc-phi-dao-tao-dai-hoc-nam-hoc-2024-2025/",
+    "chunk_id": "doc_0012_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0193",
+    "split": "train",
+    "question": "What was the 2023 C00 admission score for Journalism at USSH?",
+    "answers": [
+      "28.50 points"
+    ],
+    "answer": "28.50 points",
+    "source_id": "doc_0027",
+    "source_url": "https://xaydungchinhsach.chinhphu.vn/diem-chuan-truong-dai-hoc-khoa-hoc-xa-hoi-va-nhan-van-dhqg-hn-119230822161911427.htm",
+    "chunk_id": "doc_0027_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0194",
+    "split": "train",
+    "question": "What major does the admission code CN4 represent at UET?",
+    "answers": [
+      "CN4 represents Mechanical Engineering."
+    ],
+    "answer": "CN4 represents Mechanical Engineering.",
+    "source_id": "doc_0007",
+    "source_url": "https://tuyensinh.uet.vnu.edu.vn/tin-tuyen-sinh/thong-bao-diem-trung-tuyen-vao-truong-dai-hoc-cong-nghe-dhqghn-nam-2024-theo-phuong-thuc-thpt/",
+    "chunk_id": "doc_0007_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0195",
+    "split": "train",
+    "question": "What was the 2023 D01 admission score for Journalism at USSH?",
+    "answers": [
+      "26.00 points"
+    ],
+    "answer": "26.00 points",
+    "source_id": "doc_0027",
+    "source_url": "https://xaydungchinhsach.chinhphu.vn/diem-chuan-truong-dai-hoc-khoa-hoc-xa-hoi-va-nhan-van-dhqg-hn-119230822161911427.htm",
+    "chunk_id": "doc_0027_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0196",
+    "split": "train",
+    "question": "What type of training formats has ULIS provided?",
+    "answers": [
+      "Full-time; part-time; long-term; short-term training"
+    ],
+    "answer": "Full-time; part-time; long-term; short-term training",
+    "source_id": "doc_0016",
+    "source_url": "https://ulis.vnu.edu.vn/gioi-thieu/",
+    "chunk_id": "doc_0016_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0197",
+    "split": "train",
+    "question": "What educational model allows students to study both a main major and a minor at VNU?",
+    "answers": [
+      "Major-minor training model"
+    ],
+    "answer": "Major-minor training model",
+    "source_id": "doc_0014",
+    "source_url": "https://uet.vnu.edu.vn/quy-che-dao-tao-dai-hoc-cua-dai-hoc-quoc-gia-ha-noi-theo-quyet-dinh-5115qd-dhqghn/",
+    "chunk_id": "doc_0014_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0198",
+    "split": "train",
+    "question": "What is the standard duration of the Artificial Intelligence undergraduate program?",
+    "answers": [
+      "4 years"
+    ],
+    "answer": "4 years",
+    "source_id": "doc_0011",
+    "source_url": "https://uet.vnu.edu.vn/dao-tao/",
+    "chunk_id": "doc_0011_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0199",
+    "split": "train",
+    "question": "What was the admission score for Engineering Physics at UET in 2025?",
+    "answers": [
+      "25.20 points"
+    ],
+    "answer": "25.20 points",
+    "source_id": "doc_0008",
+    "source_url": "https://tuyensinh.uet.vnu.edu.vn/uncategorized/thong-bao-diem-trung-tuyen-dai-hoc-chinh-quy-vao-truong-dai-hoc-cong-nghe-dhqghn-nam-2025/",
+    "chunk_id": "doc_0008_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0200",
+    "split": "train",
+    "question": "What institution was established in 1945 from the foundation of Indochina University?",
+    "answers": [
+      "Vietnam National University"
+    ],
+    "answer": "Vietnam National University",
+    "source_id": "doc_0025",
+    "source_url": "https://ussh.vnu.edu.vn/vi/news/tin-tuc-ve-dhqghn/lich-su-hinh-thanh-va-phat-trien-dai-hoc-quoc-gia-ha-noi-22318.html",
+    "chunk_id": "doc_0025_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0201",
+    "split": "train",
+    "question": "What was the tuition fee for the Construction Engineering program at UET in 2024-2025?",
+    "answers": [
+      "32 million VND per academic year in 2024-2025"
+    ],
+    "answer": "32 million VND per academic year in 2024-2025",
+    "source_id": "doc_0012",
+    "source_url": "https://uet.vnu.edu.vn/dinh-muc-hoc-phi-dao-tao-dai-hoc-nam-hoc-2024-2025/",
+    "chunk_id": "doc_0012_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0202",
+    "split": "train",
+    "question": "Can international joint programs at VNU be jointly awarded with foreign institutions?",
+    "answers": [
+      "Yes"
+    ],
+    "answer": "Yes",
+    "source_id": "doc_0014",
+    "source_url": "https://uet.vnu.edu.vn/quy-che-dao-tao-dai-hoc-cua-dai-hoc-quoc-gia-ha-noi-theo-quyet-dinh-5115qd-dhqghn/",
+    "chunk_id": "doc_0014_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0203",
+    "split": "train",
+    "question": "What was the tuition fee for the Russian Language program at ULIS in 2026?",
+    "answers": [
+      "31 million VND per student per year in 2026"
+    ],
+    "answer": "31 million VND per student per year in 2026",
+    "source_id": "doc_0020",
+    "source_url": "https://ulis.vnu.edu.vn/tbtsdh26/",
+    "chunk_id": "doc_0020_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0204",
+    "split": "train",
+    "question": "What kind of university is VNU?",
+    "answers": [
+      "A multidisciplinary and multi-field national university"
+    ],
+    "answer": "A multidisciplinary and multi-field national university",
+    "source_id": "doc_0025",
+    "source_url": "https://ussh.vnu.edu.vn/vi/news/tin-tuc-ve-dhqghn/lich-su-hinh-thanh-va-phat-trien-dai-hoc-quoc-gia-ha-noi-22318.html",
+    "chunk_id": "doc_0025_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0205",
+    "split": "train",
+    "question": "What was the admission score for Energy Engineering at UET in 2025?",
+    "answers": [
+      "24.87 points"
+    ],
+    "answer": "24.87 points",
+    "source_id": "doc_0008",
+    "source_url": "https://tuyensinh.uet.vnu.edu.vn/uncategorized/thong-bao-diem-trung-tuyen-dai-hoc-chinh-quy-vao-truong-dai-hoc-cong-nghe-dhqghn-nam-2025/",
+    "chunk_id": "doc_0008_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0206",
+    "split": "train",
+    "question": "In what year was the predecessor of ULIS established?",
+    "answers": [
+      "1955"
+    ],
+    "answer": "1955",
+    "source_id": "doc_0016",
+    "source_url": "https://ulis.vnu.edu.vn/gioi-thieu/",
+    "chunk_id": "doc_0016_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0207",
+    "split": "train",
+    "question": "Which ULIS program specializes in Arabic language?",
+    "answers": [
+      "Arabic Language"
+    ],
+    "answer": "Arabic Language",
+    "source_id": "doc_0019",
+    "source_url": "https://ulis.vnu.edu.vn/tbtsdh2025/",
+    "chunk_id": "doc_0019_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0208",
+    "split": "train",
+    "question": "Does ULIS conduct scientific research?",
+    "answers": [
+      "Yes"
+    ],
+    "answer": "Yes",
+    "source_id": "doc_0016",
+    "source_url": "https://ulis.vnu.edu.vn/gioi-thieu/",
+    "chunk_id": "doc_0016_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0209",
+    "split": "train",
+    "question": "Who determines the minimum and maximum credit load for students under academic warning at UET?",
+    "answers": [
+      "The faculty and training office"
+    ],
+    "answer": "The faculty and training office",
+    "source_id": "doc_0015",
+    "source_url": "https://uet.vnu.edu.vn/wp-content/uploads/2019/07/S%E1%BB%95-tay-h%E1%BB%8Dc-v%E1%BB%A5-2019.pdf",
+    "chunk_id": "doc_0015_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0210",
+    "split": "train",
+    "question": "Which ULIS program focuses on Chinese language?",
+    "answers": [
+      "Chinese Language"
+    ],
+    "answer": "Chinese Language",
+    "source_id": "doc_0019",
+    "source_url": "https://ulis.vnu.edu.vn/tbtsdh2025/",
+    "chunk_id": "doc_0019_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0211",
+    "split": "train",
+    "question": "What university was the predecessor of VNU University of Social Sciences and Humanities?",
+    "answers": [
+      "Hanoi General University"
+    ],
+    "answer": "Hanoi General University",
+    "source_id": "doc_0025",
+    "source_url": "https://ussh.vnu.edu.vn/vi/news/tin-tuc-ve-dhqghn/lich-su-hinh-thanh-va-phat-trien-dai-hoc-quoc-gia-ha-noi-22318.html",
+    "chunk_id": "doc_0025_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0212",
+    "split": "train",
+    "question": "Which admission combination is commonly used for UET engineering and technology majors?",
+    "answers": [
+      "A00; A01; X06"
+    ],
+    "answer": "A00; A01; X06",
+    "source_id": "doc_0009",
+    "source_url": "https://tuyensinh.uet.vnu.edu.vn/wp-content/images/Thong-tin-tuyen-sinh-DHCQ-nam-2025-QHI.pdf",
+    "chunk_id": "doc_0009_chunk_0007",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0213",
+    "split": "train",
+    "question": "What subjects are included in the C03 combination at USSH?",
+    "answers": [
+      "Mathematics; Literature; History"
+    ],
+    "answer": "Mathematics; Literature; History",
+    "source_id": "doc_0028",
+    "source_url": "https://xaydungchinhsach.chinhphu.vn/tuyen-sinh-2025-phuong-thuc-to-hop-chi-tieu-tuyen-sinh-cua-truong-dai-hoc-khoa-hoc-xa-hoi-va-nhan-van-dhqghn-119250605164343934.htm",
+    "chunk_id": "doc_0028_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0214",
+    "split": "train",
+    "question": "What is the full English name of VNU?",
+    "answers": [
+      "Vietnam National University of Hanoi"
+    ],
+    "answer": "Vietnam National University of Hanoi",
+    "source_id": "doc_0026",
+    "source_url": "https://vnu.edu.vn/gioi-thieu-chung-ve-dai-hoc-quoc-gia-ha-noi-post1.html",
+    "chunk_id": "doc_0026_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0215",
+    "split": "train",
+    "question": "What admission method code corresponds to high school graduation exam results at ULIS?",
+    "answers": [
+      "100"
+    ],
+    "answer": "100",
+    "source_id": "doc_0019",
+    "source_url": "https://ulis.vnu.edu.vn/tbtsdh2025/",
+    "chunk_id": "doc_0019_chunk_0001",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0216",
+    "split": "train",
+    "question": "What was the admission score for Robotics Engineering at UET in 2025?",
+    "answers": [
+      "26.00 points"
+    ],
+    "answer": "26.00 points",
+    "source_id": "doc_0008",
+    "source_url": "https://tuyensinh.uet.vnu.edu.vn/uncategorized/thong-bao-diem-trung-tuyen-dai-hoc-chinh-quy-vao-truong-dai-hoc-cong-nghe-dhqghn-nam-2025/",
+    "chunk_id": "doc_0008_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0217",
+    "split": "train",
+    "question": "What was the 2025 C00 admission score for Korean Studies at USSH?",
+    "answers": [
+      "28.78 points"
+    ],
+    "answer": "28.78 points",
+    "source_id": "doc_0002",
+    "source_url": "https://diemthi.tuyensinh247.com/diem-chuan/dai-hoc-khoa-hoc-xa-hoi-va-nhan-van-dhqghn-QHX.html",
+    "chunk_id": "doc_0002_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0218",
+    "split": "train",
+    "question": "What is one long-term goal of USSH?",
+    "answers": [
+      "Becoming an advanced research university in the region and the world"
+    ],
+    "answer": "Becoming an advanced research university in the region and the world",
+    "source_id": "doc_0025",
+    "source_url": "https://ussh.vnu.edu.vn/vi/news/tin-tuc-ve-dhqghn/lich-su-hinh-thanh-va-phat-trien-dai-hoc-quoc-gia-ha-noi-22318.html",
+    "chunk_id": "doc_0025_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0219",
+    "split": "train",
+    "question": "What was the admission score for Construction Engineering at UET in 2025?",
+    "answers": [
+      "22.25 points"
+    ],
+    "answer": "22.25 points",
+    "source_id": "doc_0008",
+    "source_url": "https://tuyensinh.uet.vnu.edu.vn/uncategorized/thong-bao-diem-trung-tuyen-dai-hoc-chinh-quy-vao-truong-dai-hoc-cong-nghe-dhqghn-nam-2025/",
+    "chunk_id": "doc_0008_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0220",
+    "split": "train",
+    "question": "What was the admission quota for Arabic Language at ULIS in 2025?",
+    "answers": [
+      "60 quotas"
+    ],
+    "answer": "60 quotas",
+    "source_id": "doc_0019",
+    "source_url": "https://ulis.vnu.edu.vn/tbtsdh2025/",
+    "chunk_id": "doc_0019_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0221",
+    "split": "train",
+    "question": "What was the tuition fee for the Arabic Language program at ULIS in 2026?",
+    "answers": [
+      "31 million VND per student per year in 2026"
+    ],
+    "answer": "31 million VND per student per year in 2026",
+    "source_id": "doc_0020",
+    "source_url": "https://ulis.vnu.edu.vn/tbtsdh26/",
+    "chunk_id": "doc_0020_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0222",
+    "split": "train",
+    "question": "Can students register for fewer credits than the minimum requirement with approval?",
+    "answers": [
+      "Yes"
+    ],
+    "answer": "Yes",
+    "source_id": "doc_0015",
+    "source_url": "https://uet.vnu.edu.vn/wp-content/uploads/2019/07/S%E1%BB%95-tay-h%E1%BB%8Dc-v%E1%BB%A5-2019.pdf",
+    "chunk_id": "doc_0015_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0223",
+    "split": "train",
+    "question": "What was established on 10 October 1945 by President Ho Chi Minh?",
+    "answers": [
+      "College of Literature"
+    ],
+    "answer": "College of Literature",
+    "source_id": "doc_0025",
+    "source_url": "https://ussh.vnu.edu.vn/vi/news/tin-tuc-ve-dhqghn/lich-su-hinh-thanh-va-phat-trien-dai-hoc-quoc-gia-ha-noi-22318.html",
+    "chunk_id": "doc_0025_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0224",
+    "split": "train",
+    "question": "What is the minimum credit requirement for a standard undergraduate curriculum at VNU?",
+    "answers": [
+      "120 credits"
+    ],
+    "answer": "120 credits",
+    "source_id": "doc_0014",
+    "source_url": "https://uet.vnu.edu.vn/quy-che-dao-tao-dai-hoc-cua-dai-hoc-quoc-gia-ha-noi-theo-quyet-dinh-5115qd-dhqghn/",
+    "chunk_id": "doc_0014_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0225",
+    "split": "train",
+    "question": "What major does the admission code CN11 represent at UET?",
+    "answers": [
+      "CN11 represents Control and Automation Engineering."
+    ],
+    "answer": "CN11 represents Control and Automation Engineering.",
+    "source_id": "doc_0007",
+    "source_url": "https://tuyensinh.uet.vnu.edu.vn/tin-tuyen-sinh/thong-bao-diem-trung-tuyen-vao-truong-dai-hoc-cong-nghe-dhqghn-nam-2024-theo-phuong-thuc-thpt/",
+    "chunk_id": "doc_0007_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0226",
+    "split": "train",
+    "question": "What was the 2023 C00 admission score for Public Relations at USSH?",
+    "answers": [
+      "28.78 points"
+    ],
+    "answer": "28.78 points",
+    "source_id": "doc_0027",
+    "source_url": "https://xaydungchinhsach.chinhphu.vn/diem-chuan-truong-dai-hoc-khoa-hoc-xa-hoi-va-nhan-van-dhqg-hn-119230822161911427.htm",
+    "chunk_id": "doc_0027_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0227",
+    "split": "train",
+    "question": "In what year was the Foreign Language School merged into Hanoi University of Education?",
+    "answers": [
+      "1958"
+    ],
+    "answer": "1958",
+    "source_id": "doc_0016",
+    "source_url": "https://ulis.vnu.edu.vn/gioi-thieu/",
+    "chunk_id": "doc_0016_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0228",
+    "split": "train",
+    "question": "How many exam weeks are included in a supplementary semester at VNU?",
+    "answers": [
+      "1 exam week"
+    ],
+    "answer": "1 exam week",
+    "source_id": "doc_0010",
+    "source_url": "https://uet-test.uet.edu.vn/quy-che-dao-tao-dai-hoc-tai-dhqghn/",
+    "chunk_id": "doc_0010_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0229",
+    "split": "train",
+    "question": "What was the admission score for Information Systems at UET in 2025?",
+    "answers": [
+      "26.38 points"
+    ],
+    "answer": "26.38 points",
+    "source_id": "doc_0008",
+    "source_url": "https://tuyensinh.uet.vnu.edu.vn/uncategorized/thong-bao-diem-trung-tuyen-dai-hoc-chinh-quy-vao-truong-dai-hoc-cong-nghe-dhqghn-nam-2025/",
+    "chunk_id": "doc_0008_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0230",
+    "split": "train",
+    "question": "Which city is Vietnam National University Hanoi located in?",
+    "answers": [
+      "Hanoi"
+    ],
+    "answer": "Hanoi",
+    "source_id": "doc_0026",
+    "source_url": "https://vnu.edu.vn/gioi-thieu-chung-ve-dai-hoc-quoc-gia-ha-noi-post1.html",
+    "chunk_id": "doc_0026_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0231",
+    "split": "train",
+    "question": "Which UET major had a 2025 admission score of 22.00 points?",
+    "answers": [
+      "Agricultural Technology"
+    ],
+    "answer": "Agricultural Technology",
+    "source_id": "doc_0008",
+    "source_url": "https://tuyensinh.uet.vnu.edu.vn/uncategorized/thong-bao-diem-trung-tuyen-dai-hoc-chinh-quy-vao-truong-dai-hoc-cong-nghe-dhqghn-nam-2025/",
+    "chunk_id": "doc_0008_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0232",
+    "split": "train",
+    "question": "What was the tuition fee for the Information Technology program at UET in 2024-2025?",
+    "answers": [
+      "32 million VND per academic year in 2024-2025"
+    ],
+    "answer": "32 million VND per academic year in 2024-2025",
+    "source_id": "doc_0012",
+    "source_url": "https://uet.vnu.edu.vn/dinh-muc-hoc-phi-dao-tao-dai-hoc-nam-hoc-2024-2025/",
+    "chunk_id": "doc_0012_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0233",
+    "split": "train",
+    "question": "When was the organizational regulation of VNU officially issued?",
+    "answers": [
+      "5 September 1994"
+    ],
+    "answer": "5 September 1994",
+    "source_id": "doc_0025",
+    "source_url": "https://ussh.vnu.edu.vn/vi/news/tin-tuc-ve-dhqghn/lich-su-hinh-thanh-va-phat-trien-dai-hoc-quoc-gia-ha-noi-22318.html",
+    "chunk_id": "doc_0025_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0234",
+    "split": "train",
+    "question": "What major does the admission code CN2 represent at UET?",
+    "answers": [
+      "CN2 represents Computer Engineering."
+    ],
+    "answer": "CN2 represents Computer Engineering.",
+    "source_id": "doc_0007",
+    "source_url": "https://tuyensinh.uet.vnu.edu.vn/tin-tuyen-sinh/thong-bao-diem-trung-tuyen-vao-truong-dai-hoc-cong-nghe-dhqghn-nam-2024-theo-phuong-thuc-thpt/",
+    "chunk_id": "doc_0007_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0235",
+    "split": "train",
+    "question": "Which admission combination is used for Korean Language at ULIS?",
+    "answers": [
+      "DD2"
+    ],
+    "answer": "DD2",
+    "source_id": "doc_0019",
+    "source_url": "https://ulis.vnu.edu.vn/tbtsdh2025/",
+    "chunk_id": "doc_0019_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0236",
+    "split": "train",
+    "question": "What was the admission score for Data Science at UET in 2025?",
+    "answers": [
+      "27.38 points"
+    ],
+    "answer": "27.38 points",
+    "source_id": "doc_0008",
+    "source_url": "https://tuyensinh.uet.vnu.edu.vn/uncategorized/thong-bao-diem-trung-tuyen-dai-hoc-chinh-quy-vao-truong-dai-hoc-cong-nghe-dhqghn-nam-2025/",
+    "chunk_id": "doc_0008_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0237",
+    "split": "train",
+    "question": "What degree is awarded for the Data Science undergraduate program?",
+    "answers": [
+      "Bachelor degree"
+    ],
+    "answer": "Bachelor degree",
+    "source_id": "doc_0011",
+    "source_url": "https://uet.vnu.edu.vn/dao-tao/",
+    "chunk_id": "doc_0011_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0238",
+    "split": "train",
+    "question": "How many undergraduate majors did ULIS announce for admission in 2025?",
+    "answers": [
+      "ULIS announced 14 undergraduate majors for admission in 2025."
+    ],
+    "answer": "ULIS announced 14 undergraduate majors for admission in 2025.",
+    "source_id": "doc_0019",
+    "source_url": "https://ulis.vnu.edu.vn/tbtsdh2025/",
+    "chunk_id": "doc_0019_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0239",
+    "split": "train",
+    "question": "What was the admission score for Arabic Language at ULIS in 2024?",
+    "answers": [
+      "33.42 points"
+    ],
+    "answer": "33.42 points",
+    "source_id": "doc_0017",
+    "source_url": "https://ulis.vnu.edu.vn/kqtsdh24/",
+    "chunk_id": "doc_0017_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0240",
+    "split": "train",
+    "question": "What was the tuition fee for the Control and Automation Engineering program at UET in 2024-2025?",
+    "answers": [
+      "32 million VND per academic year in 2024-2025"
+    ],
+    "answer": "32 million VND per academic year in 2024-2025",
+    "source_id": "doc_0012",
+    "source_url": "https://uet.vnu.edu.vn/dinh-muc-hoc-phi-dao-tao-dai-hoc-nam-hoc-2024-2025/",
+    "chunk_id": "doc_0012_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0241",
+    "split": "train",
+    "question": "What major does the admission code CN7 represent at UET?",
+    "answers": [
+      "CN7 represents Aerospace Engineering."
+    ],
+    "answer": "CN7 represents Aerospace Engineering.",
+    "source_id": "doc_0007",
+    "source_url": "https://tuyensinh.uet.vnu.edu.vn/tin-tuyen-sinh/thong-bao-diem-trung-tuyen-vao-truong-dai-hoc-cong-nghe-dhqghn-nam-2024-theo-phuong-thuc-thpt/",
+    "chunk_id": "doc_0007_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0242",
+    "split": "train",
+    "question": "What was the 2024 C00 admission score for Korean Studies at USSH?",
+    "answers": [
+      "29.05 points"
+    ],
+    "answer": "29.05 points",
+    "source_id": "doc_0005",
+    "source_url": "https://huongnghiep.hocmai.vn/diem-truong/dai-hoc-khoa-hoc-xa-hoi-va-nhan-van-dai-hoc-quoc-gia-ha-noi",
+    "chunk_id": "doc_0005_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0243",
+    "split": "train",
+    "question": "What major does the admission code CN5 represent at UET?",
+    "answers": [
+      "CN5 represents Construction Engineering Technology."
+    ],
+    "answer": "CN5 represents Construction Engineering Technology.",
+    "source_id": "doc_0007",
+    "source_url": "https://tuyensinh.uet.vnu.edu.vn/tin-tuyen-sinh/thong-bao-diem-trung-tuyen-vao-truong-dai-hoc-cong-nghe-dhqghn-nam-2024-theo-phuong-thuc-thpt/",
+    "chunk_id": "doc_0007_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0244",
+    "split": "train",
+    "question": "Which admission combination is commonly used for Arabic Language at ULIS?",
+    "answers": [
+      "D01"
+    ],
+    "answer": "D01",
+    "source_id": "doc_0019",
+    "source_url": "https://ulis.vnu.edu.vn/tbtsdh2025/",
+    "chunk_id": "doc_0019_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0245",
+    "split": "train",
+    "question": "What was the tuition fee for the German Language program at ULIS in 2026?",
+    "answers": [
+      "42 million VND per student per year in 2026"
+    ],
+    "answer": "42 million VND per student per year in 2026",
+    "source_id": "doc_0020",
+    "source_url": "https://ulis.vnu.edu.vn/tbtsdh26/",
+    "chunk_id": "doc_0020_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0246",
+    "split": "train",
+    "question": "How long has ULIS developed?",
+    "answers": [
+      "More than 70 years"
+    ],
+    "answer": "More than 70 years",
+    "source_id": "doc_0016",
+    "source_url": "https://ulis.vnu.edu.vn/gioi-thieu/",
+    "chunk_id": "doc_0016_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0247",
+    "split": "train",
+    "question": "What major does the admission code CN17 represent at UET?",
+    "answers": [
+      "CN17 represents Robotics Engineering."
+    ],
+    "answer": "CN17 represents Robotics Engineering.",
+    "source_id": "doc_0007",
+    "source_url": "https://tuyensinh.uet.vnu.edu.vn/tin-tuyen-sinh/thong-bao-diem-trung-tuyen-vao-truong-dai-hoc-cong-nghe-dhqghn-nam-2024-theo-phuong-thuc-thpt/",
+    "chunk_id": "doc_0007_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0248",
+    "split": "train",
+    "question": "What was the admission score for Computer Science at UET in 2025?",
+    "answers": [
+      "27.86 points"
+    ],
+    "answer": "27.86 points",
+    "source_id": "doc_0008",
+    "source_url": "https://tuyensinh.uet.vnu.edu.vn/uncategorized/thong-bao-diem-trung-tuyen-dai-hoc-chinh-quy-vao-truong-dai-hoc-cong-nghe-dhqghn-nam-2025/",
+    "chunk_id": "doc_0008_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0249",
+    "split": "train",
+    "question": "Which USSH major had a 2025 C00 admission score of 28.95 points?",
+    "answers": [
+      "Public Relations had a 2025 C00 admission score of 28.95 points."
+    ],
+    "answer": "Public Relations had a 2025 C00 admission score of 28.95 points.",
+    "source_id": "doc_0002",
+    "source_url": "https://diemthi.tuyensinh247.com/diem-chuan/dai-hoc-khoa-hoc-xa-hoi-va-nhan-van-dhqghn-QHX.html",
+    "chunk_id": "doc_0002_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0250",
+    "split": "train",
+    "question": "What was the admission score for Chinese Language at ULIS in 2023?",
+    "answers": [
+      "35.55 points"
+    ],
+    "answer": "35.55 points",
+    "source_id": "doc_0021",
+    "source_url": "https://ulis.vnu.edu.vn/tham-khao-diem-chuan-tuyen-sinh-dai-hoc-vao-truong-dai-hoc-ngoai-ngu-qua-cac-nam/",
+    "chunk_id": "doc_0021_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0251",
+    "split": "train",
+    "question": "What was the 2024 D01 admission score for Tourism and Travel Service Management at USSH?",
+    "answers": [
+      "25.99 points"
+    ],
+    "answer": "25.99 points",
+    "source_id": "doc_0005",
+    "source_url": "https://huongnghiep.hocmai.vn/diem-truong/dai-hoc-khoa-hoc-xa-hoi-va-nhan-van-dai-hoc-quoc-gia-ha-noi",
+    "chunk_id": "doc_0005_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0252",
+    "split": "train",
+    "question": "What was the difference between the 2024 admission scores for Information Technology and Artificial Intelligence at UET?",
+    "answers": [
+      "The difference was 0.68 points."
+    ],
+    "answer": "The difference was 0.68 points.",
+    "source_id": "doc_0007",
+    "source_url": "https://tuyensinh.uet.vnu.edu.vn/tin-tuyen-sinh/thong-bao-diem-trung-tuyen-vao-truong-dai-hoc-cong-nghe-dhqghn-nam-2024-theo-phuong-thuc-thpt/",
+    "chunk_id": "doc_0007_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0253",
+    "split": "train",
+    "question": "Which ULIS program focuses on Translation and Interpretation?",
+    "answers": [
+      "Translation and Interpretation"
+    ],
+    "answer": "Translation and Interpretation",
+    "source_id": "doc_0019",
+    "source_url": "https://ulis.vnu.edu.vn/tbtsdh2025/",
+    "chunk_id": "doc_0019_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0254",
+    "split": "train",
+    "question": "What was the 2025 C00 admission score for Vietnamese Studies at USSH?",
+    "answers": [
+      "27.3 points"
+    ],
+    "answer": "27.3 points",
+    "source_id": "doc_0002",
+    "source_url": "https://diemthi.tuyensinh247.com/diem-chuan/dai-hoc-khoa-hoc-xa-hoi-va-nhan-van-dhqghn-QHX.html",
+    "chunk_id": "doc_0002_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0255",
+    "split": "train",
+    "question": "What was the admission quota for English Language at ULIS in 2025?",
+    "answers": [
+      "795 quotas"
+    ],
+    "answer": "795 quotas",
+    "source_id": "doc_0019",
+    "source_url": "https://ulis.vnu.edu.vn/tbtsdh2025/",
+    "chunk_id": "doc_0019_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0256",
+    "split": "train",
+    "question": "What was the admission score for Russian Language at ULIS in 2024?",
+    "answers": [
+      "34.24 points"
+    ],
+    "answer": "34.24 points",
+    "source_id": "doc_0017",
+    "source_url": "https://ulis.vnu.edu.vn/kqtsdh24/",
+    "chunk_id": "doc_0017_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0257",
+    "split": "train",
+    "question": "Which form of education has a study duration at least 20 percent longer than regular programs?",
+    "answers": [
+      "Part-time education"
+    ],
+    "answer": "Part-time education",
+    "source_id": "doc_0003",
+    "source_url": "https://fos.ussh.vnu.edu.vn/vi/laws/detail/Quy-che-dao-tao-dai-hoc-tai-Dai-hoc-Quoc-gia-Ha-Noi-Ap-dung-tu-khoa-QH-2022-X-5/?download=1&id=0",
+    "chunk_id": "doc_0003_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0258",
+    "split": "train",
+    "question": "What was the admission score for Information Technology at UET in 2025?",
+    "answers": [
+      "28.19 points"
+    ],
+    "answer": "28.19 points",
+    "source_id": "doc_0008",
+    "source_url": "https://tuyensinh.uet.vnu.edu.vn/uncategorized/thong-bao-diem-trung-tuyen-dai-hoc-chinh-quy-vao-truong-dai-hoc-cong-nghe-dhqghn-nam-2025/",
+    "chunk_id": "doc_0008_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0259",
+    "split": "train",
+    "question": "Which USSH undergraduate program specializes in Korean Studies?",
+    "answers": [
+      "Korean Studies"
+    ],
+    "answer": "Korean Studies",
+    "source_id": "doc_0023",
+    "source_url": "https://ussh.vnu.edu.vn/vi/dao-tao/chuong-trinh-dao-tao-chuan/chuong-trinh-dao-tao-chuan-20666.html",
+    "chunk_id": "doc_0023_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0260",
+    "split": "train",
+    "question": "Which ULIS program focuses on Korean language?",
+    "answers": [
+      "Korean Language"
+    ],
+    "answer": "Korean Language",
+    "source_id": "doc_0019",
+    "source_url": "https://ulis.vnu.edu.vn/tbtsdh2025/",
+    "chunk_id": "doc_0019_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0261",
+    "split": "train",
+    "question": "What was the 2025 C00 admission score for Information Management at USSH?",
+    "answers": [
+      "27.65 points"
+    ],
+    "answer": "27.65 points",
+    "source_id": "doc_0002",
+    "source_url": "https://diemthi.tuyensinh247.com/diem-chuan/dai-hoc-khoa-hoc-xa-hoi-va-nhan-van-dhqghn-QHX.html",
+    "chunk_id": "doc_0002_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0262",
+    "split": "train",
+    "question": "What was the admission score for French Language at ULIS in 2023?",
+    "answers": [
+      "34.12 points"
+    ],
+    "answer": "34.12 points",
+    "source_id": "doc_0021",
+    "source_url": "https://ulis.vnu.edu.vn/tham-khao-diem-chuan-tuyen-sinh-dai-hoc-vao-truong-dai-hoc-ngoai-ngu-qua-cac-nam/",
+    "chunk_id": "doc_0021_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0263",
+    "split": "train",
+    "question": "From how many countries does USSH have international cooperation partners?",
+    "answers": [
+      "30 countries"
+    ],
+    "answer": "30 countries",
+    "source_id": "doc_0025",
+    "source_url": "https://ussh.vnu.edu.vn/vi/news/tin-tuc-ve-dhqghn/lich-su-hinh-thanh-va-phat-trien-dai-hoc-quoc-gia-ha-noi-22318.html",
+    "chunk_id": "doc_0025_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0264",
+    "split": "train",
+    "question": "Which USSH major specializes in Tourism and Travel Service Management?",
+    "answers": [
+      "Tourism and Travel Service Management"
+    ],
+    "answer": "Tourism and Travel Service Management",
+    "source_id": "doc_0001",
+    "source_url": "https://diemthi.tuyensinh247.com/de-an-tuyen-sinh/dai-hoc-khoa-hoc-xa-hoi-va-nhan-van-ha-noi-QHX.html",
+    "chunk_id": "doc_0001_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0265",
+    "split": "train",
+    "question": "What student evaluation activities are regulated by VNU undergraduate regulations?",
+    "answers": [
+      "Testing exams and learning assessment"
+    ],
+    "answer": "Testing exams and learning assessment",
+    "source_id": "doc_0010",
+    "source_url": "https://uet-test.uet.edu.vn/quy-che-dao-tao-dai-hoc-tai-dhqghn/",
+    "chunk_id": "doc_0010_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0266",
+    "split": "train",
+    "question": "What was the 2024 admission score for Aerospace Engineering at UET?",
+    "answers": [
+      "24.61 points"
+    ],
+    "answer": "24.61 points",
+    "source_id": "doc_0007",
+    "source_url": "https://tuyensinh.uet.vnu.edu.vn/tin-tuyen-sinh/thong-bao-diem-trung-tuyen-vao-truong-dai-hoc-cong-nghe-dhqghn-nam-2024-theo-phuong-thuc-thpt/",
+    "chunk_id": "doc_0007_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0267",
+    "split": "train",
+    "question": "What major does the admission code CN9 represent at UET?",
+    "answers": [
+      "CN9 represents Electronics and Telecommunications Engineering Technology."
+    ],
+    "answer": "CN9 represents Electronics and Telecommunications Engineering Technology.",
+    "source_id": "doc_0007",
+    "source_url": "https://tuyensinh.uet.vnu.edu.vn/tin-tuyen-sinh/thong-bao-diem-trung-tuyen-vao-truong-dai-hoc-cong-nghe-dhqghn-nam-2024-theo-phuong-thuc-thpt/",
+    "chunk_id": "doc_0007_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0268",
+    "split": "train",
+    "question": "What was the admission quota for Korean Language at ULIS in 2025?",
+    "answers": [
+      "280 quotas"
+    ],
+    "answer": "280 quotas",
+    "source_id": "doc_0019",
+    "source_url": "https://ulis.vnu.edu.vn/tbtsdh2025/",
+    "chunk_id": "doc_0019_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0269",
+    "split": "train",
+    "question": "What is the maximum study duration of the Aerospace Engineering undergraduate program?",
+    "answers": [
+      "9 years"
+    ],
+    "answer": "9 years",
+    "source_id": "doc_0011",
+    "source_url": "https://uet.vnu.edu.vn/dao-tao/",
+    "chunk_id": "doc_0011_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0270",
+    "split": "train",
+    "question": "Who signed the decision establishing Hanoi University of Foreign Language Teachers?",
+    "answers": [
+      "Prime Minister Pham Van Dong"
+    ],
+    "answer": "Prime Minister Pham Van Dong",
+    "source_id": "doc_0016",
+    "source_url": "https://ulis.vnu.edu.vn/gioi-thieu/",
+    "chunk_id": "doc_0016_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0271",
+    "split": "train",
+    "question": "Which USSH undergraduate program focuses on Tourism Management?",
+    "answers": [
+      "Tourism and Travel Service Management"
+    ],
+    "answer": "Tourism and Travel Service Management",
+    "source_id": "doc_0023",
+    "source_url": "https://ussh.vnu.edu.vn/vi/dao-tao/chuong-trinh-dao-tao-chuan/chuong-trinh-dao-tao-chuan-20666.html",
+    "chunk_id": "doc_0023_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0272",
+    "split": "train",
+    "question": "When must VNU training units publicly announce training information before organizing programs?",
+    "answers": [
+      "At least 45 days in advance"
+    ],
+    "answer": "At least 45 days in advance",
+    "source_id": "doc_0003",
+    "source_url": "https://fos.ussh.vnu.edu.vn/vi/laws/detail/Quy-che-dao-tao-dai-hoc-tai-Dai-hoc-Quoc-gia-Ha-Noi-Ap-dung-tu-khoa-QH-2022-X-5/?download=1&id=0",
+    "chunk_id": "doc_0003_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0273",
+    "split": "train",
+    "question": "What was the tuition fee for the Japanese Language program at ULIS in 2026?",
+    "answers": [
+      "42 million VND per student per year in 2026"
+    ],
+    "answer": "42 million VND per student per year in 2026",
+    "source_id": "doc_0020",
+    "source_url": "https://ulis.vnu.edu.vn/tbtsdh26/",
+    "chunk_id": "doc_0020_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0274",
+    "split": "train",
+    "question": "What was the 2025 C00 admission score for Philosophy at USSH?",
+    "answers": [
+      "26.5 points"
+    ],
+    "answer": "26.5 points",
+    "source_id": "doc_0002",
+    "source_url": "https://diemthi.tuyensinh247.com/diem-chuan/dai-hoc-khoa-hoc-xa-hoi-va-nhan-van-dhqghn-QHX.html",
+    "chunk_id": "doc_0002_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0275",
+    "split": "train",
+    "question": "What is the maximum study duration of the Engineering Physics undergraduate program?",
+    "answers": [
+      "8 years"
+    ],
+    "answer": "8 years",
+    "source_id": "doc_0011",
+    "source_url": "https://uet.vnu.edu.vn/dao-tao/",
+    "chunk_id": "doc_0011_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0276",
+    "split": "train",
+    "question": "What were the first two language majors taught at ULIS?",
+    "answers": [
+      "Russian; Chinese"
+    ],
+    "answer": "Russian; Chinese",
+    "source_id": "doc_0016",
+    "source_url": "https://ulis.vnu.edu.vn/gioi-thieu/",
+    "chunk_id": "doc_0016_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0277",
+    "split": "train",
+    "question": "What was the tuition fee for the Journalism program at USSH in 2023-2024?",
+    "answers": [
+      "35 million VND per year in 2023-2024"
+    ],
+    "answer": "35 million VND per year in 2023-2024",
+    "source_id": "doc_0024",
+    "source_url": "https://ussh.vnu.edu.vn/vi/news/dao-tao/nam-2023-truong-dai-hoc-khoa-hoc-xa-hoi-va-nhan-tuyen-sinh-2000-chi-tieu-dai-hoc-chinh-quy-cho-27-nganh-dao-tao-21962.html",
+    "chunk_id": "doc_0024_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0278",
+    "split": "train",
+    "question": "What was the 2024 D01 admission score for Sociology at USSH?",
+    "answers": [
+      "25.65 points"
+    ],
+    "answer": "25.65 points",
+    "source_id": "doc_0005",
+    "source_url": "https://huongnghiep.hocmai.vn/diem-truong/dai-hoc-khoa-hoc-xa-hoi-va-nhan-van-dai-hoc-quoc-gia-ha-noi",
+    "chunk_id": "doc_0005_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0279",
+    "split": "train",
+    "question": "Which USSH undergraduate program specializes in Public Relations?",
+    "answers": [
+      "Public Relations"
+    ],
+    "answer": "Public Relations",
+    "source_id": "doc_0023",
+    "source_url": "https://ussh.vnu.edu.vn/vi/dao-tao/chuong-trinh-dao-tao-chuan/chuong-trinh-dao-tao-chuan-20666.html",
+    "chunk_id": "doc_0023_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0280",
+    "split": "train",
+    "question": "What was the admission score for English Language at ULIS in 2024?",
+    "answers": [
+      "36.99 points"
+    ],
+    "answer": "36.99 points",
+    "source_id": "doc_0017",
+    "source_url": "https://ulis.vnu.edu.vn/kqtsdh24/",
+    "chunk_id": "doc_0017_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0281",
+    "split": "train",
+    "question": "Does UET use HSA competency assessment scores for undergraduate admission in 2025?",
+    "answers": [
+      "Yes"
+    ],
+    "answer": "Yes",
+    "source_id": "doc_0009",
+    "source_url": "https://tuyensinh.uet.vnu.edu.vn/wp-content/images/Thong-tin-tuyen-sinh-DHCQ-nam-2025-QHI.pdf",
+    "chunk_id": "doc_0009_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0282",
+    "split": "train",
+    "question": "Which admission combination is used for English Language at ULIS?",
+    "answers": [
+      "D01"
+    ],
+    "answer": "D01",
+    "source_id": "doc_0019",
+    "source_url": "https://ulis.vnu.edu.vn/tbtsdh2025/",
+    "chunk_id": "doc_0019_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0283",
+    "split": "train",
+    "question": "What was the 2025 C00 admission score for Archival Studies at USSH?",
+    "answers": [
+      "26.4 points"
+    ],
+    "answer": "26.4 points",
+    "source_id": "doc_0002",
+    "source_url": "https://diemthi.tuyensinh247.com/diem-chuan/dai-hoc-khoa-hoc-xa-hoi-va-nhan-van-dhqghn-QHX.html",
+    "chunk_id": "doc_0002_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0284",
+    "split": "train",
+    "question": "What major does the admission code CN13 represent at UET?",
+    "answers": [
+      "CN13 represents Energy Engineering."
+    ],
+    "answer": "CN13 represents Energy Engineering.",
+    "source_id": "doc_0007",
+    "source_url": "https://tuyensinh.uet.vnu.edu.vn/tin-tuyen-sinh/thong-bao-diem-trung-tuyen-vao-truong-dai-hoc-cong-nghe-dhqghn-nam-2024-theo-phuong-thuc-thpt/",
+    "chunk_id": "doc_0007_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0285",
+    "split": "train",
+    "question": "What is the maximum study duration of the Information Technology undergraduate program?",
+    "answers": [
+      "8 years"
+    ],
+    "answer": "8 years",
+    "source_id": "doc_0011",
+    "source_url": "https://uet.vnu.edu.vn/dao-tao/",
+    "chunk_id": "doc_0011_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0286",
+    "split": "train",
+    "question": "In what year did ULIS become a member university of VNU?",
+    "answers": [
+      "1993"
+    ],
+    "answer": "1993",
+    "source_id": "doc_0016",
+    "source_url": "https://ulis.vnu.edu.vn/gioi-thieu/",
+    "chunk_id": "doc_0016_chunk_0003",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0287",
+    "split": "train",
+    "question": "Which USSH undergraduate program specializes in Multimedia Communications?",
+    "answers": [
+      "Multimedia Communications"
+    ],
+    "answer": "Multimedia Communications",
+    "source_id": "doc_0023",
+    "source_url": "https://ussh.vnu.edu.vn/vi/dao-tao/chuong-trinh-dao-tao-chuan/chuong-trinh-dao-tao-chuan-20666.html",
+    "chunk_id": "doc_0023_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0288",
+    "split": "train",
+    "question": "What is the standard duration of the Aerospace Engineering undergraduate program?",
+    "answers": [
+      "4.5 years"
+    ],
+    "answer": "4.5 years",
+    "source_id": "doc_0011",
+    "source_url": "https://uet.vnu.edu.vn/dao-tao/",
+    "chunk_id": "doc_0011_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0289",
+    "split": "train",
+    "question": "How many study weeks are included in a main semester at VNU?",
+    "answers": [
+      "15 study weeks"
+    ],
+    "answer": "15 study weeks",
+    "source_id": "doc_0010",
+    "source_url": "https://uet-test.uet.edu.vn/quy-che-dao-tao-dai-hoc-tai-dhqghn/",
+    "chunk_id": "doc_0010_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0290",
+    "split": "train",
+    "question": "What is the minimum number of credits required for the first major in a dual-major program at VNU?",
+    "answers": [
+      "120 credits"
+    ],
+    "answer": "120 credits",
+    "source_id": "doc_0014",
+    "source_url": "https://uet.vnu.edu.vn/quy-che-dao-tao-dai-hoc-cua-dai-hoc-quoc-gia-ha-noi-theo-quyet-dinh-5115qd-dhqghn/",
+    "chunk_id": "doc_0014_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0291",
+    "split": "train",
+    "question": "What is the standard training duration of engineer programs at UET?",
+    "answers": [
+      "4.5 years"
+    ],
+    "answer": "4.5 years",
+    "source_id": "doc_0011",
+    "source_url": "https://uet.vnu.edu.vn/dao-tao/",
+    "chunk_id": "doc_0011_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0292",
+    "split": "train",
+    "question": "What is the standard duration of engineering programs at VNU?",
+    "answers": [
+      "9 to 10 main semesters"
+    ],
+    "answer": "9 to 10 main semesters",
+    "source_id": "doc_0003",
+    "source_url": "https://fos.ussh.vnu.edu.vn/vi/laws/detail/Quy-che-dao-tao-dai-hoc-tai-Dai-hoc-Quoc-gia-Ha-Noi-Ap-dung-tu-khoa-QH-2022-X-5/?download=1&id=0",
+    "chunk_id": "doc_0003_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0293",
+    "split": "train",
+    "question": "Which USSH major specializes in Public Relations?",
+    "answers": [
+      "Public Relations"
+    ],
+    "answer": "Public Relations",
+    "source_id": "doc_0001",
+    "source_url": "https://diemthi.tuyensinh247.com/de-an-tuyen-sinh/dai-hoc-khoa-hoc-xa-hoi-va-nhan-van-ha-noi-QHX.html",
+    "chunk_id": "doc_0001_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0294",
+    "split": "train",
+    "question": "What was the 2024 D01 admission score for Psychology at USSH?",
+    "answers": [
+      "26.18 points"
+    ],
+    "answer": "26.18 points",
+    "source_id": "doc_0005",
+    "source_url": "https://huongnghiep.hocmai.vn/diem-truong/dai-hoc-khoa-hoc-xa-hoi-va-nhan-van-dai-hoc-quoc-gia-ha-noi",
+    "chunk_id": "doc_0005_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0295",
+    "split": "train",
+    "question": "What was the admission score for Arabic Language at ULIS in 2023?",
+    "answers": [
+      "33.04 points"
+    ],
+    "answer": "33.04 points",
+    "source_id": "doc_0021",
+    "source_url": "https://ulis.vnu.edu.vn/tham-khao-diem-chuan-tuyen-sinh-dai-hoc-vao-truong-dai-hoc-ngoai-ngu-qua-cac-nam/",
+    "chunk_id": "doc_0021_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0296",
+    "split": "train",
+    "question": "When was the first course of Vietnam National University inaugurated?",
+    "answers": [
+      "15 November 1945"
+    ],
+    "answer": "15 November 1945",
+    "source_id": "doc_0025",
+    "source_url": "https://ussh.vnu.edu.vn/vi/news/tin-tuc-ve-dhqghn/lich-su-hinh-thanh-va-phat-trien-dai-hoc-quoc-gia-ha-noi-22318.html",
+    "chunk_id": "doc_0025_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0297",
+    "split": "train",
+    "question": "What was the 2025 C00 admission score for Psychology at USSH?",
+    "answers": [
+      "29.0 points"
+    ],
+    "answer": "29.0 points",
+    "source_id": "doc_0002",
+    "source_url": "https://diemthi.tuyensinh247.com/diem-chuan/dai-hoc-khoa-hoc-xa-hoi-va-nhan-van-dhqghn-QHX.html",
+    "chunk_id": "doc_0002_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0298",
+    "split": "train",
+    "question": "What was the 2025 C00 admission score for Journalism at USSH?",
+    "answers": [
+      "28.2 points"
+    ],
+    "answer": "28.2 points",
+    "source_id": "doc_0002",
+    "source_url": "https://diemthi.tuyensinh247.com/diem-chuan/dai-hoc-khoa-hoc-xa-hoi-va-nhan-van-dhqghn-QHX.html",
+    "chunk_id": "doc_0002_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0299",
+    "split": "train",
+    "question": "What was the tuition fee for the Computer Networks and Data Communications program at UET in 2024-2025?",
+    "answers": [
+      "40 million VND per academic year in 2024-2025"
+    ],
+    "answer": "40 million VND per academic year in 2024-2025",
+    "source_id": "doc_0012",
+    "source_url": "https://uet.vnu.edu.vn/dinh-muc-hoc-phi-dao-tao-dai-hoc-nam-hoc-2024-2025/",
+    "chunk_id": "doc_0012_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0300",
+    "split": "train",
+    "question": "What is the standard duration of the Engineering Physics undergraduate program?",
+    "answers": [
+      "4 years"
+    ],
+    "answer": "4 years",
+    "source_id": "doc_0011",
+    "source_url": "https://uet.vnu.edu.vn/dao-tao/",
+    "chunk_id": "doc_0011_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0301",
+    "split": "train",
+    "question": "What is the mission of ULIS?",
+    "answers": [
+      "Training high-quality human resources; conducting scientific research; innovation; and knowledge transfer in foreign language education; linguistics; international studies; and related social sciences and humanities"
+    ],
+    "answer": "Training high-quality human resources; conducting scientific research; innovation; and knowledge transfer in foreign language education; linguistics; international studies; and related social sciences and humanities",
+    "source_id": "doc_0016",
+    "source_url": "https://ulis.vnu.edu.vn/gioi-thieu/",
+    "chunk_id": "doc_0016_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0302",
+    "split": "train",
+    "question": "What major national need did ULIS help address in the past?",
+    "answers": [
+      "Training foreign language teachers and officials"
+    ],
+    "answer": "Training foreign language teachers and officials",
+    "source_id": "doc_0016",
+    "source_url": "https://ulis.vnu.edu.vn/gioi-thieu/",
+    "chunk_id": "doc_0016_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0303",
+    "split": "train",
+    "question": "What is the standard duration of the Data Science undergraduate program?",
+    "answers": [
+      "4 years"
+    ],
+    "answer": "4 years",
+    "source_id": "doc_0011",
+    "source_url": "https://uet.vnu.edu.vn/dao-tao/",
+    "chunk_id": "doc_0011_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0304",
+    "split": "train",
+    "question": "Which admission combination is used for German Language at ULIS?",
+    "answers": [
+      "D05"
+    ],
+    "answer": "D05",
+    "source_id": "doc_0019",
+    "source_url": "https://ulis.vnu.edu.vn/tbtsdh2025/",
+    "chunk_id": "doc_0019_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0305",
+    "split": "train",
+    "question": "What is the standard duration of bachelor programs at VNU?",
+    "answers": [
+      "8 main semesters"
+    ],
+    "answer": "8 main semesters",
+    "source_id": "doc_0003",
+    "source_url": "https://fos.ussh.vnu.edu.vn/vi/laws/detail/Quy-che-dao-tao-dai-hoc-tai-Dai-hoc-Quoc-gia-Ha-Noi-Ap-dung-tu-khoa-QH-2022-X-5/?download=1&id=0",
+    "chunk_id": "doc_0003_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0306",
+    "split": "train",
+    "question": "What was the tuition fee for the Aerospace Engineering program at UET in 2024-2025?",
+    "answers": [
+      "32 million VND per academic year in 2024-2025"
+    ],
+    "answer": "32 million VND per academic year in 2024-2025",
+    "source_id": "doc_0012",
+    "source_url": "https://uet.vnu.edu.vn/dinh-muc-hoc-phi-dao-tao-dai-hoc-nam-hoc-2024-2025/",
+    "chunk_id": "doc_0012_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0307",
+    "split": "train",
+    "question": "What was the admission quota for German Language at ULIS in 2025?",
+    "answers": [
+      "120 quotas"
+    ],
+    "answer": "120 quotas",
+    "source_id": "doc_0019",
+    "source_url": "https://ulis.vnu.edu.vn/tbtsdh2025/",
+    "chunk_id": "doc_0019_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0308",
+    "split": "train",
+    "question": "What position does ULIS hold in Vietnam?",
+    "answers": [
+      "A leading university in foreign language education"
+    ],
+    "answer": "A leading university in foreign language education",
+    "source_id": "doc_0016",
+    "source_url": "https://ulis.vnu.edu.vn/gioi-thieu/",
+    "chunk_id": "doc_0016_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0309",
+    "split": "train",
+    "question": "How many additional credits can be added for a major-minor training model at VNU?",
+    "answers": [
+      "15 to 29 additional credits"
+    ],
+    "answer": "15 to 29 additional credits",
+    "source_id": "doc_0014",
+    "source_url": "https://uet.vnu.edu.vn/quy-che-dao-tao-dai-hoc-cua-dai-hoc-quoc-gia-ha-noi-theo-quyet-dinh-5115qd-dhqghn/",
+    "chunk_id": "doc_0014_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0310",
+    "split": "train",
+    "question": "Who signed Decree 97/CP establishing VNU?",
+    "answers": [
+      "Prime Minister Vo Van Kiet"
+    ],
+    "answer": "Prime Minister Vo Van Kiet",
+    "source_id": "doc_0025",
+    "source_url": "https://ussh.vnu.edu.vn/vi/news/tin-tuc-ve-dhqghn/lich-su-hinh-thanh-va-phat-trien-dai-hoc-quoc-gia-ha-noi-22318.html",
+    "chunk_id": "doc_0025_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0311",
+    "split": "train",
+    "question": "What major does the admission code CN14 represent at UET?",
+    "answers": [
+      "CN14 represents Information Systems."
+    ],
+    "answer": "CN14 represents Information Systems.",
+    "source_id": "doc_0007",
+    "source_url": "https://tuyensinh.uet.vnu.edu.vn/tin-tuyen-sinh/thong-bao-diem-trung-tuyen-vao-truong-dai-hoc-cong-nghe-dhqghn-nam-2024-theo-phuong-thuc-thpt/",
+    "chunk_id": "doc_0007_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0312",
+    "split": "train",
+    "question": "Does UET use SAT scores for undergraduate admission in 2025?",
+    "answers": [
+      "Yes"
+    ],
+    "answer": "Yes",
+    "source_id": "doc_0009",
+    "source_url": "https://tuyensinh.uet.vnu.edu.vn/wp-content/images/Thong-tin-tuyen-sinh-DHCQ-nam-2025-QHI.pdf",
+    "chunk_id": "doc_0009_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0313",
+    "split": "train",
+    "question": "What does ULIS stand for?",
+    "answers": [
+      "University of Languages and International Studies"
+    ],
+    "answer": "University of Languages and International Studies",
+    "source_id": "doc_0016",
+    "source_url": "https://ulis.vnu.edu.vn/gioi-thieu/",
+    "chunk_id": "doc_0016_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0314",
+    "split": "train",
+    "question": "Which USSH undergraduate program focuses on International Studies?",
+    "answers": [
+      "International Studies"
+    ],
+    "answer": "International Studies",
+    "source_id": "doc_0023",
+    "source_url": "https://ussh.vnu.edu.vn/vi/dao-tao/chuong-trinh-dao-tao-chuan/chuong-trinh-dao-tao-chuan-20666.html",
+    "chunk_id": "doc_0023_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0315",
+    "split": "train",
+    "question": "What was the admission score for Japanese Language at ULIS in 2024?",
+    "answers": [
+      "35.40 points"
+    ],
+    "answer": "35.40 points",
+    "source_id": "doc_0017",
+    "source_url": "https://ulis.vnu.edu.vn/kqtsdh24/",
+    "chunk_id": "doc_0017_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0316",
+    "split": "train",
+    "question": "Which decision issued the VNU undergraduate training regulations in 2022?",
+    "answers": [
+      "Decision No. 3626/QD-DHQGHN"
+    ],
+    "answer": "Decision No. 3626/QD-DHQGHN",
+    "source_id": "doc_0010",
+    "source_url": "https://uet-test.uet.edu.vn/quy-che-dao-tao-dai-hoc-tai-dhqghn/",
+    "chunk_id": "doc_0010_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0317",
+    "split": "train",
+    "question": "How many study weeks are included in a supplementary semester at VNU?",
+    "answers": [
+      "At least 5 study weeks"
+    ],
+    "answer": "At least 5 study weeks",
+    "source_id": "doc_0010",
+    "source_url": "https://uet-test.uet.edu.vn/quy-che-dao-tao-dai-hoc-tai-dhqghn/",
+    "chunk_id": "doc_0010_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0318",
+    "split": "train",
+    "question": "In what year was Indochina University established?",
+    "answers": [
+      "1906"
+    ],
+    "answer": "1906",
+    "source_id": "doc_0025",
+    "source_url": "https://ussh.vnu.edu.vn/vi/news/tin-tuc-ve-dhqghn/lich-su-hinh-thanh-va-phat-trien-dai-hoc-quoc-gia-ha-noi-22318.html",
+    "chunk_id": "doc_0025_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0319",
+    "split": "train",
+    "question": "What type of semester is optional for students at VNU?",
+    "answers": [
+      "Supplementary semester"
+    ],
+    "answer": "Supplementary semester",
+    "source_id": "doc_0014",
+    "source_url": "https://uet.vnu.edu.vn/quy-che-dao-tao-dai-hoc-cua-dai-hoc-quoc-gia-ha-noi-theo-quyet-dinh-5115qd-dhqghn/",
+    "chunk_id": "doc_0014_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0320",
+    "split": "train",
+    "question": "What was the 2025 C00 admission score for International Studies at USSH?",
+    "answers": [
+      "28.05 points"
+    ],
+    "answer": "28.05 points",
+    "source_id": "doc_0002",
+    "source_url": "https://diemthi.tuyensinh247.com/diem-chuan/dai-hoc-khoa-hoc-xa-hoi-va-nhan-van-dhqghn-QHX.html",
+    "chunk_id": "doc_0002_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0321",
+    "split": "train",
+    "question": "What was the 2025 C00 admission score for Anthropology at USSH?",
+    "answers": [
+      "26.85 points"
+    ],
+    "answer": "26.85 points",
+    "source_id": "doc_0002",
+    "source_url": "https://diemthi.tuyensinh247.com/diem-chuan/dai-hoc-khoa-hoc-xa-hoi-va-nhan-van-dhqghn-QHX.html",
+    "chunk_id": "doc_0002_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0322",
+    "split": "train",
+    "question": "What was the tuition fee for the Management Science program at USSH in 2023-2024?",
+    "answers": [
+      "25 million VND per year in 2023-2024"
+    ],
+    "answer": "25 million VND per year in 2023-2024",
+    "source_id": "doc_0024",
+    "source_url": "https://ussh.vnu.edu.vn/vi/news/dao-tao/nam-2023-truong-dai-hoc-khoa-hoc-xa-hoi-va-nhan-tuyen-sinh-2000-chi-tieu-dai-hoc-chinh-quy-cho-27-nganh-dao-tao-21962.html",
+    "chunk_id": "doc_0024_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0323",
+    "split": "train",
+    "question": "What is the standard duration of the Electronics and Telecommunications Engineering Technology undergraduate program?",
+    "answers": [
+      "4 years"
+    ],
+    "answer": "4 years",
+    "source_id": "doc_0011",
+    "source_url": "https://uet.vnu.edu.vn/dao-tao/",
+    "chunk_id": "doc_0011_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0324",
+    "split": "train",
+    "question": "What undergraduate majors are offered at UET?",
+    "answers": [
+      "Information Technology; Computer Science; Computer Engineering; Artificial Intelligence; Data Science; Robotics Engineering; Aerospace Engineering; Electronics and Telecommunications Engineering Technology; Control and Automation Engineering; Engineering Physics; Energy Engineering; Construction Engineering; Agricultural Technology"
+    ],
+    "answer": "Information Technology; Computer Science; Computer Engineering; Artificial Intelligence; Data Science; Robotics Engineering; Aerospace Engineering; Electronics and Telecommunications Engineering Technology; Control and Automation Engineering; Engineering Physics; Energy Engineering; Construction Engineering; Agricultural Technology",
+    "source_id": "doc_0011",
+    "source_url": "https://uet.vnu.edu.vn/dao-tao/",
+    "chunk_id": "doc_0011_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0325",
+    "split": "train",
+    "question": "What was the 2024 C00 admission score for Tourism and Travel Service Management at USSH?",
+    "answers": [
+      "28.58 points"
+    ],
+    "answer": "28.58 points",
+    "source_id": "doc_0005",
+    "source_url": "https://huongnghiep.hocmai.vn/diem-truong/dai-hoc-khoa-hoc-xa-hoi-va-nhan-van-dai-hoc-quoc-gia-ha-noi",
+    "chunk_id": "doc_0005_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0326",
+    "split": "train",
+    "question": "What was the tuition fee for the Sociology program at USSH in 2023-2024?",
+    "answers": [
+      "20 million VND per year in 2023-2024"
+    ],
+    "answer": "20 million VND per year in 2023-2024",
+    "source_id": "doc_0024",
+    "source_url": "https://ussh.vnu.edu.vn/vi/news/dao-tao/nam-2023-truong-dai-hoc-khoa-hoc-xa-hoi-va-nhan-tuyen-sinh-2000-chi-tieu-dai-hoc-chinh-quy-cho-27-nganh-dao-tao-21962.html",
+    "chunk_id": "doc_0024_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0327",
+    "split": "train",
+    "question": "What was the 2025 C00 admission score for Oriental Studies at USSH?",
+    "answers": [
+      "28.58 points"
+    ],
+    "answer": "28.58 points",
+    "source_id": "doc_0002",
+    "source_url": "https://diemthi.tuyensinh247.com/diem-chuan/dai-hoc-khoa-hoc-xa-hoi-va-nhan-van-dhqghn-QHX.html",
+    "chunk_id": "doc_0002_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0328",
+    "split": "train",
+    "question": "Which undergraduate majors at UET award an Engineer degree?",
+    "answers": [
+      "Computer Engineering; Computer Networks and Data Communications; Robotics Engineering; Aerospace Engineering; Energy Engineering; Control and Automation Engineering; Construction Engineering"
+    ],
+    "answer": "Computer Engineering; Computer Networks and Data Communications; Robotics Engineering; Aerospace Engineering; Energy Engineering; Control and Automation Engineering; Construction Engineering",
+    "source_id": "doc_0011",
+    "source_url": "https://uet.vnu.edu.vn/dao-tao/",
+    "chunk_id": "doc_0011_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0329",
+    "split": "train",
+    "question": "What role does VNU play in the Vietnamese higher education system?",
+    "answers": [
+      "A leading role in Vietnamese higher education"
+    ],
+    "answer": "A leading role in Vietnamese higher education",
+    "source_id": "doc_0026",
+    "source_url": "https://vnu.edu.vn/gioi-thieu-chung-ve-dai-hoc-quoc-gia-ha-noi-post1.html",
+    "chunk_id": "doc_0026_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0330",
+    "split": "train",
+    "question": "What was the tuition fee for the Computer Science program at UET in 2024-2025?",
+    "answers": [
+      "40 million VND per academic year in 2024-2025"
+    ],
+    "answer": "40 million VND per academic year in 2024-2025",
+    "source_id": "doc_0012",
+    "source_url": "https://uet.vnu.edu.vn/dinh-muc-hoc-phi-dao-tao-dai-hoc-nam-hoc-2024-2025/",
+    "chunk_id": "doc_0012_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0331",
+    "split": "train",
+    "question": "What admission method code corresponds to VNU competency assessment admission at ULIS?",
+    "answers": [
+      "401"
+    ],
+    "answer": "401",
+    "source_id": "doc_0019",
+    "source_url": "https://ulis.vnu.edu.vn/tbtsdh2025/",
+    "chunk_id": "doc_0019_chunk_0001",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0332",
+    "split": "train",
+    "question": "What subjects are included in the C04 combination at USSH?",
+    "answers": [
+      "Mathematics; Literature; Geography"
+    ],
+    "answer": "Mathematics; Literature; Geography",
+    "source_id": "doc_0028",
+    "source_url": "https://xaydungchinhsach.chinhphu.vn/tuyen-sinh-2025-phuong-thuc-to-hop-chi-tieu-tuyen-sinh-cua-truong-dai-hoc-khoa-hoc-xa-hoi-va-nhan-van-dhqghn-119250605164343934.htm",
+    "chunk_id": "doc_0028_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0333",
+    "split": "train",
+    "question": "What degree is awarded for the Control and Automation Engineering undergraduate program?",
+    "answers": [
+      "Engineer degree"
+    ],
+    "answer": "Engineer degree",
+    "source_id": "doc_0011",
+    "source_url": "https://uet.vnu.edu.vn/dao-tao/",
+    "chunk_id": "doc_0011_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0334",
+    "split": "train",
+    "question": "What subjects are included in the A00 admission combination at UET?",
+    "answers": [
+      "Mathematics; Physics; Chemistry"
+    ],
+    "answer": "Mathematics; Physics; Chemistry",
+    "source_id": "doc_0000",
+    "source_url": "https://diemthi.tuyensinh247.com/de-an-tuyen-sinh/dai-hoc-cong-nghe-dai-hoc-quoc-gia-ha-noi-QHI.html",
+    "chunk_id": "doc_0000_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0335",
+    "split": "train",
+    "question": "What was the 2025 C00 admission score for Literature at USSH?",
+    "answers": [
+      "28.75 points"
+    ],
+    "answer": "28.75 points",
+    "source_id": "doc_0002",
+    "source_url": "https://diemthi.tuyensinh247.com/diem-chuan/dai-hoc-khoa-hoc-xa-hoi-va-nhan-van-dhqghn-QHX.html",
+    "chunk_id": "doc_0002_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0336",
+    "split": "train",
+    "question": "What was the 2024 C00 admission score for Sociology at USSH?",
+    "answers": [
+      "28.25 points"
+    ],
+    "answer": "28.25 points",
+    "source_id": "doc_0005",
+    "source_url": "https://huongnghiep.hocmai.vn/diem-truong/dai-hoc-khoa-hoc-xa-hoi-va-nhan-van-dai-hoc-quoc-gia-ha-noi",
+    "chunk_id": "doc_0005_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0337",
+    "split": "train",
+    "question": "What is the standard duration of the Computer Networks and Data Communications undergraduate program?",
+    "answers": [
+      "4.5 years"
+    ],
+    "answer": "4.5 years",
+    "source_id": "doc_0011",
+    "source_url": "https://uet.vnu.edu.vn/dao-tao/",
+    "chunk_id": "doc_0011_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0338",
+    "split": "train",
+    "question": "What was the admission quota for Vietnamese Language and Vietnamese Culture at ULIS in 2025?",
+    "answers": [
+      "50 quotas"
+    ],
+    "answer": "50 quotas",
+    "source_id": "doc_0019",
+    "source_url": "https://ulis.vnu.edu.vn/tbtsdh2025/",
+    "chunk_id": "doc_0019_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0339",
+    "split": "train",
+    "question": "How large was the Hoa Lac campus project?",
+    "answers": [
+      "1200 hectares"
+    ],
+    "answer": "1200 hectares",
+    "source_id": "doc_0026",
+    "source_url": "https://vnu.edu.vn/gioi-thieu-chung-ve-dai-hoc-quoc-gia-ha-noi-post1.html",
+    "chunk_id": "doc_0026_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0340",
+    "split": "train",
+    "question": "What was the admission score for German Language at ULIS in 2024?",
+    "answers": [
+      "35.82 points"
+    ],
+    "answer": "35.82 points",
+    "source_id": "doc_0017",
+    "source_url": "https://ulis.vnu.edu.vn/kqtsdh24/",
+    "chunk_id": "doc_0017_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0341",
+    "split": "train",
+    "question": "Which UET major had a 2024 admission score of 27.12 points?",
+    "answers": [
+      "Artificial Intelligence had a 2024 admission score of 27.12 points."
+    ],
+    "answer": "Artificial Intelligence had a 2024 admission score of 27.12 points.",
+    "source_id": "doc_0007",
+    "source_url": "https://tuyensinh.uet.vnu.edu.vn/tin-tuyen-sinh/thong-bao-diem-trung-tuyen-vao-truong-dai-hoc-cong-nghe-dhqghn-nam-2024-theo-phuong-thuc-thpt/",
+    "chunk_id": "doc_0007_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0342",
+    "split": "train",
+    "question": "What is the standard duration of the Energy Engineering undergraduate program?",
+    "answers": [
+      "4.5 years"
+    ],
+    "answer": "4.5 years",
+    "source_id": "doc_0011",
+    "source_url": "https://uet.vnu.edu.vn/dao-tao/",
+    "chunk_id": "doc_0011_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0343",
+    "split": "train",
+    "question": "What is the maximum study duration of the Electronics and Telecommunications Engineering Technology undergraduate program?",
+    "answers": [
+      "8 years"
+    ],
+    "answer": "8 years",
+    "source_id": "doc_0011",
+    "source_url": "https://uet.vnu.edu.vn/dao-tao/",
+    "chunk_id": "doc_0011_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0344",
+    "split": "train",
+    "question": "Does ULIS participate in writing foreign language textbooks?",
+    "answers": [
+      "Yes"
+    ],
+    "answer": "Yes",
+    "source_id": "doc_0016",
+    "source_url": "https://ulis.vnu.edu.vn/gioi-thieu/",
+    "chunk_id": "doc_0016_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0345",
+    "split": "train",
+    "question": "What was the main purpose of VNU?",
+    "answers": [
+      "Training high-quality human resources & scientific research and technology transfer"
+    ],
+    "answer": "Training high-quality human resources & scientific research and technology transfer",
+    "source_id": "doc_0026",
+    "source_url": "https://vnu.edu.vn/gioi-thieu-chung-ve-dai-hoc-quoc-gia-ha-noi-post1.html",
+    "chunk_id": "doc_0026_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0346",
+    "split": "train",
+    "question": "What QS World University Ranking range did VNU achieve in 2026?",
+    "answers": [
+      "761-770"
+    ],
+    "answer": "761-770",
+    "source_id": "doc_0026",
+    "source_url": "https://vnu.edu.vn/gioi-thieu-chung-ve-dai-hoc-quoc-gia-ha-noi-post1.html",
+    "chunk_id": "doc_0026_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0347",
+    "split": "train",
+    "question": "What subjects are included in the X06 admission combination at UET?",
+    "answers": [
+      "Mathematics; Physics; Informatics"
+    ],
+    "answer": "Mathematics; Physics; Informatics",
+    "source_id": "doc_0000",
+    "source_url": "https://diemthi.tuyensinh247.com/de-an-tuyen-sinh/dai-hoc-cong-nghe-dai-hoc-quoc-gia-ha-noi-QHI.html",
+    "chunk_id": "doc_0000_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0348",
+    "split": "train",
+    "question": "What admission method code corresponds to combined admission using international certificates at ULIS?",
+    "answers": [
+      "409"
+    ],
+    "answer": "409",
+    "source_id": "doc_0019",
+    "source_url": "https://ulis.vnu.edu.vn/tbtsdh2025/",
+    "chunk_id": "doc_0019_chunk_0001",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0349",
+    "split": "train",
+    "question": "What languages has ULIS trained students in?",
+    "answers": [
+      "English; Russian; French; Chinese; German; Japanese; Korean; Arabic; Thai"
+    ],
+    "answer": "English; Russian; French; Chinese; German; Japanese; Korean; Arabic; Thai",
+    "source_id": "doc_0016",
+    "source_url": "https://ulis.vnu.edu.vn/gioi-thieu/",
+    "chunk_id": "doc_0016_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0350",
+    "split": "train",
+    "question": "What was the admission quota for Russian Language at ULIS in 2025?",
+    "answers": [
+      "70 quotas"
+    ],
+    "answer": "70 quotas",
+    "source_id": "doc_0019",
+    "source_url": "https://ulis.vnu.edu.vn/tbtsdh2025/",
+    "chunk_id": "doc_0019_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0351",
+    "split": "train",
+    "question": "What was the 2025 C00 admission score for Sociology at USSH?",
+    "answers": [
+      "27.15 points"
+    ],
+    "answer": "27.15 points",
+    "source_id": "doc_0002",
+    "source_url": "https://diemthi.tuyensinh247.com/diem-chuan/dai-hoc-khoa-hoc-xa-hoi-va-nhan-van-dhqghn-QHX.html",
+    "chunk_id": "doc_0002_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0352",
+    "split": "train",
+    "question": "Who presided over the first inauguration ceremony of Vietnam National University?",
+    "answers": [
+      "President Ho Chi Minh"
+    ],
+    "answer": "President Ho Chi Minh",
+    "source_id": "doc_0025",
+    "source_url": "https://ussh.vnu.edu.vn/vi/news/tin-tuc-ve-dhqghn/lich-su-hinh-thanh-va-phat-trien-dai-hoc-quoc-gia-ha-noi-22318.html",
+    "chunk_id": "doc_0025_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0353",
+    "split": "train",
+    "question": "Where is USSH located?",
+    "answers": [
+      "336 Nguyen Trai Street; Thanh Xuan District; Hanoi"
+    ],
+    "answer": "336 Nguyen Trai Street; Thanh Xuan District; Hanoi",
+    "source_id": "doc_0025",
+    "source_url": "https://ussh.vnu.edu.vn/vi/news/tin-tuc-ve-dhqghn/lich-su-hinh-thanh-va-phat-trien-dai-hoc-quoc-gia-ha-noi-22318.html",
+    "chunk_id": "doc_0025_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0354",
+    "split": "train",
+    "question": "What is the maximum study duration of the Control and Automation Engineering undergraduate program?",
+    "answers": [
+      "9 years"
+    ],
+    "answer": "9 years",
+    "source_id": "doc_0011",
+    "source_url": "https://uet.vnu.edu.vn/dao-tao/",
+    "chunk_id": "doc_0011_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0355",
+    "split": "train",
+    "question": "Which ULIS program specializes in Business English?",
+    "answers": [
+      "Business English"
+    ],
+    "answer": "Business English",
+    "source_id": "doc_0019",
+    "source_url": "https://ulis.vnu.edu.vn/tbtsdh2025/",
+    "chunk_id": "doc_0019_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0356",
+    "split": "train",
+    "question": "What is the maximum extended study duration for a 4-year undergraduate program?",
+    "answers": [
+      "6 years"
+    ],
+    "answer": "6 years",
+    "source_id": "doc_0004",
+    "source_url": "https://hcmussh.edu.vn/static/document/15808.pdf",
+    "chunk_id": "doc_0004_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0357",
+    "split": "train",
+    "question": "Where was the Hoa Lac campus located?",
+    "answers": [
+      "Thach That; Hanoi"
+    ],
+    "answer": "Thach That; Hanoi",
+    "source_id": "doc_0026",
+    "source_url": "https://vnu.edu.vn/gioi-thieu-chung-ve-dai-hoc-quoc-gia-ha-noi-post1.html",
+    "chunk_id": "doc_0026_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0358",
+    "split": "train",
+    "question": "Which year marked the founding of Hanoi University of Foreign Language Teachers?",
+    "answers": [
+      "1967"
+    ],
+    "answer": "1967",
+    "source_id": "doc_0025",
+    "source_url": "https://ussh.vnu.edu.vn/vi/news/tin-tuc-ve-dhqghn/lich-su-hinh-thanh-va-phat-trien-dai-hoc-quoc-gia-ha-noi-22318.html",
+    "chunk_id": "doc_0025_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "train_0359",
+    "split": "train",
+    "question": "What was the 2024 D01 admission score for Korean Studies at USSH?",
+    "answers": [
+      "26.30 points"
+    ],
+    "answer": "26.30 points",
+    "source_id": "doc_0005",
+    "source_url": "https://huongnghiep.hocmai.vn/diem-truong/dai-hoc-khoa-hoc-xa-hoi-va-nhan-van-dai-hoc-quoc-gia-ha-noi",
+    "chunk_id": "doc_0005_chunk_0000",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  }
+]

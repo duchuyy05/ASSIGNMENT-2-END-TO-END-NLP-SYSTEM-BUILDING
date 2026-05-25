@@ -1,0 +1,25 @@
+{
+  "built_at": "2026-05-25T17:52:02+00:00",
+  "source_csv_hashes_before": {
+    "train_csv": "5675d2fcd5d2eef13b2311742ef5fead1f9ab6d194c5557ca83d5cb4edaaad35",
+    "test_csv": "d8de464d995ef466b67a5838733fd87f1465d177773874e7481135a9a32e4b04"
+  },
+  "source_csv_hashes_after": {
+    "train_csv": "5675d2fcd5d2eef13b2311742ef5fead1f9ab6d194c5557ca83d5cb4edaaad35",
+    "test_csv": "d8de464d995ef466b67a5838733fd87f1465d177773874e7481135a9a32e4b04"
+  },
+  "manual_csv_unchanged": true,
+  "document_count": 29,
+  "chunk_count": 461,
+  "train_count": 360,
+  "test_count": 114,
+  "unique_source_url_count": 29,
+  "shuffle_seed": 42,
+  "chunk_size": 140,
+  "chunk_overlap": 30,
+  "fetched_source_count": 29,
+  "fallback_source_count": 0,
+  "fetch_status_counts": {
+    "ok": 29
+  }
+}

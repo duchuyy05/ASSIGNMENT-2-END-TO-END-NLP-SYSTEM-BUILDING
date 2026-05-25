@@ -1,0 +1,1256 @@
+[
+  {
+    "id": "test_0000",
+    "split": "test",
+    "question": "Between Tourism and Travel Service Management and International Studies which USSH program had the higher 2024 admission score?",
+    "answers": [
+      "International Studies"
+    ],
+    "answer": "International Studies",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0001",
+    "split": "test",
+    "question": "Which Vietnamese city is home to VNU?",
+    "answers": [
+      "Hanoi"
+    ],
+    "answer": "Hanoi",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0002",
+    "split": "test",
+    "question": "How long does a standard engineering program at VNU usually last?",
+    "answers": [
+      "9 to 10 main semesters"
+    ],
+    "answer": "9 to 10 main semesters",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0003",
+    "split": "test",
+    "question": "How many international partner institutions cooperate with USSH?",
+    "answers": [
+      "More than 200 institutions"
+    ],
+    "answer": "More than 200 institutions",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0004",
+    "split": "test",
+    "question": "In what year was Indochina University created?",
+    "answers": [
+      "1906"
+    ],
+    "answer": "1906",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0005",
+    "split": "test",
+    "question": "What was the estimated annual tuition fee for the Korean Language program at ULIS in 2026?",
+    "answers": [
+      "42 million VND per student per year in 2026"
+    ],
+    "answer": "42 million VND per student per year in 2026",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0006",
+    "split": "test",
+    "question": "How many quotas were allocated for the English Language program at ULIS in 2025?",
+    "answers": [
+      "795 quotas"
+    ],
+    "answer": "795 quotas",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0007",
+    "split": "test",
+    "question": "What is ULIS recognized as in Vietnam today?",
+    "answers": [
+      "A leading university in foreign language education"
+    ],
+    "answer": "A leading university in foreign language education",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0008",
+    "split": "test",
+    "question": "Which UET major had an admission score above 28 points in 2025?",
+    "answers": [
+      "Information Technology"
+    ],
+    "answer": "Information Technology",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0009",
+    "split": "test",
+    "question": "What was the 2025 admission score for the Artificial Intelligence program at UET?",
+    "answers": [
+      "27.85 points"
+    ],
+    "answer": "27.85 points",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0010",
+    "split": "test",
+    "question": "Which UET major had the lowest admission score in 2025?",
+    "answers": [
+      "Agricultural Technology"
+    ],
+    "answer": "Agricultural Technology",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0011",
+    "split": "test",
+    "question": "Which UET major grants an Engineer degree in the field of automation?",
+    "answers": [
+      "Control and Automation Engineering"
+    ],
+    "answer": "Control and Automation Engineering",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0012",
+    "split": "test",
+    "question": "Which ULIS programs had an estimated tuition fee of 31 million VND per year in 2026?",
+    "answers": [
+      "Russian Language; Arabic Language; Vietnamese Language and Vietnamese Culture"
+    ],
+    "answer": "Russian Language; Arabic Language; Vietnamese Language and Vietnamese Culture",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0013",
+    "split": "test",
+    "question": "Which USSH majors had a tuition fee of 25 million VND per year in 2023-2024?",
+    "answers": [
+      "Management Science; Oriental Studies"
+    ],
+    "answer": "Management Science; Oriental Studies",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0014",
+    "split": "test",
+    "question": "How much did students pay annually for the Psychology program at USSH in 2023-2024?",
+    "answers": [
+      "30 million VND per year in 2023-2024"
+    ],
+    "answer": "30 million VND per year in 2023-2024",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0015",
+    "split": "test",
+    "question": "Which institution was founded in Viet Bac in 1951?",
+    "answers": [
+      "Basic Science School"
+    ],
+    "answer": "Basic Science School",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0016",
+    "split": "test",
+    "question": "What is the official homepage of VNU?",
+    "answers": [
+      "https://vnu.edu.vn"
+    ],
+    "answer": "https://vnu.edu.vn",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0017",
+    "split": "test",
+    "question": "What subjects are included in the D01 combination used by ULIS?",
+    "answers": [
+      "Mathematics; Literature; English"
+    ],
+    "answer": "Mathematics; Literature; English",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0018",
+    "split": "test",
+    "question": "How large is the Hoa Lac campus area?",
+    "answers": [
+      "1200 hectares"
+    ],
+    "answer": "1200 hectares",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0019",
+    "split": "test",
+    "question": "Who led the first inauguration ceremony of Vietnam National University in 1945?",
+    "answers": [
+      "President Ho Chi Minh"
+    ],
+    "answer": "President Ho Chi Minh",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0020",
+    "split": "test",
+    "question": "Which USSH majors accepted the traditional C00 combination in 2025?",
+    "answers": [
+      "Journalism; Public Relations; Psychology; International Studies; Sociology; Hotel Management"
+    ],
+    "answer": "Journalism; Public Relations; Psychology; International Studies; Sociology; Hotel Management",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0021",
+    "split": "test",
+    "question": "What degree is granted to students majoring in Data Science at UET?",
+    "answers": [
+      "Bachelor degree"
+    ],
+    "answer": "Bachelor degree",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0022",
+    "split": "test",
+    "question": "Which national education initiative is ULIS involved in?",
+    "answers": [
+      "The National Foreign Language Project"
+    ],
+    "answer": "The National Foreign Language Project",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0023",
+    "split": "test",
+    "question": "What type of degree do students receive after completing the Artificial Intelligence program at UET?",
+    "answers": [
+      "Bachelor degree"
+    ],
+    "answer": "Bachelor degree",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0024",
+    "split": "test",
+    "question": "How long can a student stay enrolled in a standard bachelor program at UET at maximum?",
+    "answers": [
+      "8 years"
+    ],
+    "answer": "8 years",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0025",
+    "split": "test",
+    "question": "How much did Public Relations students at USSH pay per year in 2023-2024?",
+    "answers": [
+      "35 million VND per year in 2023-2024"
+    ],
+    "answer": "35 million VND per year in 2023-2024",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0026",
+    "split": "test",
+    "question": "What abbreviation is commonly used for VNU University of Social Sciences and Humanities?",
+    "answers": [
+      "VNU-USSH"
+    ],
+    "answer": "VNU-USSH",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0027",
+    "split": "test",
+    "question": "What type of semester can VNU students optionally enroll in besides the two main semesters?",
+    "answers": [
+      "Supplementary semester"
+    ],
+    "answer": "Supplementary semester",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0028",
+    "split": "test",
+    "question": "Which national award has VNU received?",
+    "answers": [
+      "Gold Star Order"
+    ],
+    "answer": "Gold Star Order",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0029",
+    "split": "test",
+    "question": "Which ULIS program commonly used the D78 admission combination?",
+    "answers": [
+      "Korean Language"
+    ],
+    "answer": "Korean Language",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0030",
+    "split": "test",
+    "question": "Does ULIS participate in scientific research activities?",
+    "answers": [
+      "Yes"
+    ],
+    "answer": "Yes",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0031",
+    "split": "test",
+    "question": "Which educational model at VNU allows students to study both a major and a minor?",
+    "answers": [
+      "Major-minor training model"
+    ],
+    "answer": "Major-minor training model",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0032",
+    "split": "test",
+    "question": "When did ULIS officially join VNU?",
+    "answers": [
+      "1993"
+    ],
+    "answer": "1993",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0033",
+    "split": "test",
+    "question": "How much was the tuition fee per credit for standard undergraduate programs at UET in 2024-2025?",
+    "answers": [
+      "869000 VND per credit"
+    ],
+    "answer": "869000 VND per credit",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0034",
+    "split": "test",
+    "question": "What is the standard duration of undergraduate Bachelor programs at UET?",
+    "answers": [
+      "4 years"
+    ],
+    "answer": "4 years",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0035",
+    "split": "test",
+    "question": "How many points did Journalism at USSH require in 2024?",
+    "answers": [
+      "29.03 points"
+    ],
+    "answer": "29.03 points",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0036",
+    "split": "test",
+    "question": "Which UET undergraduate programs require 4.5 years of study?",
+    "answers": [
+      "Engineer programs"
+    ],
+    "answer": "Engineer programs",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0037",
+    "split": "test",
+    "question": "USSH has international cooperation with organizations from how many countries?",
+    "answers": [
+      "30 countries"
+    ],
+    "answer": "30 countries",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0038",
+    "split": "test",
+    "question": "Which language faculties were established in 1964 at ULIS?",
+    "answers": [
+      "Russian; Chinese; English; French"
+    ],
+    "answer": "Russian; Chinese; English; French",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0039",
+    "split": "test",
+    "question": "Which undergraduate program at UET focuses on aerospace technology?",
+    "answers": [
+      "Aerospace Engineering"
+    ],
+    "answer": "Aerospace Engineering",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0040",
+    "split": "test",
+    "question": "Which ULIS program related to Vietnamese studies had a tuition fee of 31 million VND per year in 2026?",
+    "answers": [
+      "Vietnamese Language and Vietnamese Culture"
+    ],
+    "answer": "Vietnamese Language and Vietnamese Culture",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0041",
+    "split": "test",
+    "question": "What was the tuition fee for International Studies at USSH in 2023-2024?",
+    "answers": [
+      "30 million VND per year in 2023-2024"
+    ],
+    "answer": "30 million VND per year in 2023-2024",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0042",
+    "split": "test",
+    "question": "Which UET admission combination includes Mathematics; Physics; English?",
+    "answers": [
+      "A01"
+    ],
+    "answer": "A01",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0043",
+    "split": "test",
+    "question": "What does the design of the VNU logo represent?",
+    "answers": [
+      "An open book with green lines"
+    ],
+    "answer": "An open book with green lines",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0044",
+    "split": "test",
+    "question": "What category of degree does the Computer Networks and Data Communications program belong to?",
+    "answers": [
+      "Engineer degree"
+    ],
+    "answer": "Engineer degree",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0045",
+    "split": "test",
+    "question": "What is the minimum number of credits required for a standard undergraduate program at VNU?",
+    "answers": [
+      "120 credits"
+    ],
+    "answer": "120 credits",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0046",
+    "split": "test",
+    "question": "What academic areas does USSH mainly focus on?",
+    "answers": [
+      "Social sciences and humanities"
+    ],
+    "answer": "Social sciences and humanities",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0047",
+    "split": "test",
+    "question": "What English certificate was accepted for score conversion at UET in 2025?",
+    "answers": [
+      "IELTS Academic"
+    ],
+    "answer": "IELTS Academic",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0048",
+    "split": "test",
+    "question": "What graduation-related process is regulated in the VNU undergraduate training regulations?",
+    "answers": [
+      "Graduation recognition"
+    ],
+    "answer": "Graduation recognition",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0049",
+    "split": "test",
+    "question": "Which ULIS language programs had an estimated tuition fee of 42 million VND per year in 2026?",
+    "answers": [
+      "English Language; French Language; Chinese Language; German Language; Japanese Language; Korean Language"
+    ],
+    "answer": "English Language; French Language; Chinese Language; German Language; Japanese Language; Korean Language",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0050",
+    "split": "test",
+    "question": "Which UET admission method uses competency assessment scores?",
+    "answers": [
+      "HSA competency assessment"
+    ],
+    "answer": "HSA competency assessment",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0051",
+    "split": "test",
+    "question": "How many credits are required for the second major in a VNU dual-major program?",
+    "answers": [
+      "30 credits"
+    ],
+    "answer": "30 credits",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0052",
+    "split": "test",
+    "question": "What QS World University Ranking band did VNU achieve in 2026?",
+    "answers": [
+      "761-770"
+    ],
+    "answer": "761-770",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0053",
+    "split": "test",
+    "question": "Which ULIS program had the lowest admission score among the listed language majors in 2024?",
+    "answers": [
+      "Arabic Language"
+    ],
+    "answer": "Arabic Language",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0054",
+    "split": "test",
+    "question": "What subjects are included in the C04 admission combination at USSH?",
+    "answers": [
+      "Mathematics; Literature; Geography"
+    ],
+    "answer": "Mathematics; Literature; Geography",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0055",
+    "split": "test",
+    "question": "Who approved the establishment of Hanoi University of Foreign Language Teachers?",
+    "answers": [
+      "Prime Minister Pham Van Dong"
+    ],
+    "answer": "Prime Minister Pham Van Dong",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0056",
+    "split": "test",
+    "question": "When was VNU-Hanoi founded?",
+    "answers": [
+      "1993"
+    ],
+    "answer": "1993",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0057",
+    "split": "test",
+    "question": "Which USSH majors had a tuition fee of 35 million VND per year in 2023-2024?",
+    "answers": [
+      "Journalism; Hotel Management; Public Relations"
+    ],
+    "answer": "Journalism; Hotel Management; Public Relations",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0058",
+    "split": "test",
+    "question": "How many years is the maximum study period for Engineer programs at UET?",
+    "answers": [
+      "9 years"
+    ],
+    "answer": "9 years",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0059",
+    "split": "test",
+    "question": "What was the tuition fee per credit for economic-technical norm programs at UET in 2024-2025?",
+    "answers": [
+      "1076000 VND per credit"
+    ],
+    "answer": "1076000 VND per credit",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0060",
+    "split": "test",
+    "question": "What was the yearly tuition fee for the Computer Networks and Data Communications program at UET in 2024-2025?",
+    "answers": [
+      "40 million VND per academic year in 2024-2025"
+    ],
+    "answer": "40 million VND per academic year in 2024-2025",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0061",
+    "split": "test",
+    "question": "In which year was Hanoi University of Foreign Language Teachers founded?",
+    "answers": [
+      "1967"
+    ],
+    "answer": "1967",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0062",
+    "split": "test",
+    "question": "How much was the tuition fee for the Sociology program at USSH in 2023-2024?",
+    "answers": [
+      "20 million VND per year in 2023-2024"
+    ],
+    "answer": "20 million VND per year in 2023-2024",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0063",
+    "split": "test",
+    "question": "What educational system is used for undergraduate training at UET?",
+    "answers": [
+      "Credit-based system"
+    ],
+    "answer": "Credit-based system",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0064",
+    "split": "test",
+    "question": "Which staff member supports students academically under VNU training regulations?",
+    "answers": [
+      "Academic advisor"
+    ],
+    "answer": "Academic advisor",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0065",
+    "split": "test",
+    "question": "How much did students need to pay annually for the Artificial Intelligence program at UET in 2024-2025?",
+    "answers": [
+      "32 million VND per academic year in 2024-2025"
+    ],
+    "answer": "32 million VND per academic year in 2024-2025",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0066",
+    "split": "test",
+    "question": "Which two languages were first taught at ULIS?",
+    "answers": [
+      "Russian; Chinese"
+    ],
+    "answer": "Russian; Chinese",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0067",
+    "split": "test",
+    "question": "What is the normal study duration for engineering programs at UET?",
+    "answers": [
+      "4.5 years"
+    ],
+    "answer": "4.5 years",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0068",
+    "split": "test",
+    "question": "How many member institutions were part of VNU in 2023?",
+    "answers": [
+      "29"
+    ],
+    "answer": "29",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0069",
+    "split": "test",
+    "question": "Which ULIS language major had an admission score above 37 points in 2024?",
+    "answers": [
+      "English Language"
+    ],
+    "answer": "English Language",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0070",
+    "split": "test",
+    "question": "What number is shown on the VNU logo?",
+    "answers": [
+      "1906"
+    ],
+    "answer": "1906",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0071",
+    "split": "test",
+    "question": "Which ULIS major focuses on Japanese studies and uses Japanese-related admission combinations?",
+    "answers": [
+      "Japanese Language"
+    ],
+    "answer": "Japanese Language",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0072",
+    "split": "test",
+    "question": "What does the abbreviation VNU stand for?",
+    "answers": [
+      "Vietnam National University of Hanoi"
+    ],
+    "answer": "Vietnam National University of Hanoi",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0073",
+    "split": "test",
+    "question": "How much was Data Science tuition at UET in 2024-2025?",
+    "answers": [
+      "32 million VND per academic year in 2024-2025"
+    ],
+    "answer": "32 million VND per academic year in 2024-2025",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0074",
+    "split": "test",
+    "question": "How many points were required for Psychology at USSH in 2024?",
+    "answers": [
+      "28.50 points"
+    ],
+    "answer": "28.50 points",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0075",
+    "split": "test",
+    "question": "How many points did Korean Language at ULIS require in 2024?",
+    "answers": [
+      "37.12 points"
+    ],
+    "answer": "37.12 points",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0076",
+    "split": "test",
+    "question": "Which UET majors were included in the higher tuition group in 2024-2025?",
+    "answers": [
+      "Computer Science; Information Systems; Computer Engineering; Computer Networks and Data Communications; Electronics and Telecommunications Engineering Technology"
+    ],
+    "answer": "Computer Science; Information Systems; Computer Engineering; Computer Networks and Data Communications; Electronics and Telecommunications Engineering Technology",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0077",
+    "split": "test",
+    "question": "How many language departments were formed in 1964?",
+    "answers": [
+      "Four faculties"
+    ],
+    "answer": "Four faculties",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0078",
+    "split": "test",
+    "question": "Which UET majors belonged to the engineering and technology admission group using A00 and A01 combinations?",
+    "answers": [
+      "Information Technology; Computer Science; Computer Engineering"
+    ],
+    "answer": "Information Technology; Computer Science; Computer Engineering",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0079",
+    "split": "test",
+    "question": "What is the complete English name of ULIS?",
+    "answers": [
+      "VNU University of Languages and International Studies"
+    ],
+    "answer": "VNU University of Languages and International Studies",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0080",
+    "split": "test",
+    "question": "What is one strategic goal of USSH?",
+    "answers": [
+      "Becoming an advanced research university in the region and the world"
+    ],
+    "answer": "Becoming an advanced research university in the region and the world",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0081",
+    "split": "test",
+    "question": "Approximately how many VNU students studied in Hoa Lac in 2023?",
+    "answers": [
+      "About 6000 students in 2023"
+    ],
+    "answer": "About 6000 students in 2023",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0082",
+    "split": "test",
+    "question": "How many academic programs were available at VNU in 2023?",
+    "answers": [
+      "438"
+    ],
+    "answer": "438",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0083",
+    "split": "test",
+    "question": "When was the organizational regulation of VNU issued?",
+    "answers": [
+      "5 September 1994"
+    ],
+    "answer": "5 September 1994",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0084",
+    "split": "test",
+    "question": "Which UET program requires students to pay 40 million VND per academic year in 2024-2025?",
+    "answers": [
+      "Computer Science"
+    ],
+    "answer": "Computer Science",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0085",
+    "split": "test",
+    "question": "Which UET major related to aerospace had an admission score below 24 points in 2025?",
+    "answers": [
+      "Aerospace Engineering"
+    ],
+    "answer": "Aerospace Engineering",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0086",
+    "split": "test",
+    "question": "Where can the Hoa Lac campus be found?",
+    "answers": [
+      "Thach That Hanoi"
+    ],
+    "answer": "Thach That Hanoi",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0087",
+    "split": "test",
+    "question": "What was the number of laboratories at VNU in 2023?",
+    "answers": [
+      "208"
+    ],
+    "answer": "208",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0088",
+    "split": "test",
+    "question": "What university became the first basic science university in Northern Vietnam in 1956?",
+    "answers": [
+      "Hanoi General University"
+    ],
+    "answer": "Hanoi General University",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0089",
+    "split": "test",
+    "question": "How much was the tuition fee for the Arabic Language program at ULIS in 2026?",
+    "answers": [
+      "31 million VND per student per year in 2026"
+    ],
+    "answer": "31 million VND per student per year in 2026",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0090",
+    "split": "test",
+    "question": "How much did Journalism students at USSH pay per year in 2023-2024?",
+    "answers": [
+      "35 million VND per year in 2023-2024"
+    ],
+    "answer": "35 million VND per year in 2023-2024",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0091",
+    "split": "test",
+    "question": "Which USSH major had one of the highest admission scores in 2024?",
+    "answers": [
+      "Journalism"
+    ],
+    "answer": "Journalism",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0092",
+    "split": "test",
+    "question": "How much longer can part-time programs last compared with regular programs at VNU?",
+    "answers": [
+      "At least 20 percent longer"
+    ],
+    "answer": "At least 20 percent longer",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0093",
+    "split": "test",
+    "question": "What subjects are included in the X06 admission combination used by UET?",
+    "answers": [
+      "Mathematics; Physics; Informatics"
+    ],
+    "answer": "Mathematics; Physics; Informatics",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0094",
+    "split": "test",
+    "question": "Which ULIS major had the largest admission quota in 2025?",
+    "answers": [
+      "English Language"
+    ],
+    "answer": "English Language",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0095",
+    "split": "test",
+    "question": "What type of university is VNU?",
+    "answers": [
+      "A multidisciplinary and multi-field national university"
+    ],
+    "answer": "A multidisciplinary and multi-field national university",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0096",
+    "split": "test",
+    "question": "How many points were required for Agricultural Technology at UET in 2025?",
+    "answers": [
+      "22.00 points"
+    ],
+    "answer": "22.00 points",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0097",
+    "split": "test",
+    "question": "Which sectors have employed graduates trained by ULIS?",
+    "answers": [
+      "Education diplomacy economics politics society and national defense"
+    ],
+    "answer": "Education diplomacy economics politics society and national defense",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0098",
+    "split": "test",
+    "question": "How many extra credits are required for international-standard programs compared with standard programs at VNU?",
+    "answers": [
+      "At least 15 additional credits"
+    ],
+    "answer": "At least 15 additional credits",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0099",
+    "split": "test",
+    "question": "What is USSH called in English?",
+    "answers": [
+      "VNU University of Social Sciences and Humanities"
+    ],
+    "answer": "VNU University of Social Sciences and Humanities",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0100",
+    "split": "test",
+    "question": "Who signed the decree establishing VNU?",
+    "answers": [
+      "Prime Minister Vo Van Kiet"
+    ],
+    "answer": "Prime Minister Vo Van Kiet",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0101",
+    "split": "test",
+    "question": "When did the Foreign Language School become part of Hanoi University of Education?",
+    "answers": [
+      "1958"
+    ],
+    "answer": "1958",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0102",
+    "split": "test",
+    "question": "Which two admission combinations were newly added at USSH in 2025?",
+    "answers": [
+      "C03; C04"
+    ],
+    "answer": "C03; C04",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0103",
+    "split": "test",
+    "question": "What minimum IELTS score was accepted for admission score conversion at UET in 2025?",
+    "answers": [
+      "IELTS 5.5"
+    ],
+    "answer": "IELTS 5.5",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0104",
+    "split": "test",
+    "question": "Which USSH major related to communications had an admission score close to 29 points in 2024?",
+    "answers": [
+      "Public Relations"
+    ],
+    "answer": "Public Relations",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0105",
+    "split": "test",
+    "question": "What is the core mission of VNU?",
+    "answers": [
+      "Training high-quality human resources & scientific research and technology transfer"
+    ],
+    "answer": "Training high-quality human resources & scientific research and technology transfer",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0106",
+    "split": "test",
+    "question": "Which decree officially founded VNU?",
+    "answers": [
+      "Decree 97/CP"
+    ],
+    "answer": "Decree 97/CP",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0107",
+    "split": "test",
+    "question": "What was ULIS originally called?",
+    "answers": [
+      "Foreign Language School"
+    ],
+    "answer": "Foreign Language School",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0108",
+    "split": "test",
+    "question": "Approximately how many students studied at Hoa Lac in 2023?",
+    "answers": [
+      "About 6000 students"
+    ],
+    "answer": "About 6000 students",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0109",
+    "split": "test",
+    "question": "Which UET major had the highest admission score in 2025?",
+    "answers": [
+      "Information Technology"
+    ],
+    "answer": "Information Technology",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0110",
+    "split": "test",
+    "question": "Where is USSH currently located?",
+    "answers": [
+      "336 Nguyen Trai Street; Thanh Xuan District; Hanoi"
+    ],
+    "answer": "336 Nguyen Trai Street; Thanh Xuan District; Hanoi",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0111",
+    "split": "test",
+    "question": "Which UET undergraduate program related to telecommunications belonged to the 40-million-VND tuition group in 2024-2025?",
+    "answers": [
+      "Electronics and Telecommunications Engineering Technology"
+    ],
+    "answer": "Electronics and Telecommunications Engineering Technology",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0112",
+    "split": "test",
+    "question": "How many points did Arabic Language at ULIS require in 2023?",
+    "answers": [
+      "31.50 points"
+    ],
+    "answer": "31.50 points",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  },
+  {
+    "id": "test_0113",
+    "split": "test",
+    "question": "How many admission methods were applied by UET in the 2025 admission season?",
+    "answers": [
+      "4 admission methods"
+    ],
+    "answer": "4 admission methods",
+    "qa_language": "en",
+    "annotation_status": "manual_curated"
+  }
+]
