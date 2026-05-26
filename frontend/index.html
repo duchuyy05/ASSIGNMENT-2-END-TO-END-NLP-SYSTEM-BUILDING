@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VNU/UET RAG QA System</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <div>
+        <h1>VNU/UET RAG QA System</h1>
+        <p>MiniLM + FAISS + DistilBERT QA</p>
+      </div>
+      <span id="status" class="status">Backend</span>
+    </header>
+
+    <main class="layout">
+      <section class="panel ask-panel">
+        <label for="question">Nhập câu hỏi</label>
+        <textarea id="question" placeholder="Ví dụ: What is the English name of UET?"></textarea>
+
+        <div class="controls">
+          <label class="topk">
+            Top K
+            <input id="topK" type="number" value="5" min="1" max="20" />
+          </label>
+
+          <button id="askBtn">Ask</button>
+          <button id="retrieveBtn" class="secondary">Retrieve</button>
+        </div>
+      </section>
+
+      <section class="panel answer-panel">
+        <h2>Answer</h2>
+        <div id="answer" class="answer-box">Chưa có câu trả lời.</div>
+        <div id="confidence" class="muted"></div>
+      </section>
+
+      <section class="panel sources-panel">
+        <h2>Retrieved Sources</h2>
+        <div id="sources" class="sources-empty">Chưa có source.</div>
+      </section>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
