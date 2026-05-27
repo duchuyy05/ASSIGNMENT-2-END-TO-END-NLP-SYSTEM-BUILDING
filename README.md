@@ -78,11 +78,11 @@ python scripts/evaluate_qa.py \
   --references data/test/reference_answers.txt
 ```
 
-Current local test result for `system_output_1.txt`:
+Current local test result for `system_output_1.txt` using MiniLM + DistilBERT :
 
-- Exact Match: 49.12
-- Token F1: 58.21
-- Answer Recall: 70.18
+- Exact Match: 38.60
+- Token F1: 55.44
+- Answer Recall: 71.05
 
 Current local test result for `system_output_3.txt` using E5 + RoBERTa:
 
