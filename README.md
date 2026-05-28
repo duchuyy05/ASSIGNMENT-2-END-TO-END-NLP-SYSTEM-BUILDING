@@ -11,22 +11,30 @@ python3 -m pip install -r requirements.txt
 
 ## Build Data
 
-Build the current manual dataset from the curated CSV files:
+The dataset is built from manually curated QA CSV files in
+`data/manual_annotations/`. The build script keeps these CSV files unchanged
+and regenerates the assignment-ready train/test files, JSON annotations,
+document metadata, and retrieval chunks under `data/`.
+
+For normal use, rebuild the dataset from the existing processed documents:
 
 ```powershell
 python scripts/build_manual_dataset.py --reuse-documents
 ```
 
-If `data/processed/documents.json` is missing or you want to re-fetch source
-pages, run:
+If `data/processed/documents.json` is missing, or if you want to fetch the
+public source pages again, run:
 
 ```powershell
 python scripts/build_manual_dataset.py --timeout 12
 ```
 
-Generated files are written under `data/`. The original CSV files in
-`data/manual_annotations/` are treated as source files and are not modified by
-the build script.
+Main generated outputs:
+
+- `data/train/questions.txt` and `data/train/reference_answers.txt`
+- `data/test/questions.txt` and `data/test/reference_answers.txt`
+- `data/annotations/*.json`
+- `data/processed/documents.json`, `chunks.json`, and `dataset_metadata.json`
 
 ## Run TF-IDF RAG
 
