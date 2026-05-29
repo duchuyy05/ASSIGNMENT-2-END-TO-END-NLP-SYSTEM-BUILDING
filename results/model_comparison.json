@@ -1,0 +1,34 @@
+[
+  {
+    "system": "System 1",
+    "model": "MiniLM + DistilBERT",
+    "examples": 114,
+    "exact_match": 38.59649122807017,
+    "token_f1": 55.44006188743032,
+    "answer_recall": 71.05263157894737
+  },
+  {
+    "system": "System 2",
+    "model": "BGE + RoBERTa",
+    "examples": 114,
+    "exact_match": 57.01754385964912,
+    "token_f1": 69.49780874266,
+    "answer_recall": 85.08771929824562
+  },
+  {
+    "system": "System 3",
+    "model": "E5 + RoBERTa",
+    "examples": 114,
+    "exact_match": 50.877192982456144,
+    "token_f1": 60.770632664225346,
+    "answer_recall": 71.9298245614035
+  },
+  {
+    "system": "System 4",
+    "model": "TF-IDF baseline",
+    "examples": 114,
+    "exact_match": 49.122807017543856,
+    "token_f1": 58.20770360244044,
+    "answer_recall": 70.17543859649122
+  }
+]

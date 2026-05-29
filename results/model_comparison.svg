@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="520" viewBox="0 0 980 520">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#111827}.axis{stroke:#9ca3af;stroke-width:1}.grid{stroke:#e5e7eb;stroke-width:1}.bar-label{fill:#111827}</style>
+<text x="490.0" y="34.0" font-size="20" text-anchor="middle" font-weight="700">RAG Model Comparison on Local Test Set</text>
+<line class="grid" x1="170.0" y1="70" x2="170.0" y2="440"/>
+<text x="170.0" y="464.0" font-size="11" text-anchor="middle" font-weight="400">0</text>
+<line class="grid" x1="324.0" y1="70" x2="324.0" y2="440"/>
+<text x="324.0" y="464.0" font-size="11" text-anchor="middle" font-weight="400">20</text>
+<line class="grid" x1="478.0" y1="70" x2="478.0" y2="440"/>
+<text x="478.0" y="464.0" font-size="11" text-anchor="middle" font-weight="400">40</text>
+<line class="grid" x1="632.0" y1="70" x2="632.0" y2="440"/>
+<text x="632.0" y="464.0" font-size="11" text-anchor="middle" font-weight="400">60</text>
+<line class="grid" x1="786.0" y1="70" x2="786.0" y2="440"/>
+<text x="786.0" y="464.0" font-size="11" text-anchor="middle" font-weight="400">80</text>
+<line class="grid" x1="940.0" y1="70" x2="940.0" y2="440"/>
+<text x="940.0" y="464.0" font-size="11" text-anchor="middle" font-weight="400">100</text>
+<line class="axis" x1="170" y1="440" x2="940" y2="440"/>
+<text x="555.0" y="500.0" font-size="13" text-anchor="middle" font-weight="400">Score (%)</text>
+<text x="158.0" y="115.0" font-size="12" text-anchor="end" font-weight="700">System 1: MiniLM + DistilBERT</text>
+<rect x="170" y="88.0" width="297.2" height="20" rx="2" fill="#2563eb"/>
+<text x="473.2" y="103.0" font-size="11" text-anchor="start" font-weight="400">38.60</text>
+<rect x="170" y="114.0" width="426.9" height="20" rx="2" fill="#16a34a"/>
+<text x="602.9" y="129.0" font-size="11" text-anchor="start" font-weight="400">55.44</text>
+<rect x="170" y="140.0" width="547.1" height="20" rx="2" fill="#dc2626"/>
+<text x="723.1" y="155.0" font-size="11" text-anchor="start" font-weight="400">71.05</text>
+<text x="158.0" y="207.5" font-size="12" text-anchor="end" font-weight="700">System 2: BGE + RoBERTa</text>
+<rect x="170" y="180.5" width="439.0" height="20" rx="2" fill="#2563eb"/>
+<text x="615.0" y="195.5" font-size="11" text-anchor="start" font-weight="400">57.02</text>
+<rect x="170" y="206.5" width="535.1" height="20" rx="2" fill="#16a34a"/>
+<text x="711.1" y="221.5" font-size="11" text-anchor="start" font-weight="400">69.50</text>
+<rect x="170" y="232.5" width="655.2" height="20" rx="2" fill="#dc2626"/>
+<text x="831.2" y="247.5" font-size="11" text-anchor="start" font-weight="400">85.09</text>
+<text x="158.0" y="300.0" font-size="12" text-anchor="end" font-weight="700">System 3: E5 + RoBERTa</text>
+<rect x="170" y="273.0" width="391.8" height="20" rx="2" fill="#2563eb"/>
+<text x="567.8" y="288.0" font-size="11" text-anchor="start" font-weight="400">50.88</text>
+<rect x="170" y="299.0" width="467.9" height="20" rx="2" fill="#16a34a"/>
+<text x="643.9" y="314.0" font-size="11" text-anchor="start" font-weight="400">60.77</text>
+<rect x="170" y="325.0" width="553.9" height="20" rx="2" fill="#dc2626"/>
+<text x="729.9" y="340.0" font-size="11" text-anchor="start" font-weight="400">71.93</text>
+<text x="158.0" y="392.5" font-size="12" text-anchor="end" font-weight="700">System 4: TF-IDF baseline</text>
+<rect x="170" y="365.5" width="378.2" height="20" rx="2" fill="#2563eb"/>
+<text x="554.2" y="380.5" font-size="11" text-anchor="start" font-weight="400">49.12</text>
+<rect x="170" y="391.5" width="448.2" height="20" rx="2" fill="#16a34a"/>
+<text x="624.2" y="406.5" font-size="11" text-anchor="start" font-weight="400">58.21</text>
+<rect x="170" y="417.5" width="540.4" height="20" rx="2" fill="#dc2626"/>
+<text x="716.4" y="432.5" font-size="11" text-anchor="start" font-weight="400">70.18</text>
+<rect x="170" y="40" width="14" height="14" fill="#2563eb"/>
+<text x="192.0" y="52.0" font-size="12" text-anchor="start" font-weight="400">Exact Match</text>
+<rect x="320" y="40" width="14" height="14" fill="#16a34a"/>
+<text x="342.0" y="52.0" font-size="12" text-anchor="start" font-weight="400">Token F1</text>
+<rect x="470" y="40" width="14" height="14" fill="#dc2626"/>
+<text x="492.0" y="52.0" font-size="12" text-anchor="start" font-weight="400">Answer Recall</text>
+</svg>

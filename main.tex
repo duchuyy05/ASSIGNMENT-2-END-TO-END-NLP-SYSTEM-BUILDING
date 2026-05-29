@@ -1,0 +1,304 @@
+\documentclass[12pt,a4paper]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[T5]{fontenc}
+\usepackage[vietnamese]{babel}
+\usepackage{geometry}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage[table]{xcolor}
+\usepackage{lmodern}
+\usepackage{caption}
+\usepackage{graphicx}
+\usepackage{indentfirst}
+\usepackage{float}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{tikz}
+
+% Khai báo thư viện TikZ
+\usetikzlibrary{shapes, arrows, positioning, fit, calc, mindmap, trees, shadows}
+
+\geometry{a4paper, margin=1in, top=1.2in, bottom=1.2in}
+
+% --- CẤU HÌNH HEADER VÀ FOOTER ---
+\pagestyle{fancy}
+\fancyhf{} 
+
+% Header Trái: Tự động lấy tên Chương (Chapter)
+\fancyhead[L]{\nouppercase{\leftmark}} 
+% Header Phải: Tên trường
+\fancyhead[R]{\footnotesize UET - VNU}
+
+% Footer Giữa: Số trang
+\fancyfoot[C]{\thepage}
+% Footer Phải: Ngày tháng
+\fancyfoot[R]{\footnotesize Tháng 4 năm 2026}
+
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0.5pt}
+
+% --- ĐỊNH DẠNG TIÊU ĐỀ (TITLE FORMAT) ---
+% 1. Định dạng Chapter (Chương)
+\titleformat{\chapter}[hang]
+  {\normalfont\huge\bfseries}{\thechapter.}{1em}{} 
+% Thu gọn khoảng trắng phía trên Chapter (mặc định report để trống rất nhiều)
+\titlespacing*{\chapter}{0pt}{-20pt}{20pt}
+
+% 2. Định dạng Section (Mục lớn: 1.1)
+\titleformat{\section}
+  {\normalfont\Large\bfseries}{\thesection}{1em}{}
+
+% 3. Định dạng Subsection (Mục nhỏ: 1.1.1)
+\titleformat{\subsection}
+  {\normalfont\large\bfseries}{\thesubsection}{1em}{}
+
+\begin{document}
+
+% =============== TRANG BÌA ===============
+\begin{titlepage}
+    \begin{tikzpicture}[overlay,remember picture]
+        \draw[line width=2pt]
+            ($(current page.north west)+(1.6cm,-1.6cm)$)
+            rectangle
+            ($(current page.south east)+(-1.6cm,1.6cm)$);
+        \draw[line width=0.8pt]
+            ($(current page.north west)+(1.8cm,-1.8cm)$)
+            rectangle
+            ($(current page.south east)+(-1.8cm,1.8cm)$);
+    \end{tikzpicture}
+
+    \thispagestyle{empty}
+    \centering
+
+    % Tên trường
+    \vspace*{0.3cm}
+    {\large \textbf{ĐẠI HỌC QUỐC GIA HÀ NỘI}}\\[0.25cm]
+    {\Large \textbf{TRƯỜNG ĐẠI HỌC CÔNG NGHỆ}}\\[0.3cm]
+    \rule{8cm}{0.6pt}
+
+    % Logo
+    \vspace{1.0cm}
+    \includegraphics[width=3.2cm]{uet.png}\\[1.2cm]
+
+    % Loại báo cáo
+    {\LARGE \textbf{BÁO CÁO GIỮA KỲ}}\\[0.6cm]
+    {\large \textbf{Môn: Ứng dụng trí tuệ nhân tạo cho ngôn ngữ}}\\[1.6cm]
+
+    % Tên đề tài
+    {\fontsize{20}{24}\selectfont \textbf{END-TO-END-NLP}}\\[0.2cm]
+    {\fontsize{20}{24}\selectfont \textbf{SYSTEM BUILDING}}\\[1.8cm]
+
+    % Thông tin nhóm
+    {\large \textbf{Nhóm sinh viên thực hiện}}\\[0.8cm]
+
+    \renewcommand{\arraystretch}{1.45}
+    \begin{tabular}{p{7cm}c}
+        Nguyễn Công Cường & 23020376 \\
+        Nguyễn Đức Huy    & 23020376 \\
+        Nguyễn Trần Huy   & 23020376 \\
+        Ngô Đình Linh     & 23020376 \\
+    \end{tabular}
+
+    \vfill
+
+    % GVHD
+    \begin{flushleft}
+        \hspace{3.1cm}
+        \begin{tabular}{ll}
+            \textbf{Giảng viên hướng dẫn:} & ThS. Ngô Minh Hương
+        \end{tabular}
+    \end{flushleft}
+
+    \vspace{1.2cm}
+    {\normalsize Hà Nội, tháng 5 năm 2026}
+    \vspace{0.5cm}
+\end{titlepage}
+
+% =============== MỤC LỤC ===============
+\newpage
+\fancyhead[L]{Mục lục} 
+\tableofcontents
+\newpage
+
+
+
+\fancyhead[L]{\nouppercase{\leftmark}} 
+\chapter{Giới thiệu}
+
+\section{Bối cảnh và yêu cầu bài tập}
+
+Bài tập này yêu cầu xây dựng một hệ thống xử lý ngôn ngữ tự nhiên end-to-end cho bài toán trả lời câu hỏi thực tế (factual question answering). Với mỗi câu hỏi đầu vào, hệ thống cần đưa ra một câu trả lời ngắn gọn, chính xác và có thể đối chiếu với đáp án tham chiếu. Dữ liệu đầu vào được lưu trong file \texttt{questions.txt}, mỗi dòng là một câu hỏi; đầu ra của hệ thống được lưu trong file \texttt{system\_output.txt}, mỗi dòng là câu trả lời tương ứng với câu hỏi cùng vị trí.
+
+Khác với các bài toán hỏi đáp mở thông thường, yêu cầu của bài tập nhấn mạnh việc tự xây dựng dữ liệu và kho tri thức cho miền câu hỏi cụ thể. Vì vậy, nhóm không chỉ cần chạy một mô hình có sẵn, mà còn phải thu thập tài liệu công khai, xử lý dữ liệu thô, tạo bộ câu hỏi -- câu trả lời, xây dựng hệ thống truy xuất và đánh giá kết quả. Các độ đo chính gồm Exact Match, token-level F1 và Answer Recall; do đó, câu trả lời của hệ thống cần đúng trọng tâm và hạn chế thêm các thông tin không được hỏi.
+
+\section{Phạm vi nội dung}
+
+Trong phạm vi bài tập, nhóm lựa chọn miền thông tin liên quan đến Đại học Quốc gia Hà Nội (VNU) và một số trường thành viên như Trường Đại học Công nghệ (UET), Trường Đại học Ngoại ngữ (ULIS) và Trường Đại học Khoa học Xã hội và Nhân văn (USSH). Các câu hỏi được xây dựng xoay quanh những thông tin có thể kiểm chứng từ tài liệu nguồn, ví dụ lịch sử hình thành, tuyển sinh, điểm chuẩn, học phí, chương trình đào tạo, quy chế đào tạo, chỉ tiêu tuyển sinh và tổ hợp xét tuyển.
+
+Những thông tin này phù hợp với bài toán RAG vì chúng khá chuyên biệt và thường thay đổi theo từng năm. Một mô hình ngôn ngữ chỉ dựa vào kiến thức đã học trước đó có thể trả lời thiếu chính xác hoặc không cập nhật, đặc biệt với các câu hỏi về học phí, điểm chuẩn hoặc phương thức tuyển sinh. Việc bổ sung tài liệu liên quan trước khi trả lời giúp hệ thống có cơ sở rõ ràng hơn và giảm nguy cơ sinh ra thông tin không có trong nguồn.
+
+\section{Hướng tiếp cận}
+
+Theo yêu cầu của đề bài, nhóm triển khai hệ thống theo hướng Retrieval-Augmented Generation (RAG). Ở mức tổng quát, hệ thống trước tiên biểu diễn câu hỏi và tài liệu dưới dạng có thể so sánh được, sau đó truy xuất các đoạn tài liệu liên quan nhất với câu hỏi. Các đoạn được truy xuất tiếp tục được dùng làm ngữ cảnh cho bước đọc hiểu hoặc sinh câu trả lời.
+
+Cách tiếp cận này phù hợp với factual QA vì chất lượng câu trả lời phụ thuộc nhiều vào khả năng tìm đúng bằng chứng trong tài liệu. Trong bài làm này, kho tài liệu được xây dựng từ các nguồn công khai về VNU/UET và các trường thành viên. Từ kho tài liệu đó, hệ thống RAG gồm ba thành phần chính: bộ biểu diễn câu hỏi và tài liệu, bộ truy xuất tài liệu, và bộ đọc để tạo câu trả lời cuối cùng.
+
+\section{Mục tiêu thực hiện}
+
+Mục tiêu của bài làm là hoàn thành một quy trình hỏi đáp có thể chạy từ dữ liệu đầu vào đến kết quả đầu ra theo đúng định dạng được yêu cầu trong đề bài. Nhóm thực hiện các bước chính gồm thu thập và làm sạch tài liệu, tạo bộ dữ liệu train/test, kiểm tra chất lượng annotation, xây dựng các biến thể RAG, sinh câu trả lời cho tập test và đánh giá bằng các độ đo được yêu cầu.
+
+Một phần quan trọng của bài làm là bộ dữ liệu do nhóm tự tạo. Các câu hỏi và đáp án được xây dựng từ các nguồn công khai, có thể kiểm chứng, và được rà soát thủ công để đảm bảo câu hỏi khớp với đáp án. Bộ dữ liệu này vừa phục vụ phát triển hệ thống, vừa dùng để phân tích chất lượng của các phương pháp RAG được thử nghiệm trong bài.
+
+\chapter{Xây dựng dữ liệu}
+
+\section{Thu thập và tiền xử lý dữ liệu}
+
+\subsection{Nguồn dữ liệu}
+
+Nhóm xây dựng bộ tài liệu từ các nguồn công khai liên quan đến VNU và các trường thành viên như UET, ULIS và USSH. Khi lựa chọn nguồn, nhóm ưu tiên các website chính thức của trường hoặc các trang công khai có thông tin rõ ràng về tuyển sinh, học phí, chương trình đào tạo và quy chế đào tạo. Việc ưu tiên các nguồn đáng tin cậy giúp đảm bảo rằng đáp án trong bộ dữ liệu có thể được kiểm chứng lại khi cần.
+
+Các nguồn dữ liệu được chọn để bao phủ nhiều nhóm thông tin khác nhau. Nhóm thu thập các trang giới thiệu trường để lấy thông tin về lịch sử, tên gọi, địa điểm và thông tin tổ chức. Các trang tuyển sinh được dùng để lấy điểm chuẩn, chỉ tiêu, tổ hợp xét tuyển và phương thức xét tuyển. Ngoài ra, nhóm cũng thu thập thông tin về học phí, chương trình đào tạo, loại bằng cấp, thời gian học, số tín chỉ và quy chế học tập.
+
+Sau khi xử lý, kho dữ liệu gồm 29 tài liệu nguồn và 461 đoạn truy xuất. Các tài liệu này là cơ sở để xây dựng câu hỏi, tạo tập train/test và phục vụ hệ thống RAG ở bước truy xuất.
+
+\subsection{Tiền xử lý tài liệu}
+
+Nhóm sử dụng file Python \texttt{build\_manual\_dataset.py} để hỗ trợ quá trình xử lý dữ liệu. File này có nhiệm vụ trích xuất nội dung văn bản từ tài liệu HTML/PDF, loại bỏ các thành phần nhiễu, chuẩn hóa văn bản, chia tài liệu thành các đoạn nhỏ và xuất dữ liệu ở dạng có cấu trúc. Phần lựa chọn thông tin, tạo câu hỏi và xác nhận đáp án vẫn được thực hiện thủ công.
+
+Trong quá trình xử lý, các thành phần không mang nội dung chính như menu, footer, thanh điều hướng, script, style và các liên kết lặp lại được loại bỏ. Sau đó, văn bản được chuẩn hóa về khoảng trắng, ký tự đặc biệt và định dạng dòng. Bước này giúp bộ tài liệu tập trung vào các thông tin thực tế thay vì chứa nhiều phần nhiễu từ giao diện website.
+
+Tài liệu sau khi làm sạch được chia thành các chunk để phục vụ truy xuất. Nhóm sử dụng kích thước chunk là 140 từ với độ chồng lặp 30 từ. Cách chia này giúp mỗi đoạn đủ ngắn để truy xuất hiệu quả nhưng vẫn giữ được một phần ngữ cảnh giữa các đoạn liền kề.
+
+Ngoài nội dung văn bản, nhóm lưu metadata dưới dạng JSON. Định dạng JSON giúp dữ liệu có cấu trúc rõ ràng, dễ đọc lại bằng chương trình và dễ kiểm tra thủ công. Metadata có thể bao gồm thông tin về tài liệu nguồn, chunk, số từ, mã định danh và các thông tin hỗ trợ truy vết. Nhờ vậy, khi một câu trả lời sai hoặc một chunk truy xuất chưa phù hợp, nhóm có thể quay lại kiểm tra nguồn dữ liệu tương ứng.
+
+\section{Tạo tập câu hỏi -- câu trả lời}
+
+\subsection{Quy trình tạo câu hỏi}
+
+Sau khi hoàn thành bước xử lý tài liệu, nhóm tạo thủ công các cặp câu hỏi -- câu trả lời bằng tiếng Anh. Các câu hỏi được xây dựng trực tiếp từ nội dung trong tài liệu nguồn để đảm bảo rằng mọi đáp án đều có thể kiểm chứng được.
+
+Khi tạo dữ liệu, nhóm đọc tài liệu đã xử lý và chọn ra các thông tin thực tế, rõ ràng, ví dụ năm thành lập, địa điểm, tên ngành, mức học phí, điểm chuẩn, chỉ tiêu tuyển sinh, tổ hợp môn, loại bằng cấp hoặc số tín chỉ. Mỗi thông tin được chuyển thành một câu hỏi tiếng Anh và một đáp án tiếng Anh tương ứng. Đáp án được viết đúng theo nội dung câu hỏi, không thêm thông tin ngoài phạm vi được hỏi.
+
+Sau khi viết câu hỏi và đáp án, nhóm đối chiếu lại với tài liệu gốc để đảm bảo câu hỏi và đáp án khớp nhau. Với các thông tin dạng bảng như điểm chuẩn, học phí hoặc chỉ tiêu, nhóm kiểm tra kỹ đúng ngành, đúng năm học và đúng đơn vị để tránh nhầm lẫn giữa các dòng dữ liệu gần giống nhau.
+
+\subsection{Phạm vi câu hỏi}
+
+Bộ dữ liệu được thiết kế để bao phủ nhiều nhóm câu hỏi trong phạm vi VNU/UET. Các câu hỏi lịch sử tập trung vào năm thành lập, tiền thân của trường hoặc các sự kiện quan trọng. Các câu hỏi tuyển sinh bao gồm điểm chuẩn, chỉ tiêu, tổ hợp xét tuyển và phương thức xét tuyển. Các câu hỏi học phí tập trung vào mức học phí theo ngành, theo năm học hoặc theo tín chỉ.
+
+Ngoài ra, bộ dữ liệu còn có các câu hỏi về chương trình đào tạo, loại bằng cấp, thời gian học, số tín chỉ và quy chế học tập. Nhóm cũng tạo một số câu hỏi dạng danh sách và câu hỏi so sánh để tăng độ đa dạng. Những câu hỏi này khó hơn câu hỏi đơn giản vì hệ thống có thể phải truy xuất nhiều thông tin hoặc đối chiếu nhiều giá trị trước khi trả lời.
+
+Bộ dữ liệu cuối cùng gồm 360 cặp câu hỏi -- câu trả lời cho tập train và 114 cặp cho tập test. Dữ liệu được lưu theo định dạng yêu cầu của bài tập, trong đó mỗi dòng câu hỏi tương ứng với một dòng đáp án tham chiếu. Ngoài định dạng văn bản, nhóm cũng lưu phiên bản JSON để giữ thêm thông tin phục vụ kiểm tra, phân tích lỗi và tái lập quá trình xử lý.
+
+\section{Kiểm tra chất lượng dữ liệu}
+
+Sau khi hoàn thành annotation, nhóm rà soát thủ công các cặp câu hỏi -- câu trả lời bằng cách đối chiếu đáp án với tài liệu nguồn. Bước này tập trung vào việc kiểm tra câu hỏi có rõ ràng hay không, đáp án có đúng thông tin được hỏi hay không, và các chi tiết như năm học, ngành, điểm, tín chỉ hoặc học phí có khớp với nguồn hay không. Các câu hỏi về điểm chuẩn, học phí, chỉ tiêu và danh sách ngành được kiểm tra kỹ hơn vì dễ nhầm giữa các dòng dữ liệu tương tự nhau.
+
+Để ước lượng mức độ nhất quán của annotation, nhóm sử dụng hai annotator độc lập trên 30 câu hỏi test. Vì đáp án là văn bản tự do, nhóm dùng token-level F1 sau chuẩn hóa thay vì Cohen's kappa; token-level F1 trung bình giữa hai annotator đạt 56.04\%. Các bất đồng chủ yếu đến từ khác biệt diễn đạt, câu trả lời dạng danh sách chưa đầy đủ, hoặc mức độ cụ thể khác nhau giữa hai annotator.
+
+Sau khi so sánh hai bộ annotation, nhóm rà soát lại các trường hợp bất đồng và thống nhất đáp án tham chiếu cuối cùng. Nhờ đó, bước kiểm tra chất lượng vừa giúp phát hiện lỗi annotation, vừa giúp chuẩn hóa đáp án trước khi dùng dữ liệu để phát triển và đánh giá hệ thống RAG.
+
+
+\chapter{Phần công việc đã thực hiện}
+
+\section{Sử dụng Embedding MiniLM + QA DistilBERT}
+
+Trong phần này, nhóm triển khai một biến thể RAG theo pipeline:
+
+\begin{center}
+Question $\rightarrow$ MiniLM embedding $\rightarrow$ FAISS retrieve $\rightarrow$ DistilBERT QA $\rightarrow$ answer
+\end{center}
+
+\textbf{Retriever:} \texttt{sentence-transformers/all-MiniLM-L6-v2}
+
+\textbf{Reader:} \texttt{distilbert-base-cased-distilled-squad}
+
+\textbf{Các file mã nguồn đã bổ sung:}
+\begin{itemize}
+    \item \texttt{rag/rag\_minilm\_distilbert.py}: triển khai đầy đủ pipeline truy xuất và đọc hiểu.
+    \item \texttt{scripts/run\_system1\_pipeline.py}: chạy end-to-end và gọi script đánh giá tự động.
+\end{itemize}
+
+\textbf{Đầu ra hệ thống:}
+\begin{itemize}
+    \item \texttt{system\_outputs/system\_output\_1.txt}
+    \item \texttt{system\_outputs/system\_output\_1\_trace.jsonl}
+\end{itemize}
+
+\section{Cách hoạt động chi tiết}
+
+\textbf{Bước 1 - Nạp kho tri thức:}
+Hệ thống đọc các đoạn văn bản từ \texttt{data/processed/chunks.json}. Mỗi đoạn (chunk) được gắn metadata như \texttt{chunk\_id}, tiêu đề và nguồn. Ngoài ra, hệ thống có thể bổ sung các QA fact từ \texttt{data/annotations/train\_qa.json} để tăng khả năng truy xuất đúng đáp án ngắn.
+
+\textbf{Bước 2 - Biểu diễn vector bằng MiniLM:}
+Toàn bộ chunk được mã hoá thành embedding bằng mô hình \texttt{all-MiniLM-L6-v2}. Embedding được chuẩn hoá để dùng inner product tương đương cosine similarity. Câu hỏi đầu vào cũng được mã hoá theo cùng không gian vector.
+
+\textbf{Bước 3 - Truy xuất với FAISS:}
+Các embedding của kho tri thức được đưa vào chỉ mục FAISS (\texttt{IndexFlatIP}). Với mỗi câu hỏi, hệ thống truy xuất top-\(k\) chunk có độ tương đồng cao nhất. Nếu không có FAISS, mã nguồn vẫn có cơ chế fallback sang tìm kiếm bằng NumPy.
+
+\textbf{Bước 4 - Đọc hiểu bằng DistilBERT QA:}
+Mỗi chunk truy xuất được đưa vào mô hình \texttt{distilbert-base-cased-distilled-squad} dưới dạng cặp \((question, context)\). Mô hình dự đoán span bắt đầu/kết thúc và trích xuất câu trả lời ngắn trực tiếp từ ngữ cảnh.
+
+\textbf{Bước 5 - Chấm điểm và chọn đáp án cuối:}
+Hệ thống tính điểm cho các candidate answer theo chất lượng span và độ liên quan của chunk truy xuất. Candidate tốt nhất được chọn làm kết quả cuối cùng cho câu hỏi.
+
+\textbf{Bước 6 - Ghi kết quả:}
+Câu trả lời cuối cùng được ghi theo đúng định dạng yêu cầu, mỗi dòng một đáp án trong \texttt{system\_output\_1.txt}. Đồng thời, thông tin truy xuất và điểm số được lưu trong \texttt{system\_output\_1\_trace.jsonl} để phân tích lỗi.
+
+\section{Đánh giá kết quả}
+
+Kết quả đánh giá trên tập test (\texttt{114} câu hỏi) với các độ đo yêu cầu:
+
+\begin{table}[H]
+\centering
+\caption{Kết quả đánh giá System 1}
+\begin{tabular}{|l|c|}
+\hline
+\textbf{Metric} & \textbf{Giá trị (\%)} \\
+\hline
+Exact Match (EM) & 38.60 \\
+\hline
+Token-level F1 & 55.44 \\
+\hline
+Answer Recall & 71.05 \\
+\hline
+\end{tabular}
+\end{table}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\newpage
+\section*{Đóng góp của các thành viên}
+\addcontentsline{toc}{section}{Đóng góp của các thành viên}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|p{10cm}|}
+\hline
+\textbf{Thành viên} & \textbf{Đóng góp} \\
+\hline
+Nguyễn Đức Huy & Làm knowledge base . \\
+\hline
+Nguyễn Công Cường & MiniLM + DistilBERT. \\
+\hline
+Nguyễn Trần Huy & E5 embedding + DistilBERT QA  \\
+\hline
+Ngô Đình Linh & BGE embedding + RoBERTa QA  \\
+\hline
+\end{tabular}
+\end{table}
+\end{document}

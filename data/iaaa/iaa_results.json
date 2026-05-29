@@ -1,0 +1,14 @@
+{
+  "annotator_a": "/Users/nguyentranhuy/ASSIGNMENT-2-END-TO-END-NLP-SYSTEM-BUILDING/data/iaaa/annotator_a.csv",
+  "annotator_b": "/Users/nguyentranhuy/ASSIGNMENT-2-END-TO-END-NLP-SYSTEM-BUILDING/data/iaaa/annotator_b.csv",
+  "item_count": 30,
+  "blank_answer_count": 0,
+  "exact_agreement_count": 5,
+  "exact_agreement": 0.16666666666666666,
+  "soft_threshold": 0.8,
+  "soft_agreement_count": 11,
+  "soft_agreement": 0.36666666666666664,
+  "mean_token_f1": 0.5684972326277002,
+  "disagreement_count": 25,
+  "disagreements_path": "/Users/nguyentranhuy/ASSIGNMENT-2-END-TO-END-NLP-SYSTEM-BUILDING/data/iaaa/iaa_disagreements.csv"
+}
