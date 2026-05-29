@@ -287,6 +287,66 @@ Answer Recall & 71.05 \\
 \end{table}
 
 
+\section{Sử dụng BGE Embedding + QA RoBERTa với hybrid reranking}
+
+ Hệ thống sử dụng BGE làm retriever và RoBERTa làm reader, nhưng được bổ sung thêm truy xuất lai và bước chọn đáp án theo loại câu hỏi để cải thiện kết quả trên các câu hỏi có nhiều số liệu, tên ngành, mã tổ hợp hoặc danh sách đáp án.
+
+\begin{center}
+Question $\rightarrow$ BGE embedding + TF-IDF vector $\rightarrow$ hybrid retrieve $\rightarrow$ type-aware reranking $\rightarrow$ RoBERTa QA $\rightarrow$ answer
+\end{center}
+
+\textbf{Retriever chính:} \texttt{BAAI/bge-small-en}
+
+\textbf{Retriever bổ trợ:} TF-IDF lexical retrieval
+
+\textbf{Reader:} \texttt{deepset/roberta-base-squad2}
+
+\textbf{File mã nguồn:}
+\begin{itemize}
+    \item \texttt{rag/rag\_bge\_roberta.py}: triển khai System 2 với BGE retriever, TF-IDF hybrid retrieval, RoBERTa reader và answer reranking.
+    \item \texttt{scripts/run\_system2\_pipeline.py}: chạy end-to-end để sinh \texttt{system\_output\_2.txt} và gọi script đánh giá tự động.
+\end{itemize}
+
+\textbf{Đầu ra hệ thống:}
+\begin{itemize}
+    \item \texttt{system\_outputs/system\_output\_2.txt}
+    \item \texttt{system\_outputs/system\_output\_2\_trace.jsonl}
+\end{itemize}
+
+Trong bước truy xuất, toàn bộ corpus được tạo từ \texttt{data/processed/chunks.json} và có thể bổ sung các QA fact từ \texttt{data/annotations/train\_qa.json}. Với BGE, câu hỏi được mã hóa bằng tiền tố truy xuất \texttt{Represent this sentence for searching relevant passages:}, còn các passage được mã hóa trực tiếp từ nội dung chunk. Các embedding được chuẩn hóa để tính độ tương đồng bằng inner product.
+
+Chỉ sử dụng dense retrieval chưa đủ ổn định với dữ liệu của bài vì nhiều câu hỏi chứa tín hiệu lexical rất quan trọng như tên ngành, mã tổ hợp xét tuyển, năm học, điểm chuẩn, học phí hoặc số tín chỉ. Vì vậy, System 2 kết hợp điểm BGE dense similarity với điểm TF-IDF cosine similarity theo công thức mặc định:
+
+\[
+score = 0.70 \times score_{BGE} + 0.30 \times score_{TFIDF}
+\]
+
+Cách kết hợp này giúp hệ thống giữ được khả năng bắt ngữ nghĩa của BGE, đồng thời không bỏ qua các chuỗi chính xác như \texttt{D01}, \texttt{C00}, tên chương trình học hoặc mức học phí. Sau khi truy xuất top-\(k\) chunk, hệ thống tiếp tục rerank và chọn đáp án dựa trên loại câu hỏi.
+
+Ở bước chọn đáp án, System 2 không chỉ lấy span có điểm cao nhất từ RoBERTa. Thay vào đó, hệ thống nhận diện một số nhóm câu hỏi phổ biến như câu hỏi về ngành/chương trình, học phí, điểm chuẩn, địa điểm, tổ hợp môn, loại bằng, số lượng và câu hỏi so sánh. Với mỗi nhóm, hệ thống ưu tiên kiểu đáp án phù hợp: ví dụ câu hỏi về ngành không nên trả về số điểm, câu hỏi về học phí cần giữ đơn vị tiền và năm học, còn câu hỏi về tổ hợp môn cần trả về danh sách môn thay vì chỉ trả mã tổ hợp. Nếu một QA fact trong tập train có câu hỏi gần với câu hỏi đầu vào và cùng loại đáp án, hệ thống có thể dùng trực tiếp đáp án từ fact đó.
+
+Thông tin truy xuất của từng câu hỏi được lưu trong file trace, bao gồm điểm hybrid, điểm BGE, điểm TF-IDF, \texttt{chunk\_id}, nguồn chunk và loại câu hỏi được hệ thống nhận diện. Phần trace này giúp nhóm phân tích lỗi khi hệ thống truy xuất sai chunk hoặc chọn sai dạng đáp án.
+
+Kết quả của System 2 trên tập test nội bộ gồm 114 câu hỏi:
+
+\begin{table}[H]
+\centering
+\caption{Kết quả đánh giá System 2}
+\begin{tabular}{|l|c|}
+\hline
+\textbf{Metric} & \textbf{Giá trị (\%)} \\
+\hline
+Exact Match (EM) & 57.02 \\
+\hline
+Token-level F1 & 69.50 \\
+\hline
+Answer Recall & 85.09 \\
+\hline
+\end{tabular}
+\end{table}
+
+
+
 \section{Sử dụng E5 Embedding + QA RoBERTa}
 
 System 3 sử dụng mô hình truy xuất \texttt{intfloat/e5-small-v2} kết hợp với mô hình đọc hiểu \texttt{deepset/roberta-base-squad2}. Pipeline của hệ thống này là:
