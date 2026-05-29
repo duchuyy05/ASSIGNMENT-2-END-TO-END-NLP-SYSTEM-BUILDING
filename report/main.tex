@@ -195,9 +195,29 @@ Bộ dữ liệu cuối cùng gồm 360 cặp câu hỏi -- câu trả lời cho
 
 Sau khi hoàn thành annotation, nhóm rà soát thủ công các cặp câu hỏi -- câu trả lời bằng cách đối chiếu đáp án với tài liệu nguồn. Bước này tập trung vào việc kiểm tra câu hỏi có rõ ràng hay không, đáp án có đúng thông tin được hỏi hay không, và các chi tiết như năm học, ngành, điểm, tín chỉ hoặc học phí có khớp với nguồn hay không. Các câu hỏi về điểm chuẩn, học phí, chỉ tiêu và danh sách ngành được kiểm tra kỹ hơn vì dễ nhầm giữa các dòng dữ liệu tương tự nhau.
 
-Để ước lượng mức độ nhất quán của annotation, nhóm sử dụng hai annotator độc lập trên 30 câu hỏi test. Vì đáp án là văn bản tự do, nhóm dùng token-level F1 sau chuẩn hóa thay vì Cohen's kappa; token-level F1 trung bình giữa hai annotator đạt 56.04\%. Các bất đồng chủ yếu đến từ khác biệt diễn đạt, câu trả lời dạng danh sách chưa đầy đủ, hoặc mức độ cụ thể khác nhau giữa hai annotator.
+Để ước lượng mức độ nhất quán của annotation, nhóm sử dụng hai annotator độc lập trên 30 câu hỏi test. Tập 30 câu này được chọn theo hướng ưu tiên các trường hợp khó hơn, ví dụ câu hỏi có nhiều đáp án, câu hỏi yêu cầu danh sách ngành, câu hỏi về học phí có đơn vị/năm học, hoặc câu hỏi có đáp án dài. Mục đích của bước này là kiểm tra xem hai người gán nhãn có thống nhất về phạm vi câu trả lời hay không.
 
-Sau khi so sánh hai bộ annotation, nhóm rà soát lại các trường hợp bất đồng và thống nhất đáp án tham chiếu cuối cùng. Nhờ đó, bước kiểm tra chất lượng vừa giúp phát hiện lỗi annotation, vừa giúp chuẩn hóa đáp án trước khi dùng dữ liệu để phát triển và đánh giá hệ thống RAG.
+Vì đáp án trong bài toán này là văn bản tự do, nhóm không sử dụng Cohen's kappa như bài toán phân loại nhãn rời rạc. Thay vào đó, nhóm tính ba chỉ số: exact agreement sau chuẩn hóa, soft agreement khi token-level F1 giữa hai annotator lớn hơn hoặc bằng 0.80, và token-level F1 trung bình giữa hai annotator. Script tính IAA nằm ở \texttt{scripts/compute\_iaa.py}; kết quả được lưu tại \texttt{data/iaaa/iaa\_results.json} và các trường hợp bất đồng được lưu tại \texttt{data/iaaa/iaa\_disagreements.csv}.
+
+\begin{table}[H]
+\centering
+\caption{Kết quả Inter-Annotator Agreement trên 30 câu hỏi}
+\begin{tabular}{|l|c|}
+\hline
+\textbf{Chỉ số} & \textbf{Giá trị} \\
+\hline
+Số câu được kiểm tra & 30 \\
+\hline
+Exact agreement & 16.67\% \\
+\hline
+Soft agreement, token F1 $\geq$ 0.80 & 36.67\% \\
+\hline
+Mean token-level F1 & 56.85\% \\
+\hline
+\end{tabular}
+\end{table}
+
+Kết quả IAA tương đối thấp vì subset được chọn gồm nhiều câu hỏi khó và có nhiều cách diễn đạt đáp án hợp lệ. Ví dụ, với câu hỏi dạng danh sách, một annotator có thể liệt kê các ngành cụ thể trong khi annotator khác trả lời bằng nhóm chương trình rộng hơn. Với câu hỏi về học phí, một annotator có thể ghi đầy đủ đơn vị và năm học, trong khi annotator khác chỉ ghi giá trị tiền. Các bất đồng này cho thấy cần có guideline rõ hơn về độ dài đáp án, mức độ cụ thể và cách xử lý câu hỏi có nhiều đáp án. Sau khi so sánh hai bộ annotation, nhóm rà soát lại các trường hợp bất đồng để chuẩn hóa đáp án tham chiếu dùng cho đánh giá hệ thống RAG.
 
 
 \chapter{Phần công việc đã thực hiện}
@@ -267,6 +287,139 @@ Answer Recall & 71.05 \\
 \end{table}
 
 
+\section{Sử dụng E5 Embedding + QA RoBERTa}
+
+System 3 sử dụng mô hình truy xuất \texttt{intfloat/e5-small-v2} kết hợp với mô hình đọc hiểu \texttt{deepset/roberta-base-squad2}. Pipeline của hệ thống này là:
+
+\begin{center}
+Question $\rightarrow$ E5 embedding $\rightarrow$ vector retrieve $\rightarrow$ RoBERTa QA $\rightarrow$ answer
+\end{center}
+
+\textbf{Retriever:} \texttt{intfloat/e5-small-v2}
+
+\textbf{Reader:} \texttt{deepset/roberta-base-squad2}
+
+\textbf{File mã nguồn:}
+\begin{itemize}
+    \item \texttt{rag/rag\_e5\_roberta.py}: triển khai pipeline E5 retriever và RoBERTa reader.
+\end{itemize}
+
+\textbf{Đầu ra hệ thống:}
+\begin{itemize}
+    \item \texttt{system\_outputs/system\_output\_3.txt}
+    \item \texttt{system\_outputs/system\_output\_3\_trace.jsonl}
+\end{itemize}
+
+E5 là mô hình embedding được thiết kế cho bài toán matching giữa query và passage. Khi mã hóa, hệ thống thêm tiền tố \texttt{query:} cho câu hỏi và \texttt{passage:} cho tài liệu. Các vector được chuẩn hóa để tính inner product tương đương cosine similarity. Với mỗi câu hỏi, hệ thống truy xuất top-\(k\) chunk liên quan nhất, sau đó đưa từng chunk vào RoBERTa QA để trích xuất span câu trả lời. Candidate answer cuối cùng được chọn dựa trên điểm của reader và điểm truy xuất của chunk.
+
+Kết quả của System 3 trên tập test nội bộ gồm 114 câu hỏi:
+
+\begin{table}[H]
+\centering
+\caption{Kết quả đánh giá System 3}
+\begin{tabular}{|l|c|}
+\hline
+\textbf{Metric} & \textbf{Giá trị (\%)} \\
+\hline
+Exact Match (EM) & 50.88 \\
+\hline
+Token-level F1 & 60.77 \\
+\hline
+Answer Recall & 71.93 \\
+\hline
+\end{tabular}
+\end{table}
+
+So với System 1, System 3 đạt kết quả cao hơn ở cả EM và F1. Điều này cho thấy E5 embedding phù hợp hơn cho truy xuất dạng query-passage trong miền dữ liệu của bài. Tuy nhiên, hệ thống vẫn gặp khó khăn với các câu hỏi cần liệt kê nhiều đáp án hoặc câu hỏi yêu cầu so sánh giá trị.
+
+\section{TF-IDF RAG Baseline}
+
+Ngoài ba hệ thống neural RAG theo phân công, nhóm xây dựng thêm một baseline dùng TF-IDF để so sánh. Baseline này không sử dụng mô hình neural embedding mà biểu diễn câu hỏi và chunk bằng vector TF-IDF, sau đó truy xuất bằng cosine similarity.
+
+\begin{center}
+Question $\rightarrow$ TF-IDF vector $\rightarrow$ cosine retrieve $\rightarrow$ rule-based reader $\rightarrow$ answer
+\end{center}
+
+\textbf{Retriever:} TF-IDF cosine similarity
+
+\textbf{Reader:} rule-based extractive reader
+
+\textbf{File mã nguồn:}
+\begin{itemize}
+    \item \texttt{rag/rag\_tfidf.py}: triển khai baseline truy xuất lexical và trích xuất đáp án bằng luật.
+\end{itemize}
+
+\textbf{Đầu ra hệ thống:}
+\begin{itemize}
+    \item \texttt{system\_outputs/system\_output\_4.txt}
+    \item \texttt{system\_outputs/system\_output\_4\_trace.jsonl}
+\end{itemize}
+
+TF-IDF baseline đóng vai trò mốc so sánh để đánh giá xem các retriever neural có cải thiện so với truy xuất theo từ khóa hay không. Reader của baseline dùng các luật đơn giản để nhận diện loại câu hỏi, ví dụ câu hỏi về năm, điểm chuẩn, học phí, số tín chỉ, tổ hợp môn hoặc URL. Vì vậy, hệ thống chạy nhanh và không cần tải model từ HuggingFace.
+
+Kết quả của System 4 trên tập test nội bộ:
+
+\begin{table}[H]
+\centering
+\caption{Kết quả đánh giá System 4}
+\begin{tabular}{|l|c|}
+\hline
+\textbf{Metric} & \textbf{Giá trị (\%)} \\
+\hline
+Exact Match (EM) & 49.12 \\
+\hline
+Token-level F1 & 58.21 \\
+\hline
+Answer Recall & 70.18 \\
+\hline
+\end{tabular}
+\end{table}
+
+Kết quả này cho thấy TF-IDF baseline vẫn hoạt động khá tốt với các câu hỏi có overlap từ khóa cao với corpus, đặc biệt là các câu hỏi chứa tên ngành, mã tổ hợp, năm học hoặc số liệu. Tuy nhiên, baseline yếu hơn ở các câu hỏi diễn đạt khác nguồn hoặc cần hiểu ngữ nghĩa thay vì chỉ khớp từ khóa.
+
+\section{So sánh kết quả các hệ thống}
+
+Bảng dưới đây tổng hợp kết quả của bốn hệ thống trên cùng tập test nội bộ gồm 114 câu hỏi. Ba hệ thống đầu tương ứng với ba model chính trong phân công nhóm; System 4 là baseline để phục vụ phân tích.
+
+\begin{table}[H]
+\centering
+\caption{So sánh kết quả thực nghiệm}
+\begin{tabular}{|l|l|c|c|c|}
+\hline
+\textbf{System} & \textbf{Mô hình} & \textbf{EM} & \textbf{F1} & \textbf{Recall} \\
+\hline
+System 1 & MiniLM + DistilBERT & 38.60 & 55.44 & 71.05 \\
+\hline
+System 2 & BGE + RoBERTa & \textbf{57.02} & \textbf{69.50} & \textbf{85.09} \\
+\hline
+System 3 & E5 + RoBERTa & 50.88 & 60.77 & 71.93 \\
+\hline
+System 4 & TF-IDF baseline & 49.12 & 58.21 & 70.18 \\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.95\textwidth]{result.png}
+\caption{Biểu đồ so sánh EM, F1 và Answer Recall giữa các hệ thống}
+\end{figure}
+
+System 2 đạt kết quả tốt nhất ở cả ba chỉ số EM, F1 và Answer Recall. Nguyên nhân chính là hệ thống này kết hợp BGE dense retrieval với lexical reranking, giúp tận dụng cả thông tin ngữ nghĩa và các tín hiệu từ khóa như tên ngành, mã tổ hợp, năm học, điểm chuẩn và học phí. System 3 dùng E5 + RoBERTa đứng thứ hai về EM, cho thấy mô hình embedding dạng query-passage có hiệu quả tốt. TF-IDF baseline thấp hơn các neural systems tốt nhất nhưng vẫn là baseline mạnh do nhiều câu hỏi trong tập test có chứa từ khóa trùng với tài liệu nguồn. System 1 có kết quả thấp nhất, chủ yếu do retrieval và reader thường chọn span chưa đúng trong các câu hỏi có đáp án dài hoặc dạng danh sách.
+
+\section{Nhận xét lỗi thường gặp}
+
+Qua các file trace retrieval, nhóm nhận thấy một số lỗi thường gặp:
+\begin{itemize}
+    \item \textbf{Retrieval miss:} chunk chứa đáp án không nằm trong top-\(k\), khiến reader không có đủ ngữ cảnh.
+    \item \textbf{Wrong granularity:} hệ thống trả lời quá rộng hoặc quá hẹp so với đáp án tham chiếu.
+    \item \textbf{Incomplete list:} câu hỏi yêu cầu nhiều ngành/chương trình nhưng hệ thống chỉ trả lời một phần.
+    \item \textbf{Unit mismatch:} câu trả lời thiếu đơn vị như \textit{per academic year}, \textit{per credit} hoặc thiếu năm học.
+    \item \textbf{Reader span error:} mô hình QA chọn span gần đúng nhưng chưa khớp chính xác với reference answer.
+\end{itemize}
+
+Các lỗi này giải thích vì sao Answer Recall thường cao hơn Exact Match: nhiều câu trả lời có chứa một phần thông tin đúng nhưng chưa khớp hoàn toàn với đáp án chuẩn.
+
 
 
 
@@ -295,7 +448,7 @@ Nguyễn Đức Huy & Làm knowledge base . \\
 \hline
 Nguyễn Công Cường & MiniLM + DistilBERT. \\
 \hline
-Nguyễn Trần Huy & E5 embedding + DistilBERT QA  \\
+Nguyễn Trần Huy & E5 embedding + RoBERTa QA  \\
 \hline
 Ngô Đình Linh & BGE embedding + RoBERTa QA  \\
 \hline
